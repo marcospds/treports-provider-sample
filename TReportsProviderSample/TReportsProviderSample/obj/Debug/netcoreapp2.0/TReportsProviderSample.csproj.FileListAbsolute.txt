@@ -1,0 +1,11 @@
+C:\RM\Atual\Release\Core\TRF\TReportsProviderSample\TReportsProviderSample\bin\Debug\netcoreapp2.0\TReportsProviderSample.deps.json
+C:\RM\Atual\Release\Core\TRF\TReportsProviderSample\TReportsProviderSample\bin\Debug\netcoreapp2.0\TReportsProviderSample.runtimeconfig.json
+C:\RM\Atual\Release\Core\TRF\TReportsProviderSample\TReportsProviderSample\bin\Debug\netcoreapp2.0\TReportsProviderSample.runtimeconfig.dev.json
+C:\RM\Atual\Release\Core\TRF\TReportsProviderSample\TReportsProviderSample\bin\Debug\netcoreapp2.0\TReportsProviderSample.dll
+C:\RM\Atual\Release\Core\TRF\TReportsProviderSample\TReportsProviderSample\bin\Debug\netcoreapp2.0\TReportsProviderSample.pdb
+C:\RM\Atual\Release\Core\TRF\TReportsProviderSample\TReportsProviderSample\obj\Debug\netcoreapp2.0\TReportsProviderSample.csprojAssemblyReference.cache
+C:\RM\Atual\Release\Core\TRF\TReportsProviderSample\TReportsProviderSample\obj\Debug\netcoreapp2.0\TReportsProviderSample.csproj.CoreCompileInputs.cache
+C:\RM\Atual\Release\Core\TRF\TReportsProviderSample\TReportsProviderSample\obj\Debug\netcoreapp2.0\TReportsProviderSample.AssemblyInfoInputs.cache
+C:\RM\Atual\Release\Core\TRF\TReportsProviderSample\TReportsProviderSample\obj\Debug\netcoreapp2.0\TReportsProviderSample.AssemblyInfo.cs
+C:\RM\Atual\Release\Core\TRF\TReportsProviderSample\TReportsProviderSample\obj\Debug\netcoreapp2.0\TReportsProviderSample.dll
+C:\RM\Atual\Release\Core\TRF\TReportsProviderSample\TReportsProviderSample\obj\Debug\netcoreapp2.0\TReportsProviderSample.pdb
