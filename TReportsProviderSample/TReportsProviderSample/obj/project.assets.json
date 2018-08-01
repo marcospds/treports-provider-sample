@@ -12781,11 +12781,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\RM\\Atual\\Release\\Core\\TRF\\TReportsProviderSample\\TReportsProviderSample\\TReportsProviderSample.csproj",
+      "projectUniqueName": "C:\\TOTVS-GIT\\treports-provider-sample\\TReportsProviderSample\\TReportsProviderSample\\TReportsProviderSample.csproj",
       "projectName": "TReportsProviderSample",
-      "projectPath": "C:\\RM\\Atual\\Release\\Core\\TRF\\TReportsProviderSample\\TReportsProviderSample\\TReportsProviderSample.csproj",
+      "projectPath": "C:\\TOTVS-GIT\\treports-provider-sample\\TReportsProviderSample\\TReportsProviderSample\\TReportsProviderSample.csproj",
       "packagesPath": "C:\\Users\\daniel.campos\\.nuget\\packages\\",
-      "outputPath": "C:\\RM\\Atual\\Release\\Core\\TRF\\TReportsProviderSample\\TReportsProviderSample\\obj\\",
+      "outputPath": "C:\\TOTVS-GIT\\treports-provider-sample\\TReportsProviderSample\\TReportsProviderSample\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
