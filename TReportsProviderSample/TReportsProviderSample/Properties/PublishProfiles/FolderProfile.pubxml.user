@@ -8,4 +8,12 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <TimeStampOfAssociatedLegacyPublishXmlFile />
     <_PublishTargetUrl>C:\TOTVS-GIT\treports-provider-sample\TReportsProviderSample\Publish</_PublishTargetUrl>
   </PropertyGroup>
+  <ItemGroup>
+    <File Include="Data/Empresa.xml">
+      <publishTime>07/25/2018 14:56:48</publishTime>
+    </File>
+    <File Include="Data/Filial.xml">
+      <publishTime>07/25/2018 14:57:37</publishTime>
+    </File>
+  </ItemGroup>
 </Project>

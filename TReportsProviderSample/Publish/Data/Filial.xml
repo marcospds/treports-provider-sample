@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="FILIAL" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="FILIAL">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="CODIGO" type="xs:int" minOccurs="0" />
+                <xs:element name="CODIGO_COLIGADA" type="xs:int" minOccurs="0" />
+                <xs:element name="NOME" type="xs:string" minOccurs="0" />
+                <xs:element name="CIDADE" type="xs:string" minOccurs="0" />
+                <xs:element name="ENDEREÇO" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <FILIAL>
+    <CODIGO>1</CODIGO>
+    <CODIGO_COLIGADA>1</CODIGO_COLIGADA>
+    <NOME>Automax</NOME>
+    <CIDADE>BETIM</CIDADE>
+    <ENDEREÇO>Rua de baixo, 54534</ENDEREÇO>
+  </FILIAL>
+  <FILIAL>
+    <CODIGO>2</CODIGO>
+    <CODIGO_COLIGADA>1</CODIGO_COLIGADA>
+    <NOME>Tecar</NOME>
+    <CIDADE>SETE LAGOAS</CIDADE>
+    <ENDEREÇO>AVENIDA do Tumulto, 655</ENDEREÇO>
+  </FILIAL>
+  <FILIAL>
+    <CODIGO>3</CODIGO>
+    <CODIGO_COLIGADA>1</CODIGO_COLIGADA>
+    <NOME>Strada</NOME>
+    <CIDADE>CONTAGEM</CIDADE>
+    <ENDEREÇO>RUA das Graças, 98</ENDEREÇO>
+  </FILIAL>
+  <FILIAL>
+    <CODIGO>4</CODIGO>
+    <CODIGO_COLIGADA>1</CODIGO_COLIGADA>
+    <NOME>Sinal</NOME>
+    <CIDADE>PEDRO LEOPOLDO</CIDADE>
+    <ENDEREÇO>Avenida de qualquer lugar, 4355</ENDEREÇO>
+  </FILIAL>
+  <FILIAL>
+    <CODIGO>1</CODIGO>
+    <CODIGO_COLIGADA>2</CODIGO_COLIGADA>
+    <NOME>Forlan</NOME>
+    <CIDADE>São Paulo</CIDADE>
+    <ENDEREÇO>Rua De fora, 35</ENDEREÇO>
+  </FILIAL>
+  <FILIAL>
+    <CODIGO>2</CODIGO>
+    <CODIGO_COLIGADA>2</CODIGO_COLIGADA>
+    <NOME>Models</NOME>
+    <CIDADE>São Bernardo do campo</CIDADE>
+    <ENDEREÇO>Avenida de rosas, 55</ENDEREÇO>
+  </FILIAL>
+  <FILIAL>
+    <CODIGO>3</CODIGO>
+    <CODIGO_COLIGADA>2</CODIGO_COLIGADA>
+    <NOME>Valence</NOME>
+    <CIDADE>Campinas</CIDADE>
+    <ENDEREÇO>Rua da parada fria, 8998</ENDEREÇO>
+  </FILIAL>
+  <FILIAL>
+    <CODIGO>4</CODIGO>
+    <CODIGO_COLIGADA>2</CODIGO_COLIGADA>
+    <NOME>Pisa</NOME>
+    <CIDADE>Osasco</CIDADE>
+    <ENDEREÇO>Rua dos quereres, 2331</ENDEREÇO>
+  </FILIAL>
+  <FILIAL>
+    <CODIGO>1</CODIGO>
+    <CODIGO_COLIGADA>3</CODIGO_COLIGADA>
+    <NOME>Auto Japan</NOME>
+    <CIDADE>Rio de Janeiro</CIDADE>
+    <ENDEREÇO>Rua dos carros, 555</ENDEREÇO>
+  </FILIAL>
+  <FILIAL>
+    <CODIGO>2</CODIGO>
+    <CODIGO_COLIGADA>3</CODIGO_COLIGADA>
+    <NOME>Banzai</NOME>
+    <CIDADE>Cabo Frio</CIDADE>
+    <ENDEREÇO>Avenida do padre, 888</ENDEREÇO>
+  </FILIAL>
+  <FILIAL>
+    <CODIGO>3</CODIGO>
+    <CODIGO_COLIGADA>3</CODIGO_COLIGADA>
+    <NOME>Hanbai</NOME>
+    <CIDADE>Magé</CIDADE>
+    <ENDEREÇO>Avenida principal, 111</ENDEREÇO>
+  </FILIAL>
+  <FILIAL>
+    <CODIGO>4</CODIGO>
+    <CODIGO_COLIGADA>3</CODIGO_COLIGADA>
+    <NOME>Otobai</NOME>
+    <CIDADE>Parati</CIDADE>
+    <ENDEREÇO>Rua dos analistas de sistemas, 34556</ENDEREÇO>
+  </FILIAL>
+</NewDataSet>
