@@ -8,9 +8,7 @@ O provedor possui um swagger que pode ser visualizado bastando executar o projet
 
 dotnet TReportsProviderSample.dll
 
-O artefato está no diretório abaixo:
-
-\treports-provider-sample\TReportsProviderSample\TReportsProviderSample\bin\Debug\netcoreapp2.0 
+O artefato está no diretório Publish.
 
 OBS.: É necessário ter instalado o .Net Core em seu computador.
 
