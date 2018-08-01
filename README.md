@@ -10,7 +10,6 @@ dotnet TReportsProviderSample.dll
 
 O artefato está no diretório Publish.
 
-OBS.: É necessário ter instalado o .Net Core em seu computador.
-
+OBS.: É necessário ter instalado o .Net Core em seu computador para executar a dll e para abrir no visual studio é necessário baixar o SDK do .NET Core.
 https://www.microsoft.com/net/download
 
