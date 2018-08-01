@@ -1,6 +1,3 @@
-C:\TOTVS-GIT\treports-provider-sample\TReportsProviderSample\TReportsProviderSample\bin\Release\netcoreapp2.0\win-x64\hostpolicy.dll
-C:\TOTVS-GIT\treports-provider-sample\TReportsProviderSample\TReportsProviderSample\bin\Release\netcoreapp2.0\win-x64\hostfxr.dll
-C:\TOTVS-GIT\treports-provider-sample\TReportsProviderSample\TReportsProviderSample\bin\Release\netcoreapp2.0\win-x64\TReportsProviderSample.exe
 C:\TOTVS-GIT\treports-provider-sample\TReportsProviderSample\TReportsProviderSample\bin\Release\netcoreapp2.0\win-x64\TReportsProviderSample.deps.json
 C:\TOTVS-GIT\treports-provider-sample\TReportsProviderSample\TReportsProviderSample\bin\Release\netcoreapp2.0\win-x64\TReportsProviderSample.runtimeconfig.json
 C:\TOTVS-GIT\treports-provider-sample\TReportsProviderSample\TReportsProviderSample\bin\Release\netcoreapp2.0\win-x64\TReportsProviderSample.runtimeconfig.dev.json
