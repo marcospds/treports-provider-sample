@@ -13,3 +13,16 @@ O artefato está no diretório Publish.
 OBS.: É necessário ter instalado o .Net Core em seu computador para executar a dll e para abrir no visual studio é necessário baixar o SDK do .NET Core.
 https://www.microsoft.com/net/download
 
+
+Para criar o provedor no TReports informe os seguintes parâmetros na tela de provedores de dados:
+
+protocolo: http
+host: localhost
+porta: 5000
+rota: api/treportssample
+Tipo de autenticação: vazio
+
+usuário treports
+senha: treports
+
+Caso queira testar um relatório, existe um template no diretório ReportSample e pode ser importado pela tela de relatórios.
