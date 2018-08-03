@@ -23,7 +23,7 @@ host: <nome ou ip da máquina onde está rodando o sample>
 
 porta: 5000
 
-rota: api/treportssample
+rota: api/treportsprovider
 
 Tipo de autenticação: não altere nada, deixe como está
 
