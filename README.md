@@ -21,7 +21,7 @@ protocolo: http
 
 host: <nome ou ip da máquina onde está rodando o sample>
 
-porta: 5000
+porta: 4987
 
 rota: api/treportsprovider
 
