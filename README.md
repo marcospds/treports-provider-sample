@@ -13,21 +13,26 @@ O artefato está no diretório Publish.
 OBS.: É necessário ter instalado o .Net Core em seu computador para executar a dll e para abrir no visual studio é necessário baixar o SDK do .NET Core.
 https://www.microsoft.com/net/download
 
+Caso o serviço não esteja funcionando com localhost ou o nome da máquina, altere o arquivo hosting.json.
 
 Para criar o provedor no TReports informe os seguintes parâmetros na tela de provedores de dados:
 
 protocolo: http
 
-host: localhost
+host: <nome ou ip da máquina onde está rodando o sample>
 
 porta: 5000
 
 rota: api/treportssample
 
-Tipo de autenticação: vazio
+Tipo de autenticação: não altere nada, deixe como está
 
-usuário treports
+Parâmetros:
+
+usuário: treports
 
 senha: treports
+
+upper case: Um parâmetro de teste que altera o comportamento do retorno, se será em upper case ou não.
 
 Caso queira testar um relatório, existe um template no diretório ReportSample e pode ser importado pela tela de relatórios.
