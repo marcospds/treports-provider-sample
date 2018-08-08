@@ -1,17 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
+using System;
 using System.Data;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
 using TReportsProviderSample.Classes;
+using TReportsProviderSample.Extensions;
 
 namespace TReportsProviderSample.Controllers
 {
   [Route("api/[controller]")]
   public class TReportsProviderController : Controller
-  { 
+  {
 
     /// <summary>
     /// Retorna os parâmetros do provedor integrado
@@ -42,7 +43,14 @@ namespace TReportsProviderSample.Controllers
         parameterUpperCase.Value = "false";
         parameterUpperCase.IsPassword = false;
         parameterUpperCase.Description = "Retorno em Upper Case?";
-        response.ProviderParams = new TReportsProviderParams[] { parameterUser, parameterPassword, parameterUpperCase };
+
+        var parameterResponseFormat = new TReportsProviderParams();
+        parameterResponseFormat.Name = "responseFormat";
+        parameterResponseFormat.Value = "json";
+        parameterResponseFormat.IsPassword = false;
+        parameterResponseFormat.Description = "Formato resposta provider JSON ou XML";
+
+        response.ProviderParams = new TReportsProviderParams[] { parameterUser, parameterPassword, parameterUpperCase, parameterResponseFormat };
         return Ok(response);
       }
       catch (Exception ex)
@@ -87,10 +95,10 @@ namespace TReportsProviderSample.Controllers
 
             sql = sql.Replace($":{parameter.ParamName}", string.Format(parAux, parameter.ParamValue));
           }
-        }        
+        }
 
         DataTable tableEmpresa = new DataTable();
-                
+
         tableEmpresa.ReadXml("Data\\Empresa.xml");
 
         try
@@ -111,7 +119,7 @@ namespace TReportsProviderSample.Controllers
         catch
         {
           throw;
-        }        
+        }
       }
       catch (Exception ex)
       {
@@ -165,7 +173,7 @@ namespace TReportsProviderSample.Controllers
       try
       {
         string sql = request.SentenceMember.SqlText;
-       
+
         if (sql.ToUpper().Contains("WHERE"))
           sql = sql.Substring(sql.IndexOf("WHERE", StringComparison.InvariantCultureIgnoreCase) + 5);
         else
@@ -181,11 +189,11 @@ namespace TReportsProviderSample.Controllers
           }
         }
 
-              
+
         DataTable table = new DataTable();
         if (request.SentenceMember.SqlText.ToUpper().Contains("FILIAL"))
         {
-          table.ReadXml("Data\\Filial.xml");          
+          table.ReadXml("Data\\Filial.xml");
         }
         else
         {
@@ -197,7 +205,7 @@ namespace TReportsProviderSample.Controllers
         //table.DefaultView.RowFilter = sql;
         //DataTable result = table.DefaultView.ToTable();
 
-        if (request.ProviderParams.Where(p => p.Name == "upper").ElementAt(0).Value == "true")
+        if (request.ProviderParams?.FirstOrDefault(p => p.Name == "upper")?.Value == "true")
         {
           foreach (DataRow row in table.Rows)
           {
@@ -207,13 +215,22 @@ namespace TReportsProviderSample.Controllers
         }
 
         TReportsDataReponse response = new TReportsDataReponse();
-        using (MemoryStream ms = new MemoryStream())
+        bool isXmlFormat = request.ProviderParams?.FirstOrDefault(p => p.Name == "responseFormat")?.Value?.ToLower() == "xml";
+
+        if (isXmlFormat)
         {
-          table.WriteXml(ms);
-          ms.Position = 0;
-          using (StreamReader reader = new StreamReader(ms))
-            response.Data = reader.ReadToEnd();
-        }        
+          using (MemoryStream ms = new MemoryStream())
+          {
+            table.WriteXml(ms);
+            ms.Position = 0;
+            using (StreamReader reader = new StreamReader(ms))
+              response.Data = reader.ReadToEnd();
+          }
+        }
+        else
+        {
+          response.Data = JsonConvert.SerializeObject(table.ToDictionaryList(), Formatting.Indented);
+        }
 
         return Ok(response);
 
