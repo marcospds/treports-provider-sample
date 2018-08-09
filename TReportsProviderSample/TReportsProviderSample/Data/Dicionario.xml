@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="DICIONARIO" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="DICIONARIO">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="TABELA" type="xs:string" minOccurs="0" />
+                <xs:element name="COLUNA" type="xs:string" minOccurs="0" />
+                <xs:element name="DESCRICAO" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <DICIONARIO>
+    <TABELA>EMPRESA</TABELA>
+    <COLUNA>CODIGO</COLUNA>
+    <DESCRICAO>Código identificador da empresa</DESCRICAO>
+  </DICIONARIO>
+  <DICIONARIO>
+    <TABELA>EMPRESA</TABELA>
+    <COLUNA>NOME</COLUNA>
+    <DESCRICAO>Nome da empresa</DESCRICAO>
+  </DICIONARIO>
+  <DICIONARIO>
+    <TABELA>EMPRESA</TABELA>
+    <COLUNA>CIDADE</COLUNA>
+    <DESCRICAO>Cidade em que a empresa está localizada</DESCRICAO>
+  </DICIONARIO>
+  <DICIONARIO>
+    <TABELA>EMPRESA</TABELA>
+    <COLUNA>ENDEREÇO</COLUNA>
+    <DESCRICAO>Endereço da empresa</DESCRICAO>
+  </DICIONARIO>
+  <DICIONARIO>
+    <TABELA>FILIAL</TABELA>
+    <COLUNA>CODIGO</COLUNA>
+    <DESCRICAO>Código identificador da filial</DESCRICAO>
+  </DICIONARIO>
+  <DICIONARIO>
+    <TABELA>FILIAL</TABELA>
+    <COLUNA>CODIGO_COLIGADA</COLUNA>
+    <DESCRICAO>Código da coligada a qual a filial está associada</DESCRICAO>
+  </DICIONARIO>
+  <DICIONARIO>
+    <TABELA>FILIAL</TABELA>
+    <COLUNA>NOME</COLUNA>
+    <DESCRICAO>Nome da filial</DESCRICAO>
+  </DICIONARIO>
+  <DICIONARIO>
+    <TABELA>FILIAL</TABELA>
+    <COLUNA>CIDADE</COLUNA>
+    <DESCRICAO>Cidade em que a filial está localizada</DESCRICAO>
+  </DICIONARIO>
+  <DICIONARIO>
+    <TABELA>FILIAL</TABELA>
+    <COLUNA>ENDEREÇO</COLUNA>
+    <DESCRICAO>Endereço da filial</DESCRICAO>
+  </DICIONARIO>
+</NewDataSet>

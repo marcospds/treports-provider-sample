@@ -12,30 +12,37 @@ namespace TReportsProviderSample.Controllers
   {
     internal static void GetSchemaTable(TReportsSchemaTableRequest request, TReportsSchemaTableResponse response)
     {
-      DataTable table = new DataTable();
+      DataTable tableSource = new DataTable();
+      DataTable tableDictionary = new DataTable();
       string description = null;
+
+      tableDictionary.ReadXml("Data\\Dicionario.xml");
+
       if (request.TableSourceName == "EMPRESA")
       {
-        table.ReadXml("Data\\Empresa.xml");
+        tableSource.ReadXml("Data\\Empresa.xml");
         description = "Empresas do dataset";
       }
       else
       {
-        table.ReadXml("Data\\Filial.xml");
+        tableSource.ReadXml("Data\\Filial.xml");
         description = "Filiais do dataset";
       }
 
-      if (table.Columns.Count > 0)
+      if (tableSource.Columns.Count > 0)
       {
         response.SchemaTable = new SchemaTable();
-        response.SchemaTable.TableSourceName = table.TableName;
+        response.SchemaTable.TableSourceName = tableSource.TableName;
         response.SchemaTable.TableSourceDescription = description;
         List<Column> columns = new List<Column>();
-        foreach (DataColumn columnSchema in table.Columns)
+        foreach (DataColumn columnSchema in tableSource.Columns)
         {
           Column column = new Column();
           column.ColumnName = columnSchema.ColumnName;
-          column.ColumnDescription = columnSchema.ColumnName;
+
+          DataRow[] drDicionario = tableDictionary.Select(string.Format("TABELA = '{0}' AND COLUNA = '{1}'", tableSource.TableName, columnSchema.ColumnName));
+
+          column.ColumnDescription = drDicionario[0]["DESCRICAO"].ToString();
           column.ColumnType = columnSchema.DataType.ToString();
           columns.Add(column);
         }
@@ -43,7 +50,7 @@ namespace TReportsProviderSample.Controllers
       }
     }
 
-     internal static void GetRelationshipTableInfo(TReportsSchemaTableRequest request, TReportsSchemaTableResponse response)
+    internal static void GetRelationshipTableInfo(TReportsSchemaTableRequest request, TReportsSchemaTableResponse response)
     {
       List<SchemaRelation> relations = new List<SchemaRelation>();
       string childTable = "FILIAL";
