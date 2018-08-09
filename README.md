@@ -1,4 +1,6 @@
 # TReportsProviderSample
+[![Build Status][travis-image]][travis-url] 
+
 Exemplo de provedor integrado para o TReports
 
 Este projeto contem um provedor integrado para o TReports. O projeto implementa todos os métodos necessários para se ter um provedor integrado, 
@@ -38,3 +40,6 @@ Para criar o provedor no TReports informe os seguintes parâmetros na tela de pr
 * *Formato resposta (JSON/XML):* Indica qual o formato da resposta do servidor Json ou Xml.
 
 Caso queira testar um relatório, existe um template no diretório ReportSample e pode ser importado pela tela de relatórios.
+
+[travis-image]:https://travis-ci.org/totvs/treports-provider-sample.svg?branch=master
+[travis-url]:https://travis-ci.org/totvs/treports-provider-sample
