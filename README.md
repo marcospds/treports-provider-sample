@@ -20,23 +20,23 @@ Caso o serviço não esteja funcionando com localhost ou o nome da máquina, alt
 
 Para criar o provedor no TReports informe os seguintes parâmetros na tela de provedores de dados:
 
-** Protocolo:** http
+**Protocolo:** http
 
-** Host:** <nome ou ip da máquina onde está rodando o sample>
+**Host:** <nome ou ip da máquina onde está rodando o sample>
 
-** Porta:** 4987
+**Porta:** 4987
 
-** Provedor com autenticação OpenId
-  **** - Tipo de autenticação: OpenID
-  **** - Rota: api/treportsproviderbearer
+**Provedor com autenticação OpenId
+  * *Tipo de autenticação: OpenID
+  * *Rota: api/treportsproviderbearer
 
-** Provedor com autenticação Basic
-  **** - Tipo de autenticação: Basic
-  **** - Rota: api/treportsprovideranonymous
+**Provedor com autenticação Basic
+  * *Tipo de autenticação: Basic
+  * *Rota: api/treportsprovideranonymous
 
 
   
-** Parâmetros:**
+**Parâmetros:**
 
 * *Usuário:* treports
 
