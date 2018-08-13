@@ -10,6 +10,7 @@ O provedor possui um swagger que pode ser visualizado bastando executar o projet
 
 **dotnet TReportsProviderSample.dll**
 
+
 O artefato está no diretório Publish.
 
 *OBS.: É necessário ter instalado o .Net Core em seu computador para executar a dll e para abrir no visual studio é necessário baixar o SDK do .NET Core.
@@ -19,17 +20,24 @@ Caso o serviço não esteja funcionando com localhost ou o nome da máquina, alt
 
 Para criar o provedor no TReports informe os seguintes parâmetros na tela de provedores de dados:
 
-**Protocolo:** http
+1) - Protocolo:** http
 
-**Host:** <nome ou ip da máquina onde está rodando o sample>
+2) - Host:** <nome ou ip da máquina onde está rodando o sample>
 
-**Porta:** 4987
+3) - Porta:** 4987
 
-**Rota:** api/treportsprovider
+4) - Provedor com autenticação OpenId
+  4.1) - Tipo de autenticação: OpenID
+  4.2) - Rota: api/treportsproviderbearer
 
-**Tipo de autenticação:** deixe sem preenchimento
+5) - Provedor com autenticação Basic
+  5.1) - Tipo de autenticação: Basic
+  5.2) - Rota: api/treportsprovideranonymous
 
-**Parâmetros:**
+
+Obs: Para utilização no swagger, deve-se utilizar o controller sem autenticação: [TReportsProviderAnonymousController]
+  
+6) - Parâmetros:**
 
 * *Usuário:* treports
 
