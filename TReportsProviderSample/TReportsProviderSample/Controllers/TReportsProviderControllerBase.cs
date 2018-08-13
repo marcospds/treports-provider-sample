@@ -10,18 +10,14 @@ using TReportsProviderSample.Extensions;
 
 namespace TReportsProviderSample.Controllers
 {
-  [Route("api/[controller]")]
-  public class TReportsProviderController : Controller
+   public class TReportsProviderControllerBase : Controller
   {
 
     /// <summary>
     /// Retorna os parâmetros do provedor integrado
     /// </summary>
     /// <returns></returns>
-    [HttpGet]
-    [Route("parameters")]
-    [ProducesResponseType(typeof(TReportsParamsResponse), 200)]
-    public async Task<IActionResult> GetParameters()
+    protected async Task<IActionResult> GetParameters()
     {
       try
       {
@@ -60,10 +56,7 @@ namespace TReportsProviderSample.Controllers
       }
     }
 
-    [HttpPost]
-    [Route("testconnection")]
-    [ProducesResponseType(typeof(TReportsTestSuccessResponse), 200)]
-    public async Task<IActionResult> TestConnection()
+    protected async Task<IActionResult> TestConnection()
     {
       return Ok(new TReportsTestSuccessResponse());
     }
@@ -73,10 +66,7 @@ namespace TReportsProviderSample.Controllers
     /// </summary>
     /// <param name="request"></param>
     /// <returns></returns>
-    [HttpPost]
-    [Route("testquery")]
-    [ProducesResponseType(typeof(TReportsTestSuccessResponse), 200)]
-    public async Task<IActionResult> TestQuery([FromBody] TReportsTestQueryRequest request)
+    protected async Task<IActionResult> TestQuery([FromBody] TReportsTestQueryRequest request)
     {
       try
       {
@@ -128,10 +118,7 @@ namespace TReportsProviderSample.Controllers
       }
     }
 
-    [HttpPost]
-    [Route("schema/table")]
-    [ProducesResponseType(typeof(TReportsSchemaTableResponse), 200)]
-    public async Task<IActionResult> SchemaTable([FromBody] TReportsSchemaTableRequest request)
+    protected async Task<IActionResult> SchemaTable([FromBody] TReportsSchemaTableRequest request)
     {
       try
       {
@@ -149,10 +136,7 @@ namespace TReportsProviderSample.Controllers
       }
     }
 
-    [HttpPost]
-    [Route("schema/sql")]
-    [ProducesResponseType(400)]
-    public async Task<IActionResult> SchemaSql([FromBody] TReportsSchemaSqlRequest request)
+    protected async Task<IActionResult> SchemaSql([FromBody] TReportsSchemaSqlRequest request)
     {
       return BadRequest(new TReportsCustomError() { code = "400", detailedMessage = "Esse provedor não suporta sql, pois é um exemolo que nao utilizabase de dados.", message = "Não suportado" });
     }
@@ -165,10 +149,7 @@ namespace TReportsProviderSample.Controllers
     /// Relatório de recorrencias
     /// <returns></returns>
     /// <response code="200">Relatório</response>
-    [HttpPost]
-    [Route("data")]
-    [ProducesResponseType(typeof(TReportsDataReponse), 200)]
-    public async Task<IActionResult> GetData([FromBody] TReportsDataRequest request)
+    protected async Task<IActionResult> GetData([FromBody] TReportsDataRequest request)
     {
       try
       {

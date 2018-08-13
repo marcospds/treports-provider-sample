@@ -24,6 +24,17 @@ namespace TReportsProviderSample
     // This method gets called by the runtime. Use this method to add services to the container.
     public void ConfigureServices(IServiceCollection services)
     {
+      services
+              .AddAuthentication()
+              .AddIdentityServerAuthentication(isOptions =>
+              {
+                //Informe o endereço de hospedagem do rac.
+                isOptions.Authority = "http://treports.rac.totvs.com.br/totvs.rac/";
+                isOptions.RequireHttpsMetadata = false;
+              });
+
+
+
       services.AddMvc(options =>
       {
         options.Filters.Add(typeof(AuthFilter));
@@ -52,6 +63,7 @@ namespace TReportsProviderSample
         c.RoutePrefix = string.Empty;
       });
 
+      app.UseAuthentication();
       app.UseMvc();
     }
   }

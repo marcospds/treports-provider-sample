@@ -19,34 +19,10 @@ namespace TReportsProviderSample
 
     public void OnActionExecuting(ActionExecutingContext context)
     {
-      TReportsRequestBase request = null;
-
-      if (context.ActionArguments.ContainsKey("request"))
-        request = context.ActionArguments["request"] as TReportsRequestBase;
-      else
-      {
-        Stream stream = context.HttpContext.Request.Body;
-        using (StreamReader reader = new StreamReader(stream))
-          request = JsonConvert.DeserializeObject<TReportsRequestBase>(reader.ReadToEnd());
-      }
-          
-      if (request != null && !ValidateUser(request))
-      {
-        context.Result = new ObjectResult("Not Authorized");
-        context.HttpContext.Response.StatusCode = 401;
-      }
     }
 
     private bool ValidateUser(TReportsRequestBase request)
     {
-      string user = request.ProviderParams.Where(p => p.Name == "user").ElementAt(0).Value;
-      string pass = request.ProviderParams.Where(p => p.Name == "password").ElementAt(0).Value;
-
-      if (user != "treports" || pass != "treports")
-      {
-        return false;
-      }
-
       return true;
     }
   }
