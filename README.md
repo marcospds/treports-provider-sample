@@ -27,15 +27,14 @@ Para criar o provedor no TReports informe os seguintes parâmetros na tela de pr
 3) - Porta:** 4987
 
 4) - Provedor com autenticação OpenId
-  4.1) - Tipo de autenticação: OpenID
-  4.2) - Rota: api/treportsproviderbearer
+  ** - Tipo de autenticação: OpenID
+  ** - Rota: api/treportsproviderbearer
 
 5) - Provedor com autenticação Basic
-  5.1) - Tipo de autenticação: Basic
-  5.2) - Rota: api/treportsprovideranonymous
+  ** - Tipo de autenticação: Basic
+  ** - Rota: api/treportsprovideranonymous
 
 
-Obs: Para utilização no swagger, deve-se utilizar o controller sem autenticação: [TReportsProviderAnonymousController]
   
 6) - Parâmetros:**
 
@@ -46,6 +45,8 @@ Obs: Para utilização no swagger, deve-se utilizar o controller sem autenticaç
 * *Upper case:* Um parâmetro de teste que altera o comportamento do retorno, se será em upper case ou não.
 
 * *Formato resposta (JSON/XML):* Indica qual o formato da resposta do servidor Json ou Xml.
+
+Obs: Para utilização no swagger, deve-se utilizar o controller sem autenticação: [TReportsProviderAnonymousController]
 
 Caso queira testar um relatório, existe um template no diretório ReportSample e pode ser importado pela tela de relatórios.
 
