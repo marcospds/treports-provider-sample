@@ -26,13 +26,13 @@ Para criar o provedor no TReports informe os seguintes parâmetros na tela de pr
 
 **Porta:** 4987
 
-**Provedor com autenticação OpenId
-  * *Tipo de autenticação: OpenID
-  * *Rota: api/treportsproviderbearer
+**Provedor com autenticação OpenId:**
+  * Tipo de autenticação: OpenID
+  * Rota: api/treportsproviderbearer
 
-**Provedor com autenticação Basic
-  * *Tipo de autenticação: Basic
-  * *Rota: api/treportsprovideranonymous
+**Provedor com autenticação Basic:**
+  * Tipo de autenticação: Basic
+  * Rota: api/treportsprovideranonymous
 
 
   
