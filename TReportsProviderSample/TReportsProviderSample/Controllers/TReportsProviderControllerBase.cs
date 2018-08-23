@@ -125,8 +125,6 @@ namespace TReportsProviderSample.Controllers
 
         TReportsSchemaTableResponse response = new TReportsSchemaTableResponse();
         Schema.GetSchemaTable(request, response);
-        if (request.TablesSourceGetRelations != null && request.TablesSourceGetRelations.Length > 0)
-          Schema.GetRelationshipTableInfo(request, response);
         return Ok(response);
       }
       catch (Exception ex)
@@ -139,6 +137,21 @@ namespace TReportsProviderSample.Controllers
     protected async Task<IActionResult> SchemaSql([FromBody] TReportsSchemaSqlRequest request)
     {
       return BadRequest(new TReportsCustomError() { code = "400", detailedMessage = "Esse provedor não suporta sql, pois é um exemolo que nao utilizabase de dados.", message = "Não suportado" });
+    }
+
+    protected async Task<IActionResult> GetRelations([FromBody] TReportsRelationRequest request)
+    {
+      try
+      {
+        TReportsRelationResponse response = new TReportsRelationResponse();
+        Schema.GetRelationshipTableInfo(request, response);
+        return Ok(response);
+      }
+      catch (Exception ex)
+      {
+        Response.StatusCode = 500;
+        return Accepted(new TReportsCustomError() { code = "500", detailedMessage = ex.StackTrace, message = ex.Message });
+      }
     }
 
     /// <summary>

@@ -11,3 +11,4 @@ namespace TReportsProviderSample.Classes
     public TReportsProviderParams[] ProviderParams { get; set; }
   }  
 }
+

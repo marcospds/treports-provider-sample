@@ -10,13 +10,5 @@ namespace TReportsProviderSample.Classes
     [JsonProperty("tableSourceName")]
     public string TableSourceName { get; set; }
 
-    [JsonProperty("tablesSourceGetRelations")]
-    public TablesSourceGetRelation[] TablesSourceGetRelations { get; set; }
-  }
-
-  public partial class TablesSourceGetRelation
-  {
-    [JsonProperty("tableSourceName")]
-    public string TableSourceName { get; set; }
   }
 }

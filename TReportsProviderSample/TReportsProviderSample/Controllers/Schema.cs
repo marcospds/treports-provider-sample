@@ -50,22 +50,22 @@ namespace TReportsProviderSample.Controllers
       }
     }
 
-    internal static void GetRelationshipTableInfo(TReportsSchemaTableRequest request, TReportsSchemaTableResponse response)
+    internal static void GetRelationshipTableInfo(TReportsRelationRequest request, TReportsRelationResponse response)
     {
-      List<SchemaRelation> relations = new List<SchemaRelation>();
+      List<Relation> relations = new List<Relation>();
       string childTable = "FILIAL";
       string parentTable = "EMPRESA";
-      SchemaRelation relation = new SchemaRelation();
+      Relation relation = new Relation();
       relation.ChildColumns = new List<ChildColumnElement>();
       relation.ParentColumns = new List<ChildColumnElement>();
       relation.RelationName = $"{parentTable}_{childTable}";
-      relation.ParentSourceName = parentTable;
-      relation.ChildSourceName = childTable;
+      relation.ParentTableName = parentTable;
+      relation.ChildTableName = childTable;
       relations.Add(relation);
       relation.ParentColumns.Add(new ChildColumnElement() { ColumnName = "CODIGO" });
       relation.ChildColumns.Add(new ChildColumnElement() { ColumnName = "CODIGO_EMPRESA" });
 
-      response.SchemaRelation = relations.ToArray();
+      response.Relations = relations.ToArray();
     }
   }
 }

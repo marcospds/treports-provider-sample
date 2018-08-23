@@ -11,8 +11,6 @@ namespace TReportsProviderSample.Classes
     [JsonProperty("schemaTable")]
     public SchemaTable SchemaTable { get; set; }
 
-    [JsonProperty("schemaRelations")]
-    public SchemaRelation[] SchemaRelation { get; set; }
   }
 
   public partial class SchemaTable
@@ -25,29 +23,5 @@ namespace TReportsProviderSample.Classes
 
     [JsonProperty("columns")]
     public Column[] Columns { get; set; }    
-  }
-
-  public partial class SchemaRelation
-  {
-    [JsonProperty("relationName")]
-    public string RelationName { get; set; }
-
-    [JsonProperty("parentSourceName")]
-    public string ParentSourceName { get; set; }
-
-    [JsonProperty("childSourceName")]
-    public string ChildSourceName { get; set; }
-
-    [JsonProperty("parentColumns")]
-    public List<ChildColumnElement> ParentColumns { get; set; }
-
-    [JsonProperty("childColumns")]
-    public List<ChildColumnElement> ChildColumns { get; set; }
-  }
-
-  public partial class ChildColumnElement
-  {
-    [JsonProperty("columnName")]
-    public string ColumnName { get; set; }
   }
 }

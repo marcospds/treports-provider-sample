@@ -78,5 +78,18 @@ namespace TReportsProviderSample.Controllers
     {
       return await base.GetData(request);
     }
+
+    /// <summary>
+    /// Retorna os relacionamentos entre duas tabelas
+    /// </summary>
+    /// <param name="request"></param>
+    /// <returns></returns>
+    [HttpPost]
+    [Route("relations")]
+    [ProducesResponseType(typeof(TReportsDataReponse), 200)]
+    public async Task<IActionResult> GetRelations([FromBody] TReportsRelationRequest request)
+    {
+      return await base.GetRelations(request);
+    }
   }
 }
