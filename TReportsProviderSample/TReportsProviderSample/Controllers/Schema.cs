@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Data;
-using System.Linq;
-using System.Threading.Tasks;
 using TReportsProviderSample.Classes;
 using TReportsProviderSample.Classes.Commom;
 
@@ -61,9 +58,21 @@ namespace TReportsProviderSample.Controllers
       relation.RelationName = $"{parentTable}_{childTable}";
       relation.ParentTableName = parentTable;
       relation.ChildTableName = childTable;
-      relations.Add(relation);
       relation.ParentColumns.Add(new ChildColumnElement() { ColumnName = "CODIGO" });
-      relation.ChildColumns.Add(new ChildColumnElement() { ColumnName = "CODIGO_EMPRESA" });
+      relation.ChildColumns.Add(new ChildColumnElement() { ColumnName = "CODIGO_COLIGADA" });
+      relations.Add(relation);
+
+      relation = new Relation();
+      relation.ChildColumns = new List<ChildColumnElement>();
+      relation.ParentColumns = new List<ChildColumnElement>();
+      relation.RelationName = $"{parentTable}_{childTable}_2";
+      relation.ParentTableName = parentTable;
+      relation.ChildTableName = childTable;
+      relation.ParentColumns.Add(new ChildColumnElement() { ColumnName = "CODIGO" });
+      relation.ParentColumns.Add(new ChildColumnElement() { ColumnName = "PAIS" });
+      relation.ChildColumns.Add(new ChildColumnElement() { ColumnName = "CODIGO_COLIGADA" });
+      relation.ChildColumns.Add(new ChildColumnElement() { ColumnName = "PAIS" });
+      relations.Add(relation);
 
       response.Relations = relations.ToArray();
     }

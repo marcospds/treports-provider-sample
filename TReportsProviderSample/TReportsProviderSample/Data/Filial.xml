@@ -12,6 +12,7 @@
                 <xs:element name="NOME" type="xs:string" minOccurs="0" />
                 <xs:element name="CIDADE" type="xs:string" minOccurs="0" />
                 <xs:element name="ENDEREÇO" type="xs:string" minOccurs="0" />
+                <xs:element name="PAIS" type="xs:string" minOccurs="0" />
               </xs:sequence>
             </xs:complexType>
           </xs:element>
@@ -25,6 +26,7 @@
     <NOME>Automax</NOME>
     <CIDADE>BETIM</CIDADE>
     <ENDEREÇO>Rua de baixo, 54534</ENDEREÇO>
+    <PAIS>BRASIL</PAIS>
   </FILIAL>
   <FILIAL>
     <CODIGO>2</CODIGO>
@@ -32,6 +34,7 @@
     <NOME>Tecar</NOME>
     <CIDADE>SETE LAGOAS</CIDADE>
     <ENDEREÇO>AVENIDA do Tumulto, 655</ENDEREÇO>
+    <PAIS>BRASIL</PAIS>
   </FILIAL>
   <FILIAL>
     <CODIGO>3</CODIGO>
@@ -39,6 +42,7 @@
     <NOME>Strada</NOME>
     <CIDADE>CONTAGEM</CIDADE>
     <ENDEREÇO>RUA das Graças, 98</ENDEREÇO>
+    <PAIS>BRASIL</PAIS>
   </FILIAL>
   <FILIAL>
     <CODIGO>4</CODIGO>
@@ -46,6 +50,7 @@
     <NOME>Sinal</NOME>
     <CIDADE>PEDRO LEOPOLDO</CIDADE>
     <ENDEREÇO>Avenida de qualquer lugar, 4355</ENDEREÇO>
+    <PAIS>BRASIL</PAIS>
   </FILIAL>
   <FILIAL>
     <CODIGO>1</CODIGO>
@@ -53,6 +58,7 @@
     <NOME>Forlan</NOME>
     <CIDADE>São Paulo</CIDADE>
     <ENDEREÇO>Rua De fora, 35</ENDEREÇO>
+    <PAIS>BRASIL</PAIS>
   </FILIAL>
   <FILIAL>
     <CODIGO>2</CODIGO>
@@ -60,6 +66,7 @@
     <NOME>Models</NOME>
     <CIDADE>São Bernardo do campo</CIDADE>
     <ENDEREÇO>Avenida de rosas, 55</ENDEREÇO>
+    <PAIS>BRASIL</PAIS>
   </FILIAL>
   <FILIAL>
     <CODIGO>3</CODIGO>
@@ -67,6 +74,7 @@
     <NOME>Valence</NOME>
     <CIDADE>Campinas</CIDADE>
     <ENDEREÇO>Rua da parada fria, 8998</ENDEREÇO>
+    <PAIS>BRASIL</PAIS>
   </FILIAL>
   <FILIAL>
     <CODIGO>4</CODIGO>
@@ -74,6 +82,7 @@
     <NOME>Pisa</NOME>
     <CIDADE>Osasco</CIDADE>
     <ENDEREÇO>Rua dos quereres, 2331</ENDEREÇO>
+    <PAIS>BRASIL</PAIS>
   </FILIAL>
   <FILIAL>
     <CODIGO>1</CODIGO>
@@ -81,6 +90,7 @@
     <NOME>Auto Japan</NOME>
     <CIDADE>Rio de Janeiro</CIDADE>
     <ENDEREÇO>Rua dos carros, 555</ENDEREÇO>
+    <PAIS>BRASIL</PAIS>
   </FILIAL>
   <FILIAL>
     <CODIGO>2</CODIGO>
@@ -88,6 +98,7 @@
     <NOME>Banzai</NOME>
     <CIDADE>Cabo Frio</CIDADE>
     <ENDEREÇO>Avenida do padre, 888</ENDEREÇO>
+    <PAIS>BRASIL</PAIS>
   </FILIAL>
   <FILIAL>
     <CODIGO>3</CODIGO>
@@ -95,6 +106,7 @@
     <NOME>Hanbai</NOME>
     <CIDADE>Magé</CIDADE>
     <ENDEREÇO>Avenida principal, 111</ENDEREÇO>
+    <PAIS>BRASIL</PAIS>
   </FILIAL>
   <FILIAL>
     <CODIGO>4</CODIGO>
@@ -102,5 +114,6 @@
     <NOME>Otobai</NOME>
     <CIDADE>Parati</CIDADE>
     <ENDEREÇO>Rua dos analistas de sistemas, 34556</ENDEREÇO>
+    <PAIS>BRASIL</PAIS>
   </FILIAL>
 </NewDataSet>
