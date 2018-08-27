@@ -65,6 +65,17 @@ namespace TReportsProviderSample.Controllers
       relation.ParentColumns.Add(new ChildColumnElement() { ColumnName = "CODIGO" });
       relation.ChildColumns.Add(new ChildColumnElement() { ColumnName = "CODIGO_EMPRESA" });
 
+      Relation relation2 = new Relation();
+      relation2.ChildColumns = new List<ChildColumnElement>();
+      relation2.ParentColumns = new List<ChildColumnElement>();
+      relation2.RelationName = $"{parentTable}_{childTable}_xxx";
+      relation2.ParentTableName = parentTable;
+      relation2.ChildTableName = childTable;
+      relations.Add(relation2);
+      relation2.ParentColumns.Add(new ChildColumnElement() { ColumnName = "CODIGO" });
+      relation2.ChildColumns.Add(new ChildColumnElement() { ColumnName = "CODIGO_EMPRESA" });
+
+
       response.Relations = relations.ToArray();
     }
   }

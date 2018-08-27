@@ -44,8 +44,8 @@
   </DICIONARIO>
   <DICIONARIO>
     <TABELA>FILIAL</TABELA>
-    <COLUNA>CODIGO_COLIGADA</COLUNA>
-    <DESCRICAO>Código da coligada a qual a filial está associada</DESCRICAO>
+    <COLUNA>CODIGO_EMPRESA</COLUNA>
+    <DESCRICAO>Código da empresa a qual a filial está associada</DESCRICAO>
   </DICIONARIO>
   <DICIONARIO>
     <TABELA>FILIAL</TABELA>

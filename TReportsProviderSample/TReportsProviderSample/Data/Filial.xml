@@ -8,7 +8,7 @@
             <xs:complexType>
               <xs:sequence>
                 <xs:element name="CODIGO" type="xs:int" minOccurs="0" />
-                <xs:element name="CODIGO_COLIGADA" type="xs:int" minOccurs="0" />
+                <xs:element name="CODIGO_EMPRESA" type="xs:int" minOccurs="0" />
                 <xs:element name="NOME" type="xs:string" minOccurs="0" />
                 <xs:element name="CIDADE" type="xs:string" minOccurs="0" />
                 <xs:element name="ENDEREÇO" type="xs:string" minOccurs="0" />
@@ -21,84 +21,84 @@
   </xs:schema>
   <FILIAL>
     <CODIGO>1</CODIGO>
-    <CODIGO_COLIGADA>1</CODIGO_COLIGADA>
+    <CODIGO_EMPRESA>1</CODIGO_EMPRESA>
     <NOME>Automax</NOME>
     <CIDADE>BETIM</CIDADE>
     <ENDEREÇO>Rua de baixo, 54534</ENDEREÇO>
   </FILIAL>
   <FILIAL>
     <CODIGO>2</CODIGO>
-    <CODIGO_COLIGADA>1</CODIGO_COLIGADA>
+    <CODIGO_EMPRESA>1</CODIGO_EMPRESA>
     <NOME>Tecar</NOME>
     <CIDADE>SETE LAGOAS</CIDADE>
     <ENDEREÇO>AVENIDA do Tumulto, 655</ENDEREÇO>
   </FILIAL>
   <FILIAL>
     <CODIGO>3</CODIGO>
-    <CODIGO_COLIGADA>1</CODIGO_COLIGADA>
+    <CODIGO_EMPRESA>1</CODIGO_EMPRESA>
     <NOME>Strada</NOME>
     <CIDADE>CONTAGEM</CIDADE>
     <ENDEREÇO>RUA das Graças, 98</ENDEREÇO>
   </FILIAL>
   <FILIAL>
     <CODIGO>4</CODIGO>
-    <CODIGO_COLIGADA>1</CODIGO_COLIGADA>
+    <CODIGO_EMPRESA>1</CODIGO_EMPRESA>
     <NOME>Sinal</NOME>
     <CIDADE>PEDRO LEOPOLDO</CIDADE>
     <ENDEREÇO>Avenida de qualquer lugar, 4355</ENDEREÇO>
   </FILIAL>
   <FILIAL>
     <CODIGO>1</CODIGO>
-    <CODIGO_COLIGADA>2</CODIGO_COLIGADA>
+    <CODIGO_EMPRESA>2</CODIGO_EMPRESA>
     <NOME>Forlan</NOME>
     <CIDADE>São Paulo</CIDADE>
     <ENDEREÇO>Rua De fora, 35</ENDEREÇO>
   </FILIAL>
   <FILIAL>
     <CODIGO>2</CODIGO>
-    <CODIGO_COLIGADA>2</CODIGO_COLIGADA>
+    <CODIGO_EMPRESA>2</CODIGO_EMPRESA>
     <NOME>Models</NOME>
     <CIDADE>São Bernardo do campo</CIDADE>
     <ENDEREÇO>Avenida de rosas, 55</ENDEREÇO>
   </FILIAL>
   <FILIAL>
     <CODIGO>3</CODIGO>
-    <CODIGO_COLIGADA>2</CODIGO_COLIGADA>
+    <CODIGO_EMPRESA>2</CODIGO_EMPRESA>
     <NOME>Valence</NOME>
     <CIDADE>Campinas</CIDADE>
     <ENDEREÇO>Rua da parada fria, 8998</ENDEREÇO>
   </FILIAL>
   <FILIAL>
     <CODIGO>4</CODIGO>
-    <CODIGO_COLIGADA>2</CODIGO_COLIGADA>
+    <CODIGO_EMPRESA>2</CODIGO_EMPRESA>
     <NOME>Pisa</NOME>
     <CIDADE>Osasco</CIDADE>
     <ENDEREÇO>Rua dos quereres, 2331</ENDEREÇO>
   </FILIAL>
   <FILIAL>
     <CODIGO>1</CODIGO>
-    <CODIGO_COLIGADA>3</CODIGO_COLIGADA>
+    <CODIGO_EMPRESA>3</CODIGO_EMPRESA>
     <NOME>Auto Japan</NOME>
     <CIDADE>Rio de Janeiro</CIDADE>
     <ENDEREÇO>Rua dos carros, 555</ENDEREÇO>
   </FILIAL>
   <FILIAL>
     <CODIGO>2</CODIGO>
-    <CODIGO_COLIGADA>3</CODIGO_COLIGADA>
+    <CODIGO_EMPRESA>3</CODIGO_EMPRESA>
     <NOME>Banzai</NOME>
     <CIDADE>Cabo Frio</CIDADE>
     <ENDEREÇO>Avenida do padre, 888</ENDEREÇO>
   </FILIAL>
   <FILIAL>
     <CODIGO>3</CODIGO>
-    <CODIGO_COLIGADA>3</CODIGO_COLIGADA>
+    <CODIGO_EMPRESA>3</CODIGO_EMPRESA>
     <NOME>Hanbai</NOME>
     <CIDADE>Magé</CIDADE>
     <ENDEREÇO>Avenida principal, 111</ENDEREÇO>
   </FILIAL>
   <FILIAL>
     <CODIGO>4</CODIGO>
-    <CODIGO_COLIGADA>3</CODIGO_COLIGADA>
+    <CODIGO_EMPRESA>3</CODIGO_EMPRESA>
     <NOME>Otobai</NOME>
     <CIDADE>Parati</CIDADE>
     <ENDEREÇO>Rua dos analistas de sistemas, 34556</ENDEREÇO>
