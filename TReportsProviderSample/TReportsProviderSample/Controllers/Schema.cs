@@ -59,7 +59,7 @@ namespace TReportsProviderSample.Controllers
       relation.ParentTableName = parentTable;
       relation.ChildTableName = childTable;
       relation.ParentColumns.Add(new ChildColumnElement() { ColumnName = "CODIGO" });
-      relation.ChildColumns.Add(new ChildColumnElement() { ColumnName = "CODIGO_COLIGADA" });
+      relation.ChildColumns.Add(new ChildColumnElement() { ColumnName = "CODIGO_EMPRESA" });
       relations.Add(relation);
 
       relation = new Relation();
@@ -70,7 +70,7 @@ namespace TReportsProviderSample.Controllers
       relation.ChildTableName = childTable;
       relation.ParentColumns.Add(new ChildColumnElement() { ColumnName = "CODIGO" });
       relation.ParentColumns.Add(new ChildColumnElement() { ColumnName = "PAIS" });
-      relation.ChildColumns.Add(new ChildColumnElement() { ColumnName = "CODIGO_COLIGADA" });
+      relation.ChildColumns.Add(new ChildColumnElement() { ColumnName = "CODIGO_EMPRESA" });
       relation.ChildColumns.Add(new ChildColumnElement() { ColumnName = "PAIS" });
       relations.Add(relation);
 
