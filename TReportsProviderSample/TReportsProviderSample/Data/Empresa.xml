@@ -11,6 +11,7 @@
                 <xs:element name="NOME" type="xs:string" minOccurs="0" />
                 <xs:element name="CIDADE" type="xs:string" minOccurs="0" />
                 <xs:element name="ENDEREÇO" type="xs:string" minOccurs="0" />
+                <xs:element name="PAIS" type="xs:string" minOccurs="0" />
               </xs:sequence>
             </xs:complexType>
           </xs:element>
@@ -23,17 +24,20 @@
     <NOME>Fiat</NOME>
     <CIDADE>BELO HORIZONTE</CIDADE>
     <ENDEREÇO>RUA DAS AMIZADES, 35</ENDEREÇO>
+    <PAIS>BRASIL</PAIS>
   </EMPRESA>
   <EMPRESA>
     <CODIGO>2</CODIGO>
     <NOME>Ford</NOME>
     <CIDADE>SÃO PAULO</CIDADE>
     <ENDEREÇO>AVENIDA DAS ALEGRIAS, 599</ENDEREÇO>
+    <PAIS>BRASIL</PAIS>
   </EMPRESA>
   <EMPRESA>
     <CODIGO>3</CODIGO>
     <NOME>Honda</NOME>
     <CIDADE>RIO DE JANEIRO</CIDADE>
     <ENDEREÇO>RUA DOS AMORES, 544</ENDEREÇO>
+    <PAIS>BRASIL</PAIS>
   </EMPRESA>
 </NewDataSet>
