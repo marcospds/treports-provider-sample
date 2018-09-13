@@ -91,5 +91,19 @@ namespace TReportsProviderSample.Controllers
     {
       return await base.GetRelations(request);
     }
+
+    /// <summary>
+    /// Retorna as tabelas pesquisadas.
+    /// </summary>
+    /// <param name="request"></param>
+    /// <returns></returns>
+    [HttpPost]
+    [Route("search/tables")]
+    [ProducesResponseType(typeof(TReportsSchemaTableResponse), 200)]
+    public async Task<IActionResult> SearchTable([FromBody] TReportsSearchTableRequest request)
+    {
+      return await base.SearchTable(request);
+    }
+
   }
 }

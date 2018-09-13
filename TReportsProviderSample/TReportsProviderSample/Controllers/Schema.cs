@@ -20,7 +20,13 @@ namespace TReportsProviderSample.Controllers
         tableSource.ReadXml("Data\\Empresa.xml");
         description = "Empresas do dataset";
       }
+      else if (request.TableSourceName == "PAIS")
+      {
+        tableSource.ReadXml("Data\\Pais.xml");
+        description = "Pais do dataset";
+      }
       else
+
       {
         tableSource.ReadXml("Data\\Filial.xml");
         description = "Filiais do dataset";

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="PAIS" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="PAIS">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="CODIGO" type="xs:int" minOccurs="0" />
+                <xs:element name="NOME" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <PAIS>
+    <CODIGO>1</CODIGO>
+    <NOME>Brasil</NOME>
+  </PAIS>
+  <PAIS>
+    <CODIGO>2</CODIGO>
+    <NOME>Belgica</NOME>
+  </PAIS>
+  <PAIS>
+    <CODIGO>3</CODIGO>
+    <NOME>Alemanha</NOME>
+  </PAIS>
+  <PAIS>
+    <CODIGO>4</CODIGO>
+    <NOME>Holanda</NOME>
+  </PAIS>
+  <PAIS>
+    <CODIGO>5</CODIGO>
+    <NOME>França</NOME>
+  </PAIS>
+  <PAIS>
+    <CODIGO>6</CODIGO>
+    <NOME>Italia</NOME>
+  </PAIS>
+</NewDataSet>

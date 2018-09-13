@@ -88,5 +88,13 @@ namespace TReportsProviderSample.Controllers
     {
       return await base.GetRelations(request);
     }
+
+    [HttpPost]
+    [Route("search/tables")]
+    [ProducesResponseType(typeof(TReportsSchemaTableResponse), 200)]
+    public async Task<IActionResult> SearchTable([FromBody] TReportsSearchTableRequest request)
+    {
+      return await base.SearchTable(request);
+    }
   }
 }

@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using System;
+using System.Collections.Generic;
 using System.Data;
 using System.IO;
 using System.Linq;
@@ -145,6 +146,41 @@ namespace TReportsProviderSample.Controllers
       {
         TReportsRelationResponse response = new TReportsRelationResponse();
         Schema.GetRelationshipTableInfo(request, response);
+        return Ok(response);
+      }
+      catch (Exception ex)
+      {
+        Response.StatusCode = 500;
+        return Accepted(new TReportsCustomError() { code = "500", detailedMessage = ex.StackTrace, message = ex.Message });
+      }
+    }
+
+    protected async Task<IActionResult> SearchTable([FromBody] TReportsSearchTableRequest request)
+    {
+      try
+      {
+        TReportsSearchTableResponse response = new TReportsSearchTableResponse();
+        response.SearchTables = new System.Collections.Generic.List<SearchTable>();
+
+        List<SearchTable> tables = new List<SearchTable>();
+
+        SearchTable pais= new SearchTable();
+        pais.TableSourceName = "PAIS";
+        pais.TableSourceDescription = "País";
+        tables.Add(pais);
+
+        SearchTable empresa = new SearchTable();
+        empresa.TableSourceName = "EMPRESA";
+        empresa.TableSourceDescription = "Empresa";
+        tables.Add(empresa);
+
+        SearchTable filial = new SearchTable();
+        filial.TableSourceName = "FILIAL";
+        filial.TableSourceDescription = "Filial";
+        tables.Add(filial);
+       
+        response.SearchTables = tables.FindAll(x => x.TableSourceName.ToUpper().Contains(request.FindTable.ToUpper()));
+
         return Ok(response);
       }
       catch (Exception ex)

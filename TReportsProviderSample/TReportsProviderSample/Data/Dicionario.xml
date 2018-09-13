@@ -18,6 +18,17 @@
     </xs:element>
   </xs:schema>
   <DICIONARIO>
+    <TABELA>PAIS</TABELA>
+    <COLUNA>CODIGO</COLUNA>
+    <DESCRICAO>Código do pais</DESCRICAO>
+  </DICIONARIO>
+  <DICIONARIO>
+    <TABELA>PAIS</TABELA>
+    <COLUNA>NOME</COLUNA>
+    <DESCRICAO>Nome da pais</DESCRICAO>
+  </DICIONARIO>
+  
+  <DICIONARIO>
     <TABELA>EMPRESA</TABELA>
     <COLUNA>CODIGO</COLUNA>
     <DESCRICAO>Código identificador da empresa</DESCRICAO>
