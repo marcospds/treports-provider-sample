@@ -6,7 +6,6 @@ using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using TReportsProviderSample.Classes;
-using TReportsProviderSample.Extensions;
 
 namespace TReportsProviderSample.Controllers
 {

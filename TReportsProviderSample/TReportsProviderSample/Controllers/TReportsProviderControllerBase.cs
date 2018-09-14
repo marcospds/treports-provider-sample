@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
+using Serilog;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -20,6 +21,7 @@ namespace TReportsProviderSample.Controllers
     /// <returns></returns>
     protected async Task<IActionResult> GetParameters()
     {
+      Log.Information("***Executando método 'GetParameters'***");
       try
       {
         TReportsParamsResponse response = new TReportsParamsResponse();
@@ -59,6 +61,7 @@ namespace TReportsProviderSample.Controllers
 
     protected async Task<IActionResult> TestConnection()
     {
+      Log.Information("***Executando método 'TestConnection'***");
       return Ok(new TReportsTestSuccessResponse());
     }
 
@@ -69,6 +72,12 @@ namespace TReportsProviderSample.Controllers
     /// <returns></returns>
     protected async Task<IActionResult> TestQuery([FromBody] TReportsTestQueryRequest request)
     {
+      Log.Information("***Executando método 'TestQuery'***");
+      Log.Information("-----Leitura dos parâmetros  -----" + System.Environment.NewLine);
+      Log.Information(JsonConvert.SerializeObject(request));
+      Log.Information(System.Environment.NewLine);
+      Log.Information("-----Fim da leitura dos parâmetros -----" + System.Environment.NewLine);
+
       try
       {
         string sql = request.SqlText;
@@ -121,6 +130,13 @@ namespace TReportsProviderSample.Controllers
 
     protected async Task<IActionResult> SchemaTable([FromBody] TReportsSchemaTableRequest request)
     {
+      Log.Information("***Executando método 'SchemaTable'***");
+      Log.Information("-----Leitura dos parâmetros  -----" + System.Environment.NewLine);
+      Log.Information(JsonConvert.SerializeObject(request));
+      Log.Information(System.Environment.NewLine);
+      Log.Information("-----Fim da leitura dos parâmetros -----" + System.Environment.NewLine);
+
+
       try
       {
 
@@ -137,11 +153,23 @@ namespace TReportsProviderSample.Controllers
 
     protected async Task<IActionResult> SchemaSql([FromBody] TReportsSchemaSqlRequest request)
     {
+      Log.Information("***Executando método 'SchemaSql'***");
+      Log.Information("-----Leitura dos parâmetros  -----" + System.Environment.NewLine);
+      Log.Information(JsonConvert.SerializeObject(request));
+      Log.Information(System.Environment.NewLine);
+      Log.Information("-----Fim da leitura dos parâmetros -----" + System.Environment.NewLine);
+
       return BadRequest(new TReportsCustomError() { code = "400", detailedMessage = "Esse provedor não suporta sql, pois é um exemolo que nao utilizabase de dados.", message = "Não suportado" });
     }
 
     protected async Task<IActionResult> GetRelations([FromBody] TReportsRelationRequest request)
     {
+      Log.Information("***Executando método 'GetRelations'***");
+      Log.Information("-----Leitura dos parâmetros  -----" + System.Environment.NewLine);
+      Log.Information(JsonConvert.SerializeObject(request));
+      Log.Information(System.Environment.NewLine);
+      Log.Information("-----Fim da leitura dos parâmetros -----" + System.Environment.NewLine);
+
       try
       {
         TReportsRelationResponse response = new TReportsRelationResponse();
@@ -157,6 +185,12 @@ namespace TReportsProviderSample.Controllers
 
     protected async Task<IActionResult> SearchTable([FromBody] TReportsSearchTableRequest request)
     {
+      Log.Information("***Executando método 'SearchTable'***");
+      Log.Information("-----Leitura dos parâmetros  -----" + System.Environment.NewLine);
+      Log.Information(JsonConvert.SerializeObject(request));
+      Log.Information(System.Environment.NewLine);
+      Log.Information("-----Fim da leitura dos parâmetros -----" + System.Environment.NewLine);
+
       try
       {
         TReportsSearchTableResponse response = new TReportsSearchTableResponse();
@@ -200,6 +234,12 @@ namespace TReportsProviderSample.Controllers
     /// <response code="200">Relatório</response>
     protected async Task<IActionResult> GetData([FromBody] TReportsDataRequest request)
     {
+      Log.Information("***Executando método 'GetData'***");
+      Log.Information("-----Leitura dos parâmetros  -----" + System.Environment.NewLine);
+      Log.Information(JsonConvert.SerializeObject(request));
+      Log.Information(System.Environment.NewLine);
+      Log.Information("-----Fim da leitura dos parâmetros -----" + System.Environment.NewLine);
+
       try
       {
         string sql = request.SentenceMember.SqlText;
