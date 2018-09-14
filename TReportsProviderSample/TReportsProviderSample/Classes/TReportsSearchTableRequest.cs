@@ -10,5 +10,10 @@ namespace TReportsProviderSample.Classes
     [JsonProperty("findTable")]
     public string FindTable { get; set; }
 
+    [JsonProperty("page")]
+    public int page { get; set; }
+
+    [JsonProperty("pageSize")]
+    public int pageSize { get; set; }
   }
 }
