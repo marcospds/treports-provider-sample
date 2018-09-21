@@ -54,6 +54,7 @@ namespace TReportsProviderSample.Controllers
       }
       catch (Exception ex)
       {
+        Log.Error(ex.Message);
         Response.StatusCode = 500;
         return Accepted(new TReportsCustomError() { code = "500", detailedMessage = ex.StackTrace, message = ex.Message });
       }
@@ -123,6 +124,7 @@ namespace TReportsProviderSample.Controllers
       }
       catch (Exception ex)
       {
+        Log.Error(ex.Message);
         Response.StatusCode = 500;
         return Accepted(new TReportsCustomError() { code = "500", detailedMessage = ex.StackTrace, message = ex.Message });
       }
@@ -139,13 +141,19 @@ namespace TReportsProviderSample.Controllers
 
       try
       {
-
         TReportsSchemaTableResponse response = new TReportsSchemaTableResponse();
         Schema.GetSchemaTable(request, response);
+        Log.Information("***Resposta do método 'SchemaTable'***");
+        Log.Information(JsonConvert.SerializeObject(response));
+        Log.Information(System.Environment.NewLine);
+        Log.Information("-----Fim da resposta do método 'SchemaTable'-----" + System.Environment.NewLine);
+
+
         return Ok(response);
       }
       catch (Exception ex)
       {
+        Log.Error(ex.Message);
         Response.StatusCode = 500;
         return Accepted(new TReportsCustomError() { code = "500", detailedMessage = ex.StackTrace, message = ex.Message });
       }
@@ -178,6 +186,7 @@ namespace TReportsProviderSample.Controllers
       }
       catch (Exception ex)
       {
+        Log.Error(ex.Message);
         Response.StatusCode = 500;
         return Accepted(new TReportsCustomError() { code = "500", detailedMessage = ex.StackTrace, message = ex.Message });
       }
@@ -186,10 +195,9 @@ namespace TReportsProviderSample.Controllers
     protected async Task<IActionResult> SearchTable([FromBody] TReportsSearchTableRequest request)
     {
       Log.Information("***Executando método 'SearchTable'***");
-      Log.Information("-----Leitura dos parâmetros  -----" + System.Environment.NewLine);
       Log.Information(JsonConvert.SerializeObject(request));
       Log.Information(System.Environment.NewLine);
-      Log.Information("-----Fim da leitura dos parâmetros -----" + System.Environment.NewLine);
+      Log.Information("-----Fim do método da leitura dos parâmetros -----" + System.Environment.NewLine);
 
       try
       {
@@ -219,6 +227,7 @@ namespace TReportsProviderSample.Controllers
       }
       catch (Exception ex)
       {
+        Log.Error(ex.Message);
         Response.StatusCode = 500;
         return Accepted(new TReportsCustomError() { code = "500", detailedMessage = ex.StackTrace, message = ex.Message });
       }
@@ -307,6 +316,7 @@ namespace TReportsProviderSample.Controllers
       }
       catch (Exception ex)
       {
+        Log.Error(ex.Message);
         Response.StatusCode = 500;
         return Accepted(new TReportsCustomError() { code = "500", detailedMessage = ex.StackTrace, message = ex.Message });
       }

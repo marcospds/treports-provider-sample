@@ -50,6 +50,35 @@ namespace TReportsProviderSample.Controllers
           columns.Add(column);
         }
         response.SchemaTable.Columns = columns.ToArray();
+        MapColumns(response.SchemaTable.Columns);
+      }
+    }
+
+    internal static void MapColumns(Column[] columns)
+    {
+      foreach(Column c in columns)
+      {
+        if (c.ColumnType.ToUpper() == "SYSTEM.STRING")
+          c.ColumnType = "String";
+        else if (c.ColumnType.ToUpper() == "SYSTEM.DATETIME")
+          c.ColumnType = "DateTime";
+        else if (c.ColumnType.ToUpper() == "SYSTEM.DOUBLE")
+          c.ColumnType = "Double";
+        else if (c.ColumnType.ToUpper() == "SYSTEM.SINGLE")
+          c.ColumnType = "Float";
+        else if (c.ColumnType.ToUpper() == "SYSTEM.DECIMAL")
+          c.ColumnType = "Decimal";
+        else if (c.ColumnType.ToUpper() == "SYSTEM.INT32")
+          c.ColumnType = "Integer32";
+        else if (c.ColumnType.ToUpper() == "SYSTEM.INT16")
+          c.ColumnType = "Integer16";
+        else if (c.ColumnType.ToUpper() == "SYSTEM.INT64")
+          c.ColumnType = "Integer64";
+        else if (c.ColumnType.ToUpper() == "SYSTEM.BOOLEAN")
+          c.ColumnType = "Boolean";
+        else if (c.ColumnType.ToUpper() == "SYSTEM.BYTE[]")
+          c.ColumnType = "Bytes";
+
       }
     }
 
