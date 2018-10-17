@@ -3,9 +3,12 @@
 
 Exemplo de provedor integrado para o TReports
 
-Este projeto contem um provedor integrado para o TReports. O projeto implementa todos os métodos necessários para se ter um provedor integrado, 
-porem não necessita de conectar-se a nenhuma base de dados, pois utiliza um dataset interno como fonte de dados de exemplo.
+Este projeto contem dois exemplos de provedor integrado para o TReports. Os projetos implementam todos os métodos necessários para se ter um provedor integrado, 
+porem não necessita de conectar-se a nenhuma base de dados.
 
+Provedor Integrado **TReportsProviderSample**
+
+Este provedor utiliza um dataset interno como fonte de dados de exemplo.
 O provedor possui um swagger que pode ser visualizado bastando executar o projeto pelo visual studio ou executando o comando:
 
 **dotnet TReportsProviderSample.dll**
@@ -49,6 +52,14 @@ Para criar o provedor no TReports informe os seguintes parâmetros na tela de pr
 Obs: Para utilização no swagger, deve-se utilizar o controller sem autenticação: [TReportsProviderAnonymousController]
 
 Caso queira testar um relatório, existe um template no diretório ReportSample e pode ser importado pela tela de relatórios.
+
+
+
+Provedor Integrado **TReportsProviderSample.EntityFramewrok**
+
+Este provedor cria um localDB do SQL Server ao executar o projeto e inseri os dados via Json no banco local.
+
+Os dados deste provedor são utilizados no site de demostração do TReports.
 
 [travis-image]:https://travis-ci.org/totvs/treports-provider-sample.svg?branch=master
 [travis-url]:https://travis-ci.org/totvs/treports-provider-sample
