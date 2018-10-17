@@ -1,0 +1,4493 @@
+[
+  {
+    "CompanyId": "1",
+    "Id": "1",
+    "Name": "CD's",
+    "Code": "1",
+    "Description": "CD's",
+    "RegistrationDate": "1996-03-18 00:00:00.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "2",
+    "Name": "CD Regravável 5 1/4",
+    "Code": "01.01",
+    "Description": "CD Regravável 5 1/4",
+    "RegistrationDate": "1996-03-18 00:00:00.000",
+    "Price": "1.8"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "3",
+    "Name": "Formulários",
+    "Code": "2",
+    "Description": "Formulários",
+    "RegistrationDate": "1996-03-18 00:00:00.000",
+    "Price": "0.01"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "4",
+    "Name": "Mini-Formulário Aperg.Branco 1000 fl",
+    "Code": "02.01",
+    "Description": "Mini-Form. Aperg.Branco 1000 fls.",
+    "RegistrationDate": "1996-03-18 00:00:00.000",
+    "Price": "12.73"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "5",
+    "Name": "CD Não Regravável 5 1/4",
+    "Code": "01.02",
+    "Description": "CD Não Regravável 5 1/4",
+    "RegistrationDate": "1996-03-18 00:00:00.000",
+    "Price": "1.9"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "6",
+    "Name": "CD Azul Midia Especial",
+    "Code": "01.03",
+    "Description": "CD Azul Midia Especial",
+    "RegistrationDate": "1996-03-18 00:00:00.000",
+    "Price": "1.99"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "7",
+    "Name": "CD Nashua",
+    "Code": "01.04",
+    "Description": "CD Nashua",
+    "RegistrationDate": "1996-03-18 00:00:00.000",
+    "Price": "2"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "8",
+    "Name": "Mini-Formulário Aperg.Branco 500 fl",
+    "Code": "02.02",
+    "Description": "Mini-Form Aperg.Branco 500 fl",
+    "RegistrationDate": "1996-03-18 00:00:00.000",
+    "Price": "6.37"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "9",
+    "Name": "Mini-Formuláiro Verde Areia 500 f",
+    "Code": "02.03",
+    "Description": "Mini-Form Verge Areia 500 fls",
+    "RegistrationDate": "1996-08-22 00:00:00.000",
+    "Price": "10.6099"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "10",
+    "Name": "Mini-Formulário Salmon",
+    "Code": "02.04",
+    "Description": "Formulário MiniForm Salmon",
+    "RegistrationDate": "1996-08-18 00:00:00.000",
+    "Price": "6.37"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "11",
+    "Name": "Etiquetas",
+    "Code": "3",
+    "Description": "Etiquetas",
+    "RegistrationDate": "1996-03-18 00:00:00.000",
+    "Price": "0.01"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "12",
+    "Name": "Etiqueta Mala Direta 89x23",
+    "Code": "03.01",
+    "Description": "Etiqueta Mala Direta 89x23 2 Car Pacote de 6000 UnIDPRDades",
+    "RegistrationDate": "1996-03-18 00:00:00.000",
+    "Price": "19.100000000000001"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "13",
+    "Name": "Etiqueta Adesiva 102x23",
+    "Code": "03.02",
+    "Description": "Etiqueta Adesiva 102x23 3 Car 12000U",
+    "RegistrationDate": "1996-03-18 00:00:00.000",
+    "Price": "42.439900000000002"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "14",
+    "Name": "Etiqueta MD 80x21",
+    "Code": "03.03",
+    "Description": "Etiqueta mala direta 80x21 2 CAR Caixa de 12000 UnIDPRDs",
+    "RegistrationDate": "1996-03-18 00:00:00.000",
+    "Price": "19.100000000000001"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "15",
+    "Name": "Fita de Impressora",
+    "Code": "4",
+    "Description": "Fita de Impressora",
+    "RegistrationDate": "1996-03-18 00:00:00.000",
+    "Price": "0.01"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "16",
+    "Name": "Fita p/ Impressora ELEBRA",
+    "Code": "04.01",
+    "Description": "Fita para Impressora 13.00 x 10.30 mmm",
+    "RegistrationDate": "1996-03-18 00:00:00.000",
+    "Price": "2.12"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "17",
+    "Name": "Fita Imp IBM 14.30 x 7.00",
+    "Code": "04.02",
+    "Description": "Fita para Impressora IBM 14.30 x 7.00 mm",
+    "RegistrationDate": "1996-03-18 00:00:00.000",
+    "Price": "3.18"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "18",
+    "Name": "Fita Azul para Impressora",
+    "Code": "04.03",
+    "Description": "Fita de Cor Azul para impressora especial padrão 25",
+    "RegistrationDate": "1996-03-18 00:00:00.000",
+    "Price": "3.71"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "19",
+    "Name": "Fita Vermelha para Impressora",
+    "Code": "04.04",
+    "Description": "Fita Vermelha para Impressora especial modelo 38",
+    "RegistrationDate": "1996-03-18 00:00:00.000",
+    "Price": "4.24"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "20",
+    "Name": "Fita Verde para Impressora",
+    "Code": "04.05",
+    "Description": "Fiat Verde para Impressora especial padrão 82",
+    "RegistrationDate": "1996-03-18 00:00:00.000",
+    "Price": "4.24"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "21",
+    "Name": "Orçamento Financeiro",
+    "Code": "5",
+    "Description": "Orçamento Financeiro",
+    "RegistrationDate": "1996-05-18 00:00:00.000",
+    "Price": "0.01"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "22",
+    "Name": "Orçamento Financeiro",
+    "Code": "05.01",
+    "Description": "Orçamento Financeiro",
+    "RegistrationDate": "1996-05-18 00:00:00.000",
+    "Price": "0.01"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "23",
+    "Name": "Mini-Formulário Azul",
+    "Code": "02.05",
+    "Description": "Mini-Form. Azul",
+    "RegistrationDate": "1996-08-18 00:00:00.000",
+    "Price": "7"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "24",
+    "Name": "Insumos ou Bens de Consumo",
+    "Code": "9",
+    "Description": "Insumos ou produtos comprados",
+    "RegistrationDate": "1997-06-30 00:00:00.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "25",
+    "Name": "Rodas de fogão",
+    "Code": "09.05",
+    "Description": "Rodas de fogão",
+    "RegistrationDate": "1997-06-30 00:00:00.000",
+    "Price": "3"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "26",
+    "Name": "Plataforma do fogão",
+    "Code": "09.06",
+    "Description": "Plataforma do fogão",
+    "RegistrationDate": "1997-06-30 00:00:00.000",
+    "Price": "10"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "27",
+    "Name": "Lateral frontal do forno de 6 B",
+    "Code": "09.07",
+    "Description": "Lateral frontal do forno de 6 Bocas",
+    "RegistrationDate": "1997-06-30 00:00:00.000",
+    "Price": "2"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "28",
+    "Name": "Lateral traseira",
+    "Code": "09.08",
+    "Description": "Lateral traseira",
+    "RegistrationDate": "1997-06-30 00:00:00.000",
+    "Price": "2.2000000000000002"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "29",
+    "Name": "Lateral direita",
+    "Code": "09.09",
+    "Description": "Lateral direita",
+    "RegistrationDate": "1997-06-30 00:00:00.000",
+    "Price": "2"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "30",
+    "Name": "Produtos Intermediários",
+    "Code": "7",
+    "Description": "Produtos Intermediários",
+    "RegistrationDate": "1997-06-30 00:00:00.000",
+    "Price": "10"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "31",
+    "Name": "Trempe montada",
+    "Code": "07.01",
+    "Description": "Trempe montada",
+    "RegistrationDate": "1997-06-30 00:00:00.000",
+    "Price": "8"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "32",
+    "Name": "Forno Montado",
+    "Code": "07.02",
+    "Description": "Forno Montado",
+    "RegistrationDate": "1997-06-30 00:00:00.000",
+    "Price": "35"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "33",
+    "Name": "Base do Fogão de 6 bocas",
+    "Code": "07.03",
+    "Description": "Base do fogão de 6 bocas",
+    "RegistrationDate": "1997-06-30 00:00:00.000",
+    "Price": "25"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "34",
+    "Name": "Computador Pentium II",
+    "Code": "08.02",
+    "Description": "Computador Pentium 200 HZ e 26 de winchester",
+    "RegistrationDate": "1997-06-30 00:00:00.000",
+    "Price": "1980"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "35",
+    "Name": "Serviços",
+    "Code": "6",
+    "Description": "Serviços",
+    "RegistrationDate": "1997-03-07 00:00:00.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "36",
+    "Name": "Serviço de Instalação de Computadores",
+    "Code": "06.01",
+    "Description": "Serviço de Instalação de Computadores",
+    "RegistrationDate": "1997-03-07 00:00:00.000",
+    "Price": "30"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "37",
+    "Name": "Serviço de Manutenção de Softwares",
+    "Code": "06.02",
+    "Description": "Serviço de Manutenção de Softwares",
+    "RegistrationDate": "1997-03-07 00:00:00.000",
+    "Price": "60"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "38",
+    "Name": "Serviço de Manutenção de Internet",
+    "Code": "06.03",
+    "Description": "Serviço de Manutenção de Internet",
+    "RegistrationDate": "1997-07-07 00:00:00.000",
+    "Price": "55"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "39",
+    "Name": "Placa Mãe Pentium - Completa",
+    "Code": "07.04",
+    "Description": "Placa Mãe de Pentium",
+    "RegistrationDate": "1997-10-07 00:00:00.000",
+    "Price": "110"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "40",
+    "Name": "Gabinete Pentiurm - Completo",
+    "Code": "07.05",
+    "Description": "Gabinete de Pentium",
+    "RegistrationDate": "1997-10-07 00:00:00.000",
+    "Price": "60"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "41",
+    "Name": "Winchester 2 giga bytes",
+    "Code": "07.06",
+    "Description": "Winchester 2 giga bytes",
+    "RegistrationDate": "1997-10-07 00:00:00.000",
+    "Price": "150"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "42",
+    "Name": "Torre de Pentium",
+    "Code": "07.07",
+    "Description": "Torre de Pentium",
+    "RegistrationDate": "1997-10-07 00:00:00.000",
+    "Price": "62"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "43",
+    "Name": "16 MB de memória",
+    "Code": "09.12",
+    "Description": "16 MB de memória",
+    "RegistrationDate": "1997-10-07 00:00:00.000",
+    "Price": "75"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "44",
+    "Name": "C.P.U. (Central Process Unit)",
+    "Code": "09.13",
+    "Description": "C.P.U. (Central Process Unit)",
+    "RegistrationDate": "1997-10-07 00:00:00.000",
+    "Price": "80"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "45",
+    "Name": "Base de Pentium",
+    "Code": "09.14",
+    "Description": "Base de Pentium",
+    "RegistrationDate": "1997-10-07 00:00:00.000",
+    "Price": "40"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "46",
+    "Name": "Laterais de pentium",
+    "Code": "09.15",
+    "Description": "Laterais de pentium",
+    "RegistrationDate": "1997-10-07 00:00:00.000",
+    "Price": "7"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "47",
+    "Name": "Conjunto de 110 teclas para teclado",
+    "Code": "09.16",
+    "Description": "Conjunto de 110 teclas para teclado",
+    "RegistrationDate": "1997-10-07 00:00:00.000",
+    "Price": "13"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "48",
+    "Name": "Tampas acrílicas 2/3 Brancas",
+    "Code": "12.02",
+    "Description": "Tampas acrílicas 2/3 Brancas",
+    "RegistrationDate": "2010-12-02 13:50:52.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "49",
+    "Name": "Tampa de Metal 2/3 Azul",
+    "Code": "12.03",
+    "Description": "Tampa de Metal 2/3 Azul",
+    "RegistrationDate": "2010-12-02 17:29:24.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "50",
+    "Name": "Cabeça de Leitura de Disco",
+    "Code": "09.21",
+    "Description": "Cabeça de Leitura de disco",
+    "RegistrationDate": "1997-10-07 00:00:00.000",
+    "Price": "63"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "51",
+    "Name": "Placa de Som",
+    "Code": "09.22",
+    "Description": "Placa de Som",
+    "RegistrationDate": "1997-10-07 00:00:00.000",
+    "Price": "142"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "52",
+    "Name": "Placa de vídeo",
+    "Code": "09.23",
+    "Description": "Placa de vídeo",
+    "RegistrationDate": "1997-10-07 00:00:00.000",
+    "Price": "85"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "53",
+    "Name": "Unidade de CD ROM",
+    "Code": "09.24",
+    "Description": "Unidade de CD 4 velocidades",
+    "RegistrationDate": "1997-10-07 00:00:00.000",
+    "Price": "360"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "54",
+    "Name": "Unidade de drives de 3 e 1/2 polegadas",
+    "Code": "09.25",
+    "Description": "Unidade de drives de 3 e 1/2 polegadas",
+    "RegistrationDate": "1997-10-07 00:00:00.000",
+    "Price": "100"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "55",
+    "Name": "Kit de decalques para Pentium",
+    "Code": "09.26",
+    "Description": "Kit de decalques para Pentium",
+    "RegistrationDate": "1997-10-07 00:00:00.000",
+    "Price": "16"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "56",
+    "Name": "Embalagem de Papelão para Pentium",
+    "Code": "09.27",
+    "Description": "Embalagem de Papelão para Pentium",
+    "RegistrationDate": "1997-10-07 00:00:00.000",
+    "Price": "7"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "57",
+    "Name": "Encargos referentes à prestação de serviços",
+    "Code": "06.04",
+    "Description": "Encargos referentes à prestação de serviços",
+    "RegistrationDate": "1997-12-09 00:00:00.000",
+    "Price": "5"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "58",
+    "Name": "Carroceria Palio",
+    "Code": "09.31",
+    "Description": "Carroceria Palio",
+    "RegistrationDate": "1998-04-23 00:00:00.000",
+    "Price": "3000"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "59",
+    "Name": "Porta Dianteira Palio E",
+    "Code": "09.32",
+    "Description": "Porta Dianteira Palio E",
+    "RegistrationDate": "1998-04-23 00:00:00.000",
+    "Price": "300"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "60",
+    "Name": "Porta Dianteira Palio D",
+    "Code": "09.33",
+    "Description": "Porta Dianteira Palio D",
+    "RegistrationDate": "1998-04-23 00:00:00.000",
+    "Price": "300"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "61",
+    "Name": "Capô Palio",
+    "Code": "09.34",
+    "Description": "Capot Palio",
+    "RegistrationDate": "1998-04-23 00:00:00.000",
+    "Price": "350"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "62",
+    "Name": "Tampa para Porta Malas Palio",
+    "Code": "09.35",
+    "Description": "Tampa para Porta Malas Palio",
+    "RegistrationDate": "1998-04-23 00:00:00.000",
+    "Price": "330"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "63",
+    "Name": "Motor 1.0",
+    "Code": "09.36",
+    "Description": "Motor 1.0",
+    "RegistrationDate": "1998-04-23 00:00:00.000",
+    "Price": "2800"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "64",
+    "Name": "Motor 1.6",
+    "Code": "09.37",
+    "Description": "Motor 1.6",
+    "RegistrationDate": "1998-04-23 00:00:00.000",
+    "Price": "3150"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "65",
+    "Name": "Banco Dianteiro",
+    "Code": "09.38",
+    "Description": "Banco Dianteiro",
+    "RegistrationDate": "1998-04-23 00:00:00.000",
+    "Price": "550"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "66",
+    "Name": "Banco Traseiro",
+    "Code": "09.39",
+    "Description": "Banco Traseiro",
+    "RegistrationDate": "1998-04-23 00:00:00.000",
+    "Price": "850"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "67",
+    "Name": "Painel",
+    "Code": "09.40",
+    "Description": "Painel",
+    "RegistrationDate": "1998-04-23 00:00:00.000",
+    "Price": "410"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "68",
+    "Name": "Pneu Goodyear",
+    "Code": "09.41",
+    "Description": "Pneu Goodyear",
+    "RegistrationDate": "1998-04-23 00:00:00.000",
+    "Price": "50"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "69",
+    "Name": "Pneu Bridgestone",
+    "Code": "09.42",
+    "Description": "Pneu Bridgestone",
+    "RegistrationDate": "1998-04-23 00:00:00.000",
+    "Price": "54"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "70",
+    "Name": "Pneu Pirelli",
+    "Code": "09.43",
+    "Description": "Pneu Pirelli",
+    "RegistrationDate": "1998-04-23 00:00:00.000",
+    "Price": "53"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "71",
+    "Name": "Trio Elétrico",
+    "Code": "09.44",
+    "Description": "Trio Elétrico",
+    "RegistrationDate": "1998-04-23 00:00:00.000",
+    "Price": "125"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "72",
+    "Name": "Tampa Porta-Luvas",
+    "Code": "09.45",
+    "Description": "Tampa Porta-Luvas",
+    "RegistrationDate": "1998-04-23 00:00:00.000",
+    "Price": "25"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "73",
+    "Name": "Palio 1.0 Cinza",
+    "Code": "08.11",
+    "Description": "Palio 1.0 Cinza",
+    "RegistrationDate": "1998-04-23 00:00:00.000",
+    "Price": "11950"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "74",
+    "Name": "Palio 1.0 Vermelho",
+    "Code": "08.12",
+    "Description": "Palio 1.0 Vermelho",
+    "RegistrationDate": "1998-04-23 00:00:00.000",
+    "Price": "11950"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "75",
+    "Name": "Palio 1.6 Cinza",
+    "Code": "08.13",
+    "Description": "Palio 1.6 Cinza",
+    "RegistrationDate": "1998-04-23 00:00:00.000",
+    "Price": "16480"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "76",
+    "Name": "Palio 1.6 Vermelho",
+    "Code": "08.14",
+    "Description": "Palio 1.6 Vermelho",
+    "RegistrationDate": "1998-04-23 00:00:00.000",
+    "Price": "16480"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "77",
+    "Name": "Tinta Cinza",
+    "Code": "09.46",
+    "Description": "Tinta Cinza",
+    "RegistrationDate": "1998-04-23 00:00:00.000",
+    "Price": "25"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "78",
+    "Name": "Tinta Vermelha",
+    "Code": "09.47",
+    "Description": "Tinta Vermelha",
+    "RegistrationDate": "1998-04-23 00:00:00.000",
+    "Price": "15"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "79",
+    "Name": "Controle Remoto",
+    "Code": "09.48",
+    "Description": "Controle Remoto",
+    "RegistrationDate": "1998-04-23 00:00:00.000",
+    "Price": "27"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "80",
+    "Name": "Pilha alcalina",
+    "Code": "09.49",
+    "Description": "Pilha alcalina",
+    "RegistrationDate": "1998-04-23 00:00:00.000",
+    "Price": "3"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "81",
+    "Name": "Teclado",
+    "Code": "09.50",
+    "Description": "Teclado Borracha",
+    "RegistrationDate": "1998-04-23 00:00:00.000",
+    "Price": "16.5"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "82",
+    "Name": "Monitor 20",
+    "Code": "09.51",
+    "Description": "Monitor 20",
+    "RegistrationDate": "1998-04-23 00:00:00.000",
+    "Price": "256"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "83",
+    "Name": "Monitor 14",
+    "Code": "09.52",
+    "Description": "Monitor 14",
+    "RegistrationDate": "1998-04-23 00:00:00.000",
+    "Price": "230"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "84",
+    "Name": "Monitor 29",
+    "Code": "09.53",
+    "Description": "Monitor 29",
+    "RegistrationDate": "1998-04-23 00:00:00.000",
+    "Price": "300"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "85",
+    "Name": "Caixa Papelão TAM 1",
+    "Code": "09.54",
+    "Description": "Caixa Papelão TAM 1",
+    "RegistrationDate": "1998-04-23 00:00:00.000",
+    "Price": "4.5"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "86",
+    "Name": "Caixa Papelão TAM 2",
+    "Code": "09.55",
+    "Description": "Caixa Papelão TAM 2",
+    "RegistrationDate": "1998-04-23 00:00:00.000",
+    "Price": "4.5"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "87",
+    "Name": "Caixa Papelão TAM 3",
+    "Code": "09.56",
+    "Description": "Caixa Papelão TAM 3",
+    "RegistrationDate": "1998-04-23 00:00:00.000",
+    "Price": "4.5"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "88",
+    "Name": "Manual de Manutenção de PCs",
+    "Code": "09.57",
+    "Description": "Manual de Instruções",
+    "RegistrationDate": "1998-04-23 00:00:00.000",
+    "Price": "5"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "89",
+    "Name": "Certificado de Garantia",
+    "Code": "09.58",
+    "Description": "Certificado de Garantia",
+    "RegistrationDate": "1998-04-23 00:00:00.000",
+    "Price": "2"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "90",
+    "Name": "Listagem Assistência Técnica",
+    "Code": "09.59",
+    "Description": "Listagem Assistência Técnica",
+    "RegistrationDate": "1998-04-23 00:00:00.000",
+    "Price": "2"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "91",
+    "Name": "Televisor 14",
+    "Code": "08.15",
+    "Description": "Televisor 14",
+    "RegistrationDate": "1998-04-23 00:00:00.000",
+    "Price": "250"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "92",
+    "Name": "Televisor 14",
+    "Code": "08.16",
+    "Description": "Televisor 14",
+    "RegistrationDate": "1998-04-23 00:00:00.000",
+    "Price": "320"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "93",
+    "Name": "Televisor 20",
+    "Code": "08.17",
+    "Description": "Televisor 20",
+    "RegistrationDate": "1998-04-23 00:00:00.000",
+    "Price": "410"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "94",
+    "Name": "Televisor 29",
+    "Code": "08.18",
+    "Description": "Televisor 29",
+    "RegistrationDate": "1998-04-23 00:00:00.000",
+    "Price": "780"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "95",
+    "Name": "Tubo preto 1.1/4 esp. 18",
+    "Code": "09.63",
+    "Description": "Tubo preto 1.1/4 esp. 18",
+    "RegistrationDate": "1998-12-14 00:00:00.000",
+    "Price": "2"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "96",
+    "Name": "Chapa 18 1.5 x 10 x 1.5 x 1.90",
+    "Code": "09.64",
+    "Description": "Chapa 18 1.5 x 10 x 1.5 x 1.90",
+    "RegistrationDate": "1998-12-14 00:00:00.000",
+    "Price": "2"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "97",
+    "Name": "Baguete Reto",
+    "Code": "09.65",
+    "Description": "Baguete reto",
+    "RegistrationDate": "1998-12-14 00:00:00.000",
+    "Price": "2.5"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "98",
+    "Name": "Ferro chato",
+    "Code": "09.66",
+    "Description": "Ferro chato",
+    "RegistrationDate": "1998-12-14 00:00:00.000",
+    "Price": "1.8"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "99",
+    "Name": "Parafuso sext. galv. 1.1/4 x 3",
+    "Code": "09.67",
+    "Description": "Parafuso sext. galv. 1.1/4 x 3",
+    "RegistrationDate": "1998-12-14 00:00:00.000",
+    "Price": "0.05"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "100",
+    "Name": "Porca sext.galv. 1.1/4 G.W.W.",
+    "Code": "09.68",
+    "Description": "Porca sext.galv. 1.1/4 G.W.W.",
+    "RegistrationDate": "1998-12-14 00:00:00.000",
+    "Price": "0.05"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "101",
+    "Name": "Tela xadrez com fios galvanizados",
+    "Code": "09.69",
+    "Description": "Tela xadrez com fios galvanizados",
+    "RegistrationDate": "1998-12-14 00:00:00.000",
+    "Price": "12"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "102",
+    "Name": "Tábua de Madeira 1.40 cm",
+    "Code": "09.70",
+    "Description": "Chapa dobrada",
+    "RegistrationDate": "1998-12-14 00:00:00.000",
+    "Price": "2.2000000000000002"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "103",
+    "Name": "Toco de Madeira 30 x 8 cm",
+    "Code": "09.71",
+    "Description": "Suporte de borracha para pés da cama",
+    "RegistrationDate": "1998-12-14 00:00:00.000",
+    "Price": "1.25"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "104",
+    "Name": "Ponteira dourada 1.1/4",
+    "Code": "09.72",
+    "Description": "Ponteira dourada 1.1/4",
+    "RegistrationDate": "1998-12-14 00:00:00.000",
+    "Price": "1.8"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "105",
+    "Name": "Madeira para estrado 1.30cm",
+    "Code": "09.73",
+    "Description": "Madeira para estrado 1.30cm",
+    "RegistrationDate": "1998-12-14 00:00:00.000",
+    "Price": "4"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "106",
+    "Name": "Madeira para estrado 1.80cm",
+    "Code": "09.74",
+    "Description": "Madeira para estrado 1.30cm",
+    "RegistrationDate": "1998-12-14 00:00:00.000",
+    "Price": "6"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "107",
+    "Name": "Arame para Solda",
+    "Code": "09.75",
+    "Description": "Arame para solda",
+    "RegistrationDate": "1998-12-14 00:00:00.000",
+    "Price": "3"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "108",
+    "Name": "Tinta Cinza Claro",
+    "Code": "09.76",
+    "Description": "Tinta Cinza Claro",
+    "RegistrationDate": "1998-12-14 00:00:00.000",
+    "Price": "17"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "109",
+    "Name": "Tinta Azul Del Rey",
+    "Code": "09.77",
+    "Description": "Tinta Azul Del Rey",
+    "RegistrationDate": "1998-12-14 00:00:00.000",
+    "Price": "17"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "110",
+    "Name": "Tinta verde",
+    "Code": "09.78",
+    "Description": "Tinta vermelha",
+    "RegistrationDate": "1998-12-14 00:00:00.000",
+    "Price": "17"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "111",
+    "Name": "Cabeceira Completa",
+    "Code": "07.08",
+    "Description": "Cabeceira completa",
+    "RegistrationDate": "1998-12-14 00:00:00.000",
+    "Price": "80"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "112",
+    "Name": "Lateral esquerda",
+    "Code": "07.16",
+    "Description": "Lateral esquerda",
+    "RegistrationDate": "1998-12-14 00:00:00.000",
+    "Price": "20"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "113",
+    "Name": "tubo para lateral esquerda",
+    "Code": "07.17",
+    "Description": "tubo para lateral esquerda da cama",
+    "RegistrationDate": "1998-12-14 00:00:00.000",
+    "Price": "15"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "114",
+    "Name": "Pé da cama completo",
+    "Code": "07.18",
+    "Description": "Pé da cama completo",
+    "RegistrationDate": "1998-12-14 00:00:00.000",
+    "Price": "25"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "115",
+    "Name": "Pé da cama",
+    "Code": "07.19",
+    "Description": "Pé da cama",
+    "RegistrationDate": "1998-12-14 00:00:00.000",
+    "Price": "16"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "116",
+    "Name": "Pés curvados",
+    "Code": "07.20",
+    "Description": "Pés curvados",
+    "RegistrationDate": "1998-12-14 00:00:00.000",
+    "Price": "20"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "117",
+    "Name": "Tubo para pé de cama",
+    "Code": "07.21",
+    "Description": "Tubo para pé de cama",
+    "RegistrationDate": "1998-12-14 00:00:00.000",
+    "Price": "12"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "118",
+    "Name": "Estrado para cama casal padrão completo",
+    "Code": "07.22",
+    "Description": "Grade completa",
+    "RegistrationDate": "1998-12-14 00:00:00.000",
+    "Price": "35"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "119",
+    "Name": "Cama de solteiro calandrada",
+    "Code": "07.23",
+    "Description": "Cama de solteiro calandrada",
+    "RegistrationDate": "1998-12-14 00:00:00.000",
+    "Price": "80"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "120",
+    "Name": "Cama de solteiro Acabada",
+    "Code": "07.24",
+    "Description": "Cama de solteiro Acabada",
+    "RegistrationDate": "1998-12-14 00:00:00.000",
+    "Price": "120"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "121",
+    "Name": "Cama de Solteiro cor Marfim",
+    "Code": "08.19",
+    "Description": "Cama de Solteiro 1.90 x 0.80 cor Marfim",
+    "RegistrationDate": "1998-12-14 00:00:00.000",
+    "Price": "180"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "122",
+    "Name": "Cama de solteiro cor Azul Del- Rey",
+    "Code": "08.20",
+    "Description": "Cama de solteiro 1.90 x 0.80 cor Azul Del- Rey",
+    "RegistrationDate": "1998-12-14 00:00:00.000",
+    "Price": "140"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "123",
+    "Name": "Cama de solteiro cor Vermelha",
+    "Code": "08.21",
+    "Description": "Cama de solteiro 1.90 x 0.80 cor Vermelha",
+    "RegistrationDate": "1998-12-14 00:00:00.000",
+    "Price": "110"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "124",
+    "Name": "Serviços",
+    "Code": "09.90",
+    "Description": "Serviços",
+    "RegistrationDate": "1999-07-21 00:00:00.000",
+    "Price": "0.01"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "125",
+    "Name": "Processador Pentium II - 400 MHZ",
+    "Code": "07.25",
+    "Description": "Processador Pentium II - 400 MHZ",
+    "RegistrationDate": "1999-11-16 00:00:00.000",
+    "Price": "500"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "126",
+    "Name": "Kit Multimídia Completo",
+    "Code": "07.29",
+    "Description": "Kit Multimídia Completo",
+    "RegistrationDate": "1999-11-16 00:00:00.000",
+    "Price": "195"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "127",
+    "Name": "Cabos de Força para Computadores",
+    "Code": "07.30",
+    "Description": "Cabos de Força para Computadores",
+    "RegistrationDate": "1999-11-16 00:00:00.000",
+    "Price": "32"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "128",
+    "Name": "Caixa plástica para Gabinete",
+    "Code": "07.31",
+    "Description": "Caixa plástica para Gabinete",
+    "RegistrationDate": "1999-11-16 00:00:00.000",
+    "Price": "8"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "129",
+    "Name": "Placa de Fax Modem - 33600",
+    "Code": "07.32",
+    "Description": "Placa de Fax Modem - 33600",
+    "RegistrationDate": "1999-11-16 00:00:00.000",
+    "Price": "72"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "130",
+    "Name": "Caixa de Som Multimídia",
+    "Code": "07.33",
+    "Description": "Caixa de Som Multimídia",
+    "RegistrationDate": "1999-11-16 00:00:00.000",
+    "Price": "32"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "131",
+    "Name": "Microfone",
+    "Code": "07.34",
+    "Description": "Microfone",
+    "RegistrationDate": "1999-11-16 00:00:00.000",
+    "Price": "18.6999"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "132",
+    "Name": "Tubo de Imagem",
+    "Code": "08.03",
+    "Description": "Tubo de Imagem",
+    "RegistrationDate": "1999-11-16 00:00:00.000",
+    "Price": "87.299800000000005"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "133",
+    "Name": "Fusível",
+    "Code": "08.04",
+    "Description": "Fusível",
+    "RegistrationDate": "1999-11-16 00:00:00.000",
+    "Price": "17.75"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "134",
+    "Name": "Placa de Circuito Integrado",
+    "Code": "08.05",
+    "Description": "Placa de Circuito Integrado",
+    "RegistrationDate": "1999-11-16 00:00:00.000",
+    "Price": "36"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "135",
+    "Name": "Fonte de Alimentação",
+    "Code": "08.06",
+    "Description": "Fonte de Alimentação",
+    "RegistrationDate": "1999-11-16 00:00:00.000",
+    "Price": "8"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "136",
+    "Name": "Fio com Tomada",
+    "Code": "08.07",
+    "Description": "Fio com Tomada",
+    "RegistrationDate": "1999-11-16 00:00:00.000",
+    "Price": "1.9"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "137",
+    "Name": "Caixa de Plástico para Televisor",
+    "Code": "08.08",
+    "Description": "Caixa de Plástico para Televisor",
+    "RegistrationDate": "1999-11-16 00:00:00.000",
+    "Price": "12.3"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "138",
+    "Name": "Cama de Casal Padrão",
+    "Code": "07.35",
+    "Description": "Cama de Casal Padrão",
+    "RegistrationDate": "1999-11-18 00:00:00.000",
+    "Price": "250"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "139",
+    "Name": "Tubo de Cola de Madeira - 2 KG",
+    "Code": "07.36",
+    "Description": "Tubo de Cola de Madeira - 2 KG",
+    "RegistrationDate": "1999-11-18 00:00:00.000",
+    "Price": "5.8"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "140",
+    "Name": "Televisor",
+    "Code": "08.22",
+    "Description": "Televisor",
+    "RegistrationDate": "1999-11-25 00:00:00.000",
+    "Price": "0.01"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "141",
+    "Name": "Computador",
+    "Code": "07.38",
+    "Description": "Computador",
+    "RegistrationDate": "1999-11-25 00:00:00.000",
+    "Price": "0.01"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "142",
+    "Name": "Cama de Casal Especial",
+    "Code": "07.39",
+    "Description": "Cama de Casal Especial",
+    "RegistrationDate": "1999-11-26 00:00:00.000",
+    "Price": "0.01"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "143",
+    "Name": "Estrado para Cama de Casal Especial",
+    "Code": "07.40",
+    "Description": "Estrado para Cama de Casal Especial",
+    "RegistrationDate": "1999-11-26 00:00:00.000",
+    "Price": "0.01"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "144",
+    "Name": "Madeira para estrado 1.40cm",
+    "Code": "09.79",
+    "Description": "Madeira para estrado 1.40cm",
+    "RegistrationDate": "1999-11-26 00:00:00.000",
+    "Price": "0.01"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "145",
+    "Name": "Madeira para estrado 1.90cm",
+    "Code": "09.80",
+    "Description": "Madeira para estrado 1.90cm",
+    "RegistrationDate": "1999-11-26 00:00:00.000",
+    "Price": "0.01"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "146",
+    "Name": "Brita n.1",
+    "Code": "09.84",
+    "Description": "Brita n.1",
+    "RegistrationDate": "2000-01-19 00:00:00.000",
+    "Price": "2.36"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "147",
+    "Name": "Brita n.2",
+    "Code": "09.85",
+    "Description": "Brita n.2",
+    "RegistrationDate": "2000-01-19 00:00:00.000",
+    "Price": "2.36"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "148",
+    "Name": "Sarrafo de Pinho",
+    "Code": "09.86",
+    "Description": "Sarrafo de Pinho",
+    "RegistrationDate": "2000-01-19 00:00:00.000",
+    "Price": "1.57"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "149",
+    "Name": "Tábua de Pinho",
+    "Code": "09.87",
+    "Description": "Tábua de Pinho",
+    "RegistrationDate": "2000-01-19 00:00:00.000",
+    "Price": "1.57"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "150",
+    "Name": "Tijolo Cerâmico Comum",
+    "Code": "09.88",
+    "Description": "Tijolo Cerâmico Comum",
+    "RegistrationDate": "2000-01-19 00:00:00.000",
+    "Price": "0.1"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "151",
+    "Name": "Tijolo Cerâmico Furado",
+    "Code": "09.89",
+    "Description": "Tijolo Cerâmico Furado",
+    "RegistrationDate": "2000-01-19 00:00:00.000",
+    "Price": "0.1"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "152",
+    "Name": "Alinhamento",
+    "Code": "06.05",
+    "Description": "Alinhamento",
+    "RegistrationDate": "2000-08-09 00:00:00.000",
+    "Price": "0.01"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "153",
+    "Name": "Balanceamento",
+    "Code": "06.06",
+    "Description": "Balanceamento",
+    "RegistrationDate": "2000-08-09 00:00:00.000",
+    "Price": "0.01"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "154",
+    "Name": "Alinhamento e Balanceamento",
+    "Code": "06.07",
+    "Description": "Alinhamento e Balanceamento",
+    "RegistrationDate": "2000-08-09 00:00:00.000",
+    "Price": "0.01"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "155",
+    "Name": "Lavagem do Veículo",
+    "Code": "06.11",
+    "Description": "Lavagem do Veículo",
+    "RegistrationDate": "2000-08-09 00:00:00.000",
+    "Price": "0.01"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "156",
+    "Name": "Troca do Óleo do Motor",
+    "Code": "06.12",
+    "Description": "Troca do Óleo do Motor",
+    "RegistrationDate": "2000-08-09 00:00:00.000",
+    "Price": "0.01"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "157",
+    "Name": "Troca do Óleo de Freio",
+    "Code": "06.13",
+    "Description": "Troca do Óleo de Freio",
+    "RegistrationDate": "2000-08-09 00:00:00.000",
+    "Price": "0.01"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "158",
+    "Name": "Troca do Jogo de Velas",
+    "Code": "06.14",
+    "Description": "Troca do Jogo de Velas",
+    "RegistrationDate": "2000-08-09 00:00:00.000",
+    "Price": "0.01"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "159",
+    "Name": "Troca do Jogo de Pastilhas de Freio",
+    "Code": "06.15",
+    "Description": "Troca do Jogo de Pastilhas de Freio",
+    "RegistrationDate": "2000-08-09 00:00:00.000",
+    "Price": "0.01"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "160",
+    "Name": "Troca da Correia Dentada",
+    "Code": "06.16",
+    "Description": "Troca da Correia Dentada",
+    "RegistrationDate": "2000-08-09 00:00:00.000",
+    "Price": "0.01"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "161",
+    "Name": "Substituição do Filtro de Combustível",
+    "Code": "06.19",
+    "Description": "Substituição do Filtro de Combustível",
+    "RegistrationDate": "2000-08-09 00:00:00.000",
+    "Price": "0.01"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "162",
+    "Name": "Revisão Geral da Transmissão",
+    "Code": "06.20",
+    "Description": "Revisão Geral da Transmissão",
+    "RegistrationDate": "2000-08-09 00:00:00.000",
+    "Price": "0.01"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "163",
+    "Name": "Revisão e Regulagem Geral do Motor",
+    "Code": "06.21",
+    "Description": "Revisão e Regulagem Geral do Motor",
+    "RegistrationDate": "2000-08-09 00:00:00.000",
+    "Price": "0.01"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "164",
+    "Name": "CD Player",
+    "Code": "09.91",
+    "Description": "CD Player",
+    "RegistrationDate": "2000-08-10 00:00:00.000",
+    "Price": "450"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "165",
+    "Name": "Correia Dentada",
+    "Code": "09.92",
+    "Description": "Correia Dentada",
+    "RegistrationDate": "2000-08-10 00:00:00.000",
+    "Price": "44.32"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "166",
+    "Name": "Filtro de Ar",
+    "Code": "09.93",
+    "Description": "Filtro de Ar",
+    "RegistrationDate": "2000-08-10 00:00:00.000",
+    "Price": "46"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "167",
+    "Name": "Filtro de combustível",
+    "Code": "09.94",
+    "Description": "Filtro de combustível",
+    "RegistrationDate": "2000-08-10 00:00:00.000",
+    "Price": "48"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "168",
+    "Name": "Filtro de Óleo",
+    "Code": "09.95",
+    "Description": "Filtro de Óleo",
+    "RegistrationDate": "2000-08-10 00:00:00.000",
+    "Price": "33"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "169",
+    "Name": "Jogo de Pastilhas de Freio",
+    "Code": "09.96",
+    "Description": "Jogo de Pastilhas de Freio",
+    "RegistrationDate": "2000-08-10 00:00:00.000",
+    "Price": "46.6"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "170",
+    "Name": "Jogo de Velas",
+    "Code": "09.97",
+    "Description": "Jogo de Velas",
+    "RegistrationDate": "2000-08-10 00:00:00.000",
+    "Price": "78.439800000000005"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "171",
+    "Name": "Óleo de Freio",
+    "Code": "09.98",
+    "Description": "Óleo de Freio",
+    "RegistrationDate": "2000-08-10 00:00:00.000",
+    "Price": "8.8000000000000007"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "172",
+    "Name": "Óleo do Motor",
+    "Code": "09.99",
+    "Description": "Óleo do Motor",
+    "RegistrationDate": "2000-08-10 00:00:00.000",
+    "Price": "10.76"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "173",
+    "Name": "Velocímetro",
+    "Code": "09.28",
+    "Description": "Velocímetro",
+    "RegistrationDate": "2000-08-10 00:00:00.000",
+    "Price": "113.11"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "174",
+    "Name": "Roda Comum",
+    "Code": "09.29",
+    "Description": "Roda Comum",
+    "RegistrationDate": "2000-08-10 00:00:00.000",
+    "Price": "147.86000000000001"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "175",
+    "Name": "Roda de Liga Leve",
+    "Code": "09.30",
+    "Description": "Roda de Liga Leve",
+    "RegistrationDate": "2000-08-10 00:00:00.000",
+    "Price": "314.79000000000002"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "176",
+    "Name": "Substituição do Filtro de Ar",
+    "Code": "06.22",
+    "Description": "Substituição do Filtro de Ar",
+    "RegistrationDate": "2000-08-22 00:00:00.000",
+    "Price": "0.01"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "177",
+    "Name": "Ajustes / Regulagem do Motor",
+    "Code": "06.28",
+    "Description": "Ajustes / Regulagem do Motor",
+    "RegistrationDate": "2000-08-22 00:00:00.000",
+    "Price": "0.01"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "178",
+    "Name": "Lubrificação do Motor",
+    "Code": "06.29",
+    "Description": "Lubrificação do Motor",
+    "RegistrationDate": "2000-08-22 00:00:00.000",
+    "Price": "0.01"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "179",
+    "Name": "Fechamento do Motor",
+    "Code": "06.23",
+    "Description": "Fechamento do Motor",
+    "RegistrationDate": "2000-08-22 00:00:00.000",
+    "Price": "0.01"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "180",
+    "Name": "Troca de Circuitos - Celular",
+    "Code": "06.30",
+    "Description": "Troca de Circuitos - Celular",
+    "RegistrationDate": "2000-10-31 00:00:00.000",
+    "Price": "0.01"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "181",
+    "Name": "Limpeza - Celular",
+    "Code": "06.31",
+    "Description": "Limpeza - Celular",
+    "RegistrationDate": "2000-10-31 00:00:00.000",
+    "Price": "0.01"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "182",
+    "Name": "Substituição Tampa traseira - Celular",
+    "Code": "06.32",
+    "Description": "Substituição Tampa traseira - Celular",
+    "RegistrationDate": "2000-10-31 00:00:00.000",
+    "Price": "0.01"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "183",
+    "Name": "Teste/Avaliação Geral - Celular",
+    "Code": "06.33",
+    "Description": "Teste/Avaliação Geral - Celular",
+    "RegistrationDate": "2000-10-31 00:00:00.000",
+    "Price": "0.01"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "184",
+    "Name": "Reparo Estágio Transmissor - Celular",
+    "Code": "06.34",
+    "Description": "Reparo Estágio Transmissor - Celular",
+    "RegistrationDate": "2000-10-31 00:00:00.000",
+    "Price": "0.01"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "185",
+    "Name": "Reparo Áudio de Recepção - Celular",
+    "Code": "06.35",
+    "Description": "Reparo Áudio de Recepção - Celular",
+    "RegistrationDate": "2000-10-31 00:00:00.000",
+    "Price": "0.01"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "186",
+    "Name": "Reparo Áudio de Recepção - Celular",
+    "Code": "06.36",
+    "Description": "Reparo Áudio de Recepção - Celular",
+    "RegistrationDate": "2000-10-31 00:00:00.000",
+    "Price": "0.01"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "187",
+    "Name": "Reprogramação NAM/IRDB/Função - Celular",
+    "Code": "06.37",
+    "Description": "Reprogramação NAM/IRDB/Função - Celular",
+    "RegistrationDate": "2000-10-31 00:00:00.000",
+    "Price": "0.01"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "188",
+    "Name": "Reparo Teclado/Controle - Celular",
+    "Code": "06.38",
+    "Description": "Reparo Teclado/Controle - Celular",
+    "RegistrationDate": "2000-10-31 00:00:00.000",
+    "Price": "0.01"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "189",
+    "Name": "Substituição da Bateria - Celular",
+    "Code": "06.39",
+    "Description": "Substituição da Bateria - Celular",
+    "RegistrationDate": "2000-10-31 00:00:00.000",
+    "Price": "0.01"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "190",
+    "Name": "Teste/Análise da Bateria - Celular",
+    "Code": "06.40",
+    "Description": "Teste/Análise da Bateria - Celular",
+    "RegistrationDate": "2000-10-31 00:00:00.000",
+    "Price": "0.01"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "191",
+    "Name": "Reparo PCI flexível - Celular",
+    "Code": "06.41",
+    "Description": "Reparo PCI flexível - Celular",
+    "RegistrationDate": "2000-10-31 00:00:00.000",
+    "Price": "0.01"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "192",
+    "Name": "Ressolda da placa - Celular",
+    "Code": "06.42",
+    "Description": "Ressolda da placa - Celular",
+    "RegistrationDate": "2000-10-31 00:00:00.000",
+    "Price": "0.01"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "193",
+    "Name": "Reset lógico - Celular",
+    "Code": "06.43",
+    "Description": "Reset lógico - Celular",
+    "RegistrationDate": "2000-10-31 00:00:00.000",
+    "Price": "0.01"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "194",
+    "Name": "Ajuste Geral de Parâmetros - Celular",
+    "Code": "06.44",
+    "Description": "Ajuste Geral de Parâmetros - Celular",
+    "RegistrationDate": "2000-10-31 00:00:00.000",
+    "Price": "0.01"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "195",
+    "Name": "Reposicionamento do Speaker - Celular",
+    "Code": "06.45",
+    "Description": "Reposicionamento do Speaker - Celular",
+    "RegistrationDate": "2000-10-31 00:00:00.000",
+    "Price": "0.01"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "196",
+    "Name": "Telefone Premium",
+    "Code": "07.41",
+    "Description": "Telefone Premium",
+    "RegistrationDate": "2000-12-14 00:00:00.000",
+    "Price": "0.01"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "197",
+    "Name": "Fone para Telefone",
+    "Code": "07.42",
+    "Description": "Fone para Telefone",
+    "RegistrationDate": "2000-12-14 00:00:00.000",
+    "Price": "0.01"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "198",
+    "Name": "Base para Telefone",
+    "Code": "07.43",
+    "Description": "Base para Telefone",
+    "RegistrationDate": "2000-12-14 00:00:00.000",
+    "Price": "0.01"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "199",
+    "Name": "Placa lógica para telefone",
+    "Code": "07.44",
+    "Description": "Placa lógica para telefone",
+    "RegistrationDate": "2000-12-14 00:00:00.000",
+    "Price": "0.01"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "200",
+    "Name": "Interruptor de volume para telefone",
+    "Code": "07.45",
+    "Description": "Interruptor de volume para telefone",
+    "RegistrationDate": "2000-12-15 00:00:00.000",
+    "Price": "0.01"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "201",
+    "Name": "Interruptor pulse/tone de telefone",
+    "Code": "07.46",
+    "Description": "Interruptor pulse/tone de telefone",
+    "RegistrationDate": "2000-12-15 00:00:00.000",
+    "Price": "0.01"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "202",
+    "Name": "Chip principal para telefone",
+    "Code": "07.47",
+    "Description": "Chip principal para telefone",
+    "RegistrationDate": "2000-12-15 00:00:00.000",
+    "Price": "0.01"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "203",
+    "Name": "Placa de circuito para telefone",
+    "Code": "07.48",
+    "Description": "Placa de circuito para telefone",
+    "RegistrationDate": "2000-12-15 00:00:00.000",
+    "Price": "0.01"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "204",
+    "Name": "Campainha para telefone",
+    "Code": "07.49",
+    "Description": "Campainha para telefone",
+    "RegistrationDate": "2000-12-15 00:00:00.000",
+    "Price": "0.01"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "205",
+    "Name": "Teclas principais para telefone",
+    "Code": "07.50",
+    "Description": "Teclas principais para telefone",
+    "RegistrationDate": "2000-12-15 00:00:00.000",
+    "Price": "0.01"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "206",
+    "Name": "Teclas auxiliares para telefone",
+    "Code": "07.51",
+    "Description": "Teclas auxiliares para telefone",
+    "RegistrationDate": "2000-12-15 00:00:00.000",
+    "Price": "0.01"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "207",
+    "Name": "Microfone para telefone",
+    "Code": "07.53",
+    "Description": "Microfone para telefone",
+    "RegistrationDate": "2000-12-15 00:00:00.000",
+    "Price": "0.01"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "208",
+    "Name": "Alto Falante para Telefones",
+    "Code": "07.54",
+    "Description": "Alto Falante para Telefones",
+    "RegistrationDate": "2000-12-15 00:00:00.000",
+    "Price": "0.01"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "209",
+    "Name": "Estrutura plástica do fone de telefone",
+    "Code": "07.55",
+    "Description": "Estrutura plástica do fone de telefone",
+    "RegistrationDate": "2000-12-15 00:00:00.000",
+    "Price": "0.01"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "210",
+    "Name": "Fio que liga fone ao telefone",
+    "Code": "07.56",
+    "Description": "Fio que liga fone ao telefone",
+    "RegistrationDate": "2000-12-15 00:00:00.000",
+    "Price": "0.01"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "211",
+    "Name": "Fio que liga telefone à tomada",
+    "Code": "07.57",
+    "Description": "Fio que liga telefone à tomada",
+    "RegistrationDate": "2000-12-15 00:00:00.000",
+    "Price": "0.01"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "212",
+    "Name": "Telefone",
+    "Code": "08.23",
+    "Description": "Telefone",
+    "RegistrationDate": "2000-12-15 00:00:00.000",
+    "Price": "0.01"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "213",
+    "Name": "Carroceria Acabada Jipe",
+    "Code": "07.59",
+    "Description": "Carroceria Acabada",
+    "RegistrationDate": "2001-08-21 00:00:00.000",
+    "Price": "3000"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "214",
+    "Name": "Painel de Jipe",
+    "Code": "07.60",
+    "Description": "Painel de Jipe",
+    "RegistrationDate": "2001-08-21 00:00:00.000",
+    "Price": "550"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "215",
+    "Name": "Tubos para Chassi Jipe",
+    "Code": "07.61",
+    "Description": "Tubos para Chassi",
+    "RegistrationDate": "2001-08-21 00:00:00.000",
+    "Price": "10"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "216",
+    "Name": "Eixo Traseiro Jipe",
+    "Code": "07.62",
+    "Description": "Eixo Traseiro",
+    "RegistrationDate": "2001-08-21 00:00:00.000",
+    "Price": "400"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "217",
+    "Name": "Eixo Dianteiro Jipe",
+    "Code": "07.63",
+    "Description": "Eixo Dianteiro",
+    "RegistrationDate": "2001-08-21 00:00:00.000",
+    "Price": "400"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "218",
+    "Name": "Tanque de Combustível Jipe",
+    "Code": "07.64",
+    "Description": "Tanque de Combustível",
+    "RegistrationDate": "2001-08-21 00:00:00.000",
+    "Price": "600"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "219",
+    "Name": "Suspensão Jipe",
+    "Code": "07.65",
+    "Description": "Suspensão",
+    "RegistrationDate": "2001-08-21 00:00:00.000",
+    "Price": "350"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "220",
+    "Name": "Power Train Jipe",
+    "Code": "07.66",
+    "Description": "Power Train",
+    "RegistrationDate": "2001-08-21 00:00:00.000",
+    "Price": "150"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "221",
+    "Name": "Motor MWM",
+    "Code": "07.67",
+    "Description": "Motor MWM",
+    "RegistrationDate": "2001-08-21 00:00:00.000",
+    "Price": "1500"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "222",
+    "Name": "Caixa de Marchas Jipe",
+    "Code": "07.68",
+    "Description": "Caixa de Marchas",
+    "RegistrationDate": "2001-08-21 00:00:00.000",
+    "Price": "1200"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "223",
+    "Name": "Transmissão Jipe",
+    "Code": "07.69",
+    "Description": "Transmissão",
+    "RegistrationDate": "2001-08-21 00:00:00.000",
+    "Price": "800"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "224",
+    "Name": "Carroceria Jipe",
+    "Code": "07.70",
+    "Description": "Carroceria",
+    "RegistrationDate": "2001-08-21 00:00:00.000",
+    "Price": "1000"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "225",
+    "Name": "Carcaça Principal Jipe",
+    "Code": "07.71",
+    "Description": "Carcaça Principal",
+    "RegistrationDate": "2001-08-21 00:00:00.000",
+    "Price": "350"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "226",
+    "Name": "Capô Jipe",
+    "Code": "07.72",
+    "Description": "Capô",
+    "RegistrationDate": "2001-08-21 00:00:00.000",
+    "Price": "125"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "227",
+    "Name": "Porta Jipe",
+    "Code": "07.73",
+    "Description": "Porta",
+    "RegistrationDate": "2001-08-21 00:00:00.000",
+    "Price": "400"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "228",
+    "Name": "Fibra de Vidro",
+    "Code": "07.74",
+    "Description": "Fibra de Vidro",
+    "RegistrationDate": "2001-08-21 00:00:00.000",
+    "Price": "5"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "229",
+    "Name": "Forro de Carroceria Jipe",
+    "Code": "07.75",
+    "Description": "Forro de Carroceria",
+    "RegistrationDate": "2001-08-21 00:00:00.000",
+    "Price": "30"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "230",
+    "Name": "Chicote de Fios para Jipe",
+    "Code": "07.76",
+    "Description": "Chicote de Fios",
+    "RegistrationDate": "2001-08-21 00:00:00.000",
+    "Price": "30"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "231",
+    "Name": "Estrutura Principal do Chassi Jipe",
+    "Code": "07.77",
+    "Description": "Estrutura Principal do Chassi",
+    "RegistrationDate": "2001-08-21 00:00:00.000",
+    "Price": "500"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "232",
+    "Name": "Tubo de ferro fundido DN 200 mm x 6.00 m",
+    "Code": "08.09",
+    "Description": "Tubo de ferro fundido DN 200 mm x 6.00 m",
+    "RegistrationDate": "2001-12-04 00:00:00.000",
+    "Price": "200"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "233",
+    "Name": "Monitor 15",
+    "Code": "07.78",
+    "Description": "Monitor 15",
+    "RegistrationDate": "2001-12-04 00:00:00.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "234",
+    "Name": "Verniz",
+    "Code": "07.79",
+    "Description": "Verniz",
+    "RegistrationDate": "2001-12-04 00:00:00.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "235",
+    "Name": "Verniz Escuro",
+    "Code": "07.80",
+    "Description": "Verniz Escuro",
+    "RegistrationDate": "2001-12-04 00:00:00.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "236",
+    "Name": "Ferro liquido",
+    "Code": "07.81",
+    "Description": "Ferro liquido",
+    "RegistrationDate": "2001-12-04 00:00:00.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "237",
+    "Name": "Ferro líquido cinzento",
+    "Code": "07.82",
+    "Description": "Ferro líquido cinzento",
+    "RegistrationDate": "2001-12-04 00:00:00.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "238",
+    "Name": "Serragem Fina",
+    "Code": "07.83",
+    "Description": "Serragem Fina",
+    "RegistrationDate": "2002-03-22 00:00:00.000",
+    "Price": "3"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "239",
+    "Name": "Vulcanização de Pneu",
+    "Code": "06.46",
+    "Description": "Vulcanizar Pneu",
+    "RegistrationDate": "2002-07-17 00:00:00.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "240",
+    "Name": "Colagem de Pneu",
+    "Code": "06.47",
+    "Description": "Colagem de Pneu",
+    "RegistrationDate": "2002-07-17 00:00:00.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "241",
+    "Name": "Remoção de Pneu",
+    "Code": "06.48",
+    "Description": "Remoção de Pneu",
+    "RegistrationDate": "2002-07-17 00:00:00.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "242",
+    "Name": "Desempeno de Roda",
+    "Code": "06.49",
+    "Description": "Desempeno de Roda",
+    "RegistrationDate": "2002-07-17 00:00:00.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "243",
+    "Name": "Regulagem de Roleta",
+    "Code": "06.50",
+    "Description": "Regulagem de Roleta",
+    "RegistrationDate": "2002-07-17 00:00:00.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "244",
+    "Name": "Troca de Pneu",
+    "Code": "06.51",
+    "Description": "Troca de Pneu",
+    "RegistrationDate": "2002-07-17 00:00:00.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "245",
+    "Name": "Limpeza de Pneus",
+    "Code": "06.52",
+    "Description": "Limpeza de Pneus",
+    "RegistrationDate": "2002-07-17 00:00:00.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "246",
+    "Name": "Inspeção Inicial de Pneus",
+    "Code": "06.53",
+    "Description": "Inspeção Inicial de Pneus",
+    "RegistrationDate": "2002-07-17 00:00:00.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "247",
+    "Name": "Raspagem de Pneus",
+    "Code": "06.54",
+    "Description": "Raspagem de Pneus",
+    "RegistrationDate": "2002-07-17 00:00:00.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "248",
+    "Name": "Análise de Carcaça de Pneus",
+    "Code": "06.55",
+    "Description": "Análise de Carcaça de Pneus",
+    "RegistrationDate": "2002-07-17 00:00:00.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "249",
+    "Name": "Aplicação de Banda en Pneus",
+    "Code": "06.56",
+    "Description": "Aplicação de Banda en Pneus",
+    "RegistrationDate": "2002-07-17 00:00:00.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "250",
+    "Name": "Inspeção Final de Pneus",
+    "Code": "06.57",
+    "Description": "Inspeção Final de Pneus",
+    "RegistrationDate": "2002-07-17 00:00:00.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "251",
+    "Name": "Camisa Polo",
+    "Code": "08.25",
+    "Description": "Camisa Polo",
+    "RegistrationDate": "2003-06-26 00:00:00.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "252",
+    "Name": "Linha Acrílico",
+    "Code": "08.26",
+    "Description": "Linha Acrílico",
+    "RegistrationDate": "2003-06-26 00:00:00.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "253",
+    "Name": "Mini-Formulário Rosa",
+    "Code": "02.06",
+    "Description": "DVD",
+    "RegistrationDate": "2003-11-11 00:00:00.000",
+    "Price": "12.5"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "254",
+    "Name": "Cd Regravável TDK",
+    "Code": "01.05",
+    "Description": "Cd Palyer",
+    "RegistrationDate": "2003-11-11 00:00:00.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "255",
+    "Name": "Mini-Formulário Verde",
+    "Code": "02.07",
+    "Description": "Mini Form Verde",
+    "RegistrationDate": "2003-11-11 00:00:00.000",
+    "Price": "9.5"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "256",
+    "Name": "Serviços de Transporte",
+    "Code": "06.58",
+    "Description": "Serviços de Transporte",
+    "RegistrationDate": "2003-12-02 00:00:00.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "257",
+    "Name": "Kit Cd",
+    "Code": "01.06",
+    "Description": "Kit Cd",
+    "RegistrationDate": "2004-11-05 00:00:00.000",
+    "Price": "35"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "258",
+    "Name": "Camisa Polo",
+    "Code": "08.27",
+    "Description": "Camisa Polo",
+    "RegistrationDate": "2003-06-26 00:00:00.000",
+    "Price": "12"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "259",
+    "Name": "Linha Acrílico",
+    "Code": "08.28",
+    "Description": "Linha Acrílico",
+    "RegistrationDate": "2003-06-26 00:00:00.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "260",
+    "Name": "Camisa Polo. Medio. Amarelo",
+    "Code": "08.27.0201",
+    "Description": "Camisa Polo",
+    "RegistrationDate": "2003-06-26 00:00:00.000",
+    "Price": "12"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "261",
+    "Name": "Camisa Polo. Medio. Azul",
+    "Code": "08.27.0205",
+    "Description": "Camisa Polo",
+    "RegistrationDate": "2003-06-26 00:00:00.000",
+    "Price": "12"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "262",
+    "Name": "Camisa Polo. Medio. Branco",
+    "Code": "08.27.0202",
+    "Description": "Camisa Polo",
+    "RegistrationDate": "2003-06-26 00:00:00.000",
+    "Price": "12"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "263",
+    "Name": "Camisa Polo. Medio. Preto",
+    "Code": "08.27.0203",
+    "Description": "Camisa Polo",
+    "RegistrationDate": "2003-06-26 00:00:00.000",
+    "Price": "12"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "264",
+    "Name": "Camisa Polo. Medio. Vermelho",
+    "Code": "08.27.0204",
+    "Description": "Camisa Polo",
+    "RegistrationDate": "2003-06-26 00:00:00.000",
+    "Price": "12"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "265",
+    "Name": "Camisa Polo. Pequeno. Amarelo",
+    "Code": "08.27.0101",
+    "Description": "Camisa Polo",
+    "RegistrationDate": "2003-06-26 00:00:00.000",
+    "Price": "12"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "266",
+    "Name": "Camisa Polo. Pequeno. Azul",
+    "Code": "08.27.0105",
+    "Description": "Camisa Polo",
+    "RegistrationDate": "2003-06-26 00:00:00.000",
+    "Price": "12"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "267",
+    "Name": "Camisa Polo. Pequeno. Branco",
+    "Code": "08.27.0102",
+    "Description": "Camisa Polo",
+    "RegistrationDate": "2003-06-26 00:00:00.000",
+    "Price": "12"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "268",
+    "Name": "Camisa Polo. Pequeno. Preto",
+    "Code": "08.27.0103",
+    "Description": "Camisa Polo",
+    "RegistrationDate": "2003-06-26 00:00:00.000",
+    "Price": "12"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "269",
+    "Name": "Camisa Polo. Pequeno. Vermelho",
+    "Code": "08.27.0104",
+    "Description": "Camisa Polo",
+    "RegistrationDate": "2003-06-26 00:00:00.000",
+    "Price": "12"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "270",
+    "Name": "Linha Acrílico. Titulo 20 Ne. Amarelo",
+    "Code": "08.28.0101",
+    "Description": "Linha Acrílico",
+    "RegistrationDate": "2003-06-26 00:00:00.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "271",
+    "Name": "Linha Acrílico. Titulo 20 Ne. Azul",
+    "Code": "08.28.0105",
+    "Description": "Linha Acrílico",
+    "RegistrationDate": "2003-06-26 00:00:00.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "272",
+    "Name": "Linha Acrílico. Titulo 20 Ne. Branco",
+    "Code": "08.28.0102",
+    "Description": "Linha Acrílico",
+    "RegistrationDate": "2003-06-26 00:00:00.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "273",
+    "Name": "Linha Acrílico. Titulo 20 Ne. Preto",
+    "Code": "08.28.0103",
+    "Description": "Linha Acrílico",
+    "RegistrationDate": "2003-06-26 00:00:00.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "274",
+    "Name": "Linha Acrílico. Titulo 20 Ne. Vermelho",
+    "Code": "08.28.0104",
+    "Description": "Linha Acrílico",
+    "RegistrationDate": "2003-06-26 00:00:00.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "275",
+    "Name": "Linha Acrílico. Titulo 22 Ne. Amarelo",
+    "Code": "08.28.0201",
+    "Description": "Linha Acrílico",
+    "RegistrationDate": "2003-06-26 00:00:00.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "276",
+    "Name": "Linha Acrílico. Titulo 22 Ne. Azul",
+    "Code": "08.28.0205",
+    "Description": "Linha Acrílico",
+    "RegistrationDate": "2003-06-26 00:00:00.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "277",
+    "Name": "Linha Acrílico. Titulo 22 Ne. Branco",
+    "Code": "08.28.0202",
+    "Description": "Linha Acrílico",
+    "RegistrationDate": "2003-06-26 00:00:00.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "278",
+    "Name": "Linha Acrílico. Titulo 22 Ne. Preto",
+    "Code": "08.28.0203",
+    "Description": "Linha Acrílico",
+    "RegistrationDate": "2003-06-26 00:00:00.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "279",
+    "Name": "Linha Acrílico. Titulo 22 Ne. Vermelho",
+    "Code": "08.28.0204",
+    "Description": "Linha Acrílico",
+    "RegistrationDate": "2003-06-26 00:00:00.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "280",
+    "Name": "Linha Acrílico. Titulo 30 Ne. Amarelo",
+    "Code": "08.28.0301",
+    "Description": "Linha Acrílico",
+    "RegistrationDate": "2003-06-26 00:00:00.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "281",
+    "Name": "Linha Acrílico. Titulo 30 Ne. Azul",
+    "Code": "08.28.0305",
+    "Description": "Linha Acrílico",
+    "RegistrationDate": "2003-06-26 00:00:00.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "282",
+    "Name": "Linha Acrílico. Titulo 30 Ne. Branco",
+    "Code": "08.28.0302",
+    "Description": "Linha Acrílico",
+    "RegistrationDate": "2003-06-26 00:00:00.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "283",
+    "Name": "Linha Acrílico. Titulo 30 Ne. Preto",
+    "Code": "08.28.0303",
+    "Description": "Linha Acrílico",
+    "RegistrationDate": "2003-06-26 00:00:00.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "284",
+    "Name": "Linha Acrílico. Titulo 30 Ne. Vermelho",
+    "Code": "08.28.0304",
+    "Description": "Linha Acrílico",
+    "RegistrationDate": "2003-06-26 00:00:00.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "285",
+    "Name": "Linha Acrílico. Titulo 30 Ne. Amarelo",
+    "Code": "08.28.0401",
+    "Description": "Linha Acrílico",
+    "RegistrationDate": "2003-06-26 00:00:00.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "286",
+    "Name": "Linha Acrílico. Titulo 30 Ne. Azul",
+    "Code": "08.28.0405",
+    "Description": "Linha Acrílico",
+    "RegistrationDate": "2003-06-26 00:00:00.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "287",
+    "Name": "Linha Acrílico. Titulo 30 Ne. Branco",
+    "Code": "08.28.0402",
+    "Description": "Linha Acrílico",
+    "RegistrationDate": "2003-06-26 00:00:00.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "288",
+    "Name": "Linha Acrílico. Titulo 30 Ne. Preto",
+    "Code": "08.28.0403",
+    "Description": "Linha Acrílico",
+    "RegistrationDate": "2003-06-26 00:00:00.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "289",
+    "Name": "Linha Acrílico. Titulo 30 Ne. Vermelho",
+    "Code": "08.28.0404",
+    "Description": "Linha Acrílico",
+    "RegistrationDate": "2003-06-26 00:00:00.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "290",
+    "Name": "Camisa Polo. Grande. Amarelo",
+    "Code": "08.27.0301",
+    "Description": "Camisa Polo",
+    "RegistrationDate": "2003-06-26 00:00:00.000",
+    "Price": "12"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "291",
+    "Name": "Camisa Polo. Grande. Azul",
+    "Code": "08.27.0305",
+    "Description": "Camisa Polo",
+    "RegistrationDate": "2003-06-26 00:00:00.000",
+    "Price": "12"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "292",
+    "Name": "Camisa Polo. Grande. Branco",
+    "Code": "08.27.0302",
+    "Description": "Camisa Polo",
+    "RegistrationDate": "2003-06-26 00:00:00.000",
+    "Price": "12"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "293",
+    "Name": "Camisa Polo. Grande. Preto",
+    "Code": "08.27.0303",
+    "Description": "Camisa Polo",
+    "RegistrationDate": "2003-06-26 00:00:00.000",
+    "Price": "12"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "294",
+    "Name": "Camisa Polo. Grande. Vermelho",
+    "Code": "08.27.0304",
+    "Description": "Camisa Polo",
+    "RegistrationDate": "2003-06-26 00:00:00.000",
+    "Price": "12"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "295",
+    "Name": "Insumos ou Bens de consumo",
+    "Code": "10",
+    "Description": "Insumos ou produtos comprados",
+    "RegistrationDate": "2005-09-16 00:00:00.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "296",
+    "Name": "Drive 1.44",
+    "Code": "10.01",
+    "Description": "Drive 1.44",
+    "RegistrationDate": "2005-09-16 00:00:00.000",
+    "Price": "27"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "297",
+    "Name": "Drive CD-ROM BRAVIEW 52X - PRETO",
+    "Code": "10.02",
+    "Description": "Drive CD-ROM BRAVIEW 52X - PRETO",
+    "RegistrationDate": "2005-09-16 00:00:00.000",
+    "Price": "69"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "298",
+    "Name": "Drive CD-ROM LG 52X GCR-8523B",
+    "Code": "10.03",
+    "Description": "Drive CD-ROM LG 52X GCR-8523B",
+    "RegistrationDate": "2005-09-16 00:00:00.000",
+    "Price": "72"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "299",
+    "Name": "Drive CD-ROM SAMSUNG 52X - SH-152AEBSW",
+    "Code": "10.04",
+    "Description": "Drive CD-ROM SAMSUNG 52X - SH-152AEBSW",
+    "RegistrationDate": "2005-09-16 00:00:00.000",
+    "Price": "67"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "300",
+    "Name": "Fonte Enermax 350W - EG365P-VE FMA(24P)",
+    "Code": "10.05",
+    "Description": "Fonte Enermax 350W - EG365P-VE FMA(24P)",
+    "RegistrationDate": "2005-09-16 00:00:00.000",
+    "Price": "198"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "301",
+    "Name": "Fonte Halion 450W - 220V",
+    "Code": "10.06",
+    "Description": "Fonte Halion 450W - 220V",
+    "RegistrationDate": "2005-09-16 00:00:00.000",
+    "Price": "35"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "302",
+    "Name": "Fonte Mtek 550W ATX-550P2L",
+    "Code": "10.07",
+    "Description": "Fonte Mtek 550W ATX-550P2L",
+    "RegistrationDate": "2005-09-16 00:00:00.000",
+    "Price": "59"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "303",
+    "Name": "Gabinete 3 Baias Noble Azul",
+    "Code": "10.08",
+    "Description": "Gabinete 3 Baias Noble Azul",
+    "RegistrationDate": "2005-09-16 00:00:00.000",
+    "Price": "109"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "304",
+    "Name": "Gabinete 4 baias Simple 701 Preto S/ Fonte",
+    "Code": "10.09",
+    "Description": "Gabinete 4 baias Simple 701 Preto S/ Fonte",
+    "RegistrationDate": "2005-09-16 00:00:00.000",
+    "Price": "175"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "305",
+    "Name": "Gabinete 4 Baias UPSON 450W-P4 - SK333",
+    "Code": "10.10",
+    "Description": "Gabinete 4 Baias UPSON 450W-P4 - SK333",
+    "RegistrationDate": "2005-09-16 00:00:00.000",
+    "Price": "102"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "306",
+    "Name": "Gravador CD LG 52X32X52 - GCE-8526B OEM",
+    "Code": "10.11",
+    "Description": "Gravador CD LG 52X32X52 - GCE-8526B OEM",
+    "RegistrationDate": "2005-09-16 00:00:00.000",
+    "Price": "119"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "307",
+    "Name": "Gravador CD Samsung 52X32X52 - TS-H292A/CSBN OEM Preto",
+    "Code": "10.12",
+    "Description": "Gravador CD Samsung 52X32X52 - TS-H292A/CSBN OEM Preto",
+    "RegistrationDate": "2005-09-16 00:00:00.000",
+    "Price": "115"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "308",
+    "Name": "Gravador DVD LG GSA 4163B Dual Layer Bulk - Branco",
+    "Code": "10.13",
+    "Description": "Gravador DVD LG GSA 4163B Dual Layer Bulk - Branco",
+    "RegistrationDate": "2005-09-16 00:00:00.000",
+    "Price": "269"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "309",
+    "Name": "HD ATA 40GB MAXTOR - 6E040L0",
+    "Code": "10.14",
+    "Description": "HD ATA 40GB MAXTOR - 6E040L0",
+    "RegistrationDate": "2005-09-16 00:00:00.000",
+    "Price": "229"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "310",
+    "Name": "HD ATA 80GB SAMSUNG - SP0802N",
+    "Code": "10.15",
+    "Description": "HD ATA 80GB SAMSUNG - SP0802N",
+    "RegistrationDate": "2005-09-16 00:00:00.000",
+    "Price": "259"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "311",
+    "Name": "HD ATA 120GB MAXTOR - 6Y120L0",
+    "Code": "10.16",
+    "Description": "HD ATA 120GB MAXTOR - 6Y120L0",
+    "RegistrationDate": "2005-09-16 00:00:00.000",
+    "Price": "339"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "312",
+    "Name": "MB A64 S754 ASUS K8N",
+    "Code": "10.17",
+    "Description": "MB A64 S754 ASUS K8N",
+    "RegistrationDate": "2005-09-16 00:00:00.000",
+    "Price": "329"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "313",
+    "Name": "MB A64 S939 GIGABYTE GA-K8N ULTRA-SLI",
+    "Code": "10.18",
+    "Description": "MB A64 S939 GIGABYTE GA-K8N ULTRA-SLI",
+    "RegistrationDate": "2005-09-16 00:00:00.000",
+    "Price": "759"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "314",
+    "Name": "MB P4 S478 ASUS P4S800",
+    "Code": "10.19",
+    "Description": "MB P4 S478 ASUS P4S800",
+    "RegistrationDate": "2005-09-16 00:00:00.000",
+    "Price": "279"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "315",
+    "Name": "MB P4 S775 ABIT AS8",
+    "Code": "10.20",
+    "Description": "MB P4 S775 ABIT AS8",
+    "RegistrationDate": "2005-09-16 00:00:00.000",
+    "Price": "598"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "316",
+    "Name": "Memória DDR266 128MB",
+    "Code": "10.21",
+    "Description": "Memoria DDR266 128MB",
+    "RegistrationDate": "2005-09-16 00:00:00.000",
+    "Price": "75"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "317",
+    "Name": "Memória DDR333 256MB",
+    "Code": "10.22",
+    "Description": "Memoria DDR333 256MB",
+    "RegistrationDate": "2005-09-16 00:00:00.000",
+    "Price": "95"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "318",
+    "Name": "Memória DDR333 512MB",
+    "Code": "10.23",
+    "Description": "Memoria DDR333 512MB",
+    "RegistrationDate": "2005-09-16 00:00:00.000",
+    "Price": "179"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "319",
+    "Name": "Placa de Som CMI 8338 PCI 4 Canais",
+    "Code": "10.24",
+    "Description": "Placa de Som CMI 8338 PCI 4 Canais",
+    "RegistrationDate": "2005-09-16 00:00:00.000",
+    "Price": "30"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "320",
+    "Name": "Placa de Som Creative Audigy 2 ZS 7.1 - SB0350 BOX",
+    "Code": "10.25",
+    "Description": "Placa de Som Creative Audigy 2 ZS 7.1 - SB0350 BOX",
+    "RegistrationDate": "2005-09-16 00:00:00.000",
+    "Price": "439"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "321",
+    "Name": "Processador Celeron D S478 2.4Ghz FSB533 - 256KB BOX",
+    "Code": "10.26",
+    "Description": "Processador Celeron D S478 2.4Ghz FSB533 - 256KB BOX",
+    "RegistrationDate": "2005-09-16 00:00:00.000",
+    "Price": "295"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "322",
+    "Name": "Processador K7 S462 Athlon XP Barton 2800+ 2083MHZ BOX 333MHZ",
+    "Code": "10.27",
+    "Description": "Processador K7 S462 Athlon XP Barton 2800+ 2083MHZ BOX 333MHZ",
+    "RegistrationDate": "2005-09-16 00:00:00.000",
+    "Price": "439"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "323",
+    "Name": "Processador K7 S462 Duron 1800MHZ",
+    "Code": "10.28",
+    "Description": "Processador K7 S462 Duron 1800MHZ",
+    "RegistrationDate": "2005-09-16 00:00:00.000",
+    "Price": "175"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "324",
+    "Name": "Processador K7 S462 SEMPRON 2200+ 1500MHZ BOX - 333MHz",
+    "Code": "10.29",
+    "Description": "Processador K7 S462 SEMPRON 2200+ 1500MHZ BOX - 333MHz",
+    "RegistrationDate": "2005-09-16 00:00:00.000",
+    "Price": "239"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "325",
+    "Name": "Processador K8 S754 Athlon64 2800+ 1800MHz 512KB BOX",
+    "Code": "10.30",
+    "Description": "Processador K8 S754 Athlon64 2800+ 1800MHz 512KB BOX",
+    "RegistrationDate": "2005-09-16 00:00:00.000",
+    "Price": "459"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "326",
+    "Name": "Processador P4 S478 2.26GHZ FSB533 - 512KB - BOX",
+    "Code": "10.31",
+    "Description": "Processador P4 S478 2.26GHZ FSB533 - 512KB - BOX",
+    "RegistrationDate": "2005-09-16 00:00:00.000",
+    "Price": "439"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "327",
+    "Name": "Rede 3COM 10/100 3C905CX-TXM",
+    "Code": "10.32",
+    "Description": "Rede 3COM 10/100 3C905CX-TXM",
+    "RegistrationDate": "2005-09-16 00:00:00.000",
+    "Price": "69"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "328",
+    "Name": "Rede D-link PCI 10/100/1000 - DGE-530T",
+    "Code": "10.33",
+    "Description": "Rede D-link PCI 10/100/1000 - DGE-530T",
+    "RegistrationDate": "2005-09-16 00:00:00.000",
+    "Price": "98"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "329",
+    "Name": "Rede Encore PCI 10/100 - ENL-832-TX+",
+    "Code": "10.34",
+    "Description": "Rede Encore PCI 10/100 - ENL-832-TX+",
+    "RegistrationDate": "2005-09-16 00:00:00.000",
+    "Price": "18"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "330",
+    "Name": "VGA AGP ATI 7000 64MB/64Bits Power Color - RV6DE-NB3425",
+    "Code": "10.35",
+    "Description": "VGA AGP ATI 7000 64MB/64Bits Power Color - RV6DE-NB3425",
+    "RegistrationDate": "2005-09-16 00:00:00.000",
+    "Price": "169"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "331",
+    "Name": "VGA AGP ATI 9250 128MB/128Bits Power Color - R92U-LC3",
+    "Code": "10.36",
+    "Description": "VGA AGP ATI 9250 128MB/128Bits Power Color - R92U-LC3",
+    "RegistrationDate": "2005-09-16 00:00:00.000",
+    "Price": "309"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "332",
+    "Name": "VGA AGP ATI 9600PRO 256MB/128Bits Power Color - R96-HD3",
+    "Code": "10.37",
+    "Description": "VGA AGP ATI 9600PRO 256MB/128Bits Power Color - R96-HD3",
+    "RegistrationDate": "2005-09-16 00:00:00.000",
+    "Price": "579"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "333",
+    "Name": "Polietileno",
+    "Code": "10.38",
+    "Description": "Polietileno",
+    "RegistrationDate": "2005-11-16 00:00:00.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "334",
+    "Name": "Saco Plástico de Polietileno",
+    "Code": "10.39",
+    "Description": "Saco Plástico de Polietileno superior a 1 litro",
+    "RegistrationDate": "2005-11-16 00:00:00.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "335",
+    "Name": "Garrafas de vidro. capacidade superior a 1 litro",
+    "Code": "10.40",
+    "Description": "Garrafas de vidro. de capacidade superior a 1 litro",
+    "RegistrationDate": "2005-11-16 00:00:00.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "336",
+    "Name": "Tampas metálicas de cápsulas de rosca",
+    "Code": "10.41",
+    "Description": "Tampas metálicas de cápsulas de rosca",
+    "RegistrationDate": "2005-11-16 00:00:00.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "337",
+    "Name": "Álcool",
+    "Code": "10.42",
+    "Description": "Álcool",
+    "RegistrationDate": "2006-04-25 14:37:13.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "338",
+    "Name": "Gasolina",
+    "Code": "10.43",
+    "Description": "Gasolina",
+    "RegistrationDate": "2006-04-25 14:41:36.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "339",
+    "Name": "Gasolina Aditivada",
+    "Code": "10.44",
+    "Description": "Gasolina Aditivada",
+    "RegistrationDate": "2006-04-25 14:51:36.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "340",
+    "Name": "Diesel",
+    "Code": "10.45",
+    "Description": "Diesel",
+    "RegistrationDate": "2006-04-25 14:54:36.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "341",
+    "Name": "Tampas metálicas de cápsulas de rosca",
+    "Code": "07.84",
+    "Description": "Tampas metálicas de cápsulas de rosca",
+    "RegistrationDate": "2006-04-25 17:30:10.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "342",
+    "Name": "Gas Natural",
+    "Code": "07.85",
+    "Description": "Gas Natural",
+    "RegistrationDate": "2006-04-27 16:25:44.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "343",
+    "Name": "Energia Elétrica",
+    "Code": "06.59",
+    "Description": "Energia Elétrica",
+    "RegistrationDate": "2006-04-27 16:26:57.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "344",
+    "Name": "Garrafas de vidro. de capacidade superior a 1 litro",
+    "Code": "01.08",
+    "Description": "Garrafas de vidro. de capacidade superior a 1 litro",
+    "RegistrationDate": "2007-05-17 17:09:05.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "345",
+    "Name": "Tampas metálicas de cápsulas de rosca",
+    "Code": "01.09",
+    "Description": "Tampas metálicas de cápsulas de rosca",
+    "RegistrationDate": "2007-05-17 17:15:25.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "346",
+    "Name": "Máquinas",
+    "Code": "15",
+    "Description": "Máquinas",
+    "RegistrationDate": "2007-05-21 10:55:47.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "347",
+    "Name": "ECF Super Verbatim",
+    "Code": "15.01",
+    "Description": "ECF Super Verbatim",
+    "RegistrationDate": "2007-05-21 10:56:57.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "348",
+    "Name": "ECF N Embraer",
+    "Code": "15.02",
+    "Description": "ECF N Embraer",
+    "RegistrationDate": "2007-05-21 10:58:02.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "349",
+    "Name": "Remédios",
+    "Code": "16",
+    "Description": "Remédios",
+    "RegistrationDate": "2008-05-16 10:34:13.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "350",
+    "Name": "AAS 100MG - SANOFI SYNTHELABO",
+    "Code": "16.01",
+    "Description": "AAS 100MG - SANOFI SYNTHELABO",
+    "RegistrationDate": "2008-05-16 10:37:29.000",
+    "Price": "2.5"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "351",
+    "Name": "AMPLACILINA 1G EUROFARMA",
+    "Code": "16.02",
+    "Description": "AMPLACILINA 1G EUROFARMA",
+    "RegistrationDate": "2008-05-16 10:39:20.000",
+    "Price": "1.55"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "352",
+    "Name": "NOVALGINA GTS 500MG/20ML",
+    "Code": "16.03",
+    "Description": "NOVALGINA GTS 500MG/20ML",
+    "RegistrationDate": "2008-05-16 10:40:40.000",
+    "Price": "1.5"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "353",
+    "Name": "AGULHA DESCARTAVEL 40x12 BD",
+    "Code": "16.04",
+    "Description": "AGULHA DESCARTAVEL 40x12 BD",
+    "RegistrationDate": "2008-05-16 10:42:11.000",
+    "Price": "0.41"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "354",
+    "Name": "ALGODAO HIDROFILO 500GR CREMER",
+    "Code": "16.05",
+    "Description": "ALGODAO HIDROFILO 500GR CREMER",
+    "RegistrationDate": "2008-05-16 10:44:24.000",
+    "Price": "12.3825"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "355",
+    "Name": "Produtos",
+    "Code": "9",
+    "Description": "Produtos",
+    "RegistrationDate": "2005-11-04 00:00:00.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "356",
+    "Name": "Serviço de Consultoria Contabil e Fiscal (Interno)",
+    "Code": "1.01",
+    "Description": "Serviço de Instalação de Computadores",
+    "RegistrationDate": "2004-08-18 00:00:00.000",
+    "Price": "50"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "357",
+    "Name": "Serviço de Implantação de Softwares (externo)",
+    "Code": "1.02",
+    "Description": "Serviço de Manutenção de Softwares",
+    "RegistrationDate": "2004-08-18 00:00:00.000",
+    "Price": "100"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "358",
+    "Name": "Serviço de Manutenção de Internet (Contratado)",
+    "Code": "1.03",
+    "Description": "Serviço de Manutenção de Internet",
+    "RegistrationDate": "2004-08-18 00:00:00.000",
+    "Price": "350"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "359",
+    "Name": "Serviço de Suporte Técnico Interno",
+    "Code": "1.04",
+    "Description": "Serviço de Suporte Tecnico",
+    "RegistrationDate": "2004-08-18 00:00:00.000",
+    "Price": "250"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "360",
+    "Name": "Serviço de Suporte Técnico Externo",
+    "Code": "1.05",
+    "Description": "Serviço de Suporte Técnico Externo",
+    "RegistrationDate": "2004-08-18 00:00:00.000",
+    "Price": "70"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "361",
+    "Name": "Serviço de Conservação e Limpeza",
+    "Code": "1.06",
+    "Description": "Serviço de Limpeza",
+    "RegistrationDate": "2004-08-23 00:00:00.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "362",
+    "Name": "Palestras e Treinamentos",
+    "Code": "1.07",
+    "Description": "Palestras e Treinamentos",
+    "RegistrationDate": "2004-08-27 00:00:00.000",
+    "Price": "2000"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "363",
+    "Name": "Assistência Médica e congênere",
+    "Code": "1.08",
+    "Description": "Serviços",
+    "RegistrationDate": "2004-08-27 00:00:00.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "364",
+    "Name": "Impressos e Copias",
+    "Code": "1.09",
+    "Description": "Serviços reprog. diversos",
+    "RegistrationDate": "2004-08-27 00:00:00.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "365",
+    "Name": "Cimento",
+    "Code": "2.01",
+    "Description": "Cimento",
+    "RegistrationDate": "2005-06-01 00:00:00.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "366",
+    "Name": "Tijolo",
+    "Code": "2.02",
+    "Description": "Tijolo",
+    "RegistrationDate": "2005-06-01 00:00:00.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "367",
+    "Name": "Canetas",
+    "Code": "2.03",
+    "Description": "Canetas",
+    "RegistrationDate": "2005-06-01 00:00:00.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "368",
+    "Name": "Papel A4",
+    "Code": "2.04",
+    "Description": "Papel A4",
+    "RegistrationDate": "2005-06-01 00:00:00.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "369",
+    "Name": "Serviço Contrução Civil",
+    "Code": "1.10",
+    "Description": "Serviço Contrução Civil",
+    "RegistrationDate": "2005-06-02 00:00:00.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "370",
+    "Name": "Serviços Construção Civil",
+    "Code": "6.59",
+    "Description": "Serviços Construção Civil",
+    "RegistrationDate": "2005-11-04 00:00:00.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "371",
+    "Name": "Tipo Cerâmico Furado",
+    "Code": "9.89",
+    "Description": "Tipo Cerâmico Furado",
+    "RegistrationDate": "2005-11-04 00:00:00.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "372",
+    "Name": "Serviço de Manutenção de Internet",
+    "Code": "6.03",
+    "Description": "Serviço de Manutenção de Internet",
+    "RegistrationDate": "2005-11-04 00:00:00.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "373",
+    "Name": "Serviço de Instalação de Computadores",
+    "Code": "6.61",
+    "Description": "Serviço de Instalação de Computadores",
+    "RegistrationDate": "2005-11-04 00:00:00.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "374",
+    "Name": "Brita n° 1",
+    "Code": "9.84",
+    "Description": "Brita n° 1",
+    "RegistrationDate": "2005-11-04 00:00:00.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "375",
+    "Name": "Areia Comum",
+    "Code": "09.81",
+    "Description": "Areia Comum",
+    "RegistrationDate": "2000-01-19 00:00:00.000",
+    "Price": "0.01"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "376",
+    "Name": "Areia Lavada",
+    "Code": "09.82",
+    "Description": "Areia Lavada",
+    "RegistrationDate": "2000-01-19 00:00:00.000",
+    "Price": "2.09"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "377",
+    "Name": "Cimento Portland Comum",
+    "Code": "09.83",
+    "Description": "Cimento Portland Comum",
+    "RegistrationDate": "2000-01-19 00:00:00.000",
+    "Price": "0.63"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "378",
+    "Name": "Abertura da Caixa de Marcha",
+    "Code": "06.08",
+    "Description": "Abertura da Caixa de Marcha",
+    "RegistrationDate": "2000-08-09 00:00:00.000",
+    "Price": "0.01"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "379",
+    "Name": "Instalação do CD Player",
+    "Code": "06.09",
+    "Description": "Instalação do CD Player",
+    "RegistrationDate": "2000-08-09 00:00:00.000",
+    "Price": "0.01"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "380",
+    "Name": "Instalação do Velocímetro",
+    "Code": "06.10",
+    "Description": "Instalação do Velocímetro",
+    "RegistrationDate": "2000-08-09 00:00:00.000",
+    "Price": "0.01"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "381",
+    "Name": "Substituição do Jogo Anéis de Segmento",
+    "Code": "06.17",
+    "Description": "Substituição do Jogo Anéis de Segmento",
+    "RegistrationDate": "2000-08-09 00:00:00.000",
+    "Price": "0.01"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "382",
+    "Name": "Substituição do Filtro de Óleo",
+    "Code": "06.18",
+    "Description": "Substituição do Filtro de Óleo",
+    "RegistrationDate": "2000-08-09 00:00:00.000",
+    "Price": "0.01"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "383",
+    "Name": "Reparos na Caixa de Marcha",
+    "Code": "06.24",
+    "Description": "Reparos na Caixa de Marcha",
+    "RegistrationDate": "2000-08-22 00:00:00.000",
+    "Price": "0.01"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "384",
+    "Name": "Limpeza da Caixa de Marcha",
+    "Code": "06.25",
+    "Description": "Limpeza da Caixa de Marcha",
+    "RegistrationDate": "2000-08-22 00:00:00.000",
+    "Price": "0.01"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "385",
+    "Name": "Fechamento da Caixa de Marcha",
+    "Code": "06.26",
+    "Description": "Fechamento da Caixa de Marcha",
+    "RegistrationDate": "2000-08-22 00:00:00.000",
+    "Price": "0.01"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "386",
+    "Name": "Abertura do Motor",
+    "Code": "06.27",
+    "Description": "Abertura do Motor",
+    "RegistrationDate": "2000-08-22 00:00:00.000",
+    "Price": "0.01"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "387",
+    "Name": "Jipe",
+    "Code": "08.24",
+    "Description": "Jipe",
+    "RegistrationDate": "2001-08-21 00:00:00.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "388",
+    "Name": "Chassi Jipe",
+    "Code": "07.58",
+    "Description": "Chassi",
+    "RegistrationDate": "2001-08-21 00:00:00.000",
+    "Price": "1800"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "389",
+    "Name": "SERINGA DE VIDRO 3ML",
+    "Code": "16.06",
+    "Description": "SERINGA DE VIDRO 3ML",
+    "RegistrationDate": "2008-05-16 10:46:10.000",
+    "Price": "18.761600000000001"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "390",
+    "Name": "Caneta Esferográfica Azul",
+    "Code": "10.50",
+    "Description": "Caneta Esferográfica Azul",
+    "RegistrationDate": "2009-05-25 16:24:11.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "391",
+    "Name": "Caneta Esferográfica Vermelha",
+    "Code": "10.51",
+    "Description": "Caneta Esferográfica Vermelha",
+    "RegistrationDate": "2009-05-25 16:24:34.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "392",
+    "Name": "Caneta Esferográfica Preta",
+    "Code": "10.52",
+    "Description": "Caneta Esferográfica Preta",
+    "RegistrationDate": "2009-05-25 16:25:01.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "393",
+    "Name": "Lapiseira 0.7",
+    "Code": "10.53",
+    "Description": "Lapiseira 0.7",
+    "RegistrationDate": "2009-05-25 16:25:26.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "394",
+    "Name": "Régua Transparente 30cm",
+    "Code": "10.54",
+    "Description": "Régua Transparente 30cm",
+    "RegistrationDate": "2009-05-25 16:25:48.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "395",
+    "Name": "Borracha Branca",
+    "Code": "10.55",
+    "Description": "Borracha Branca",
+    "RegistrationDate": "2009-05-25 16:26:16.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "396",
+    "Name": "Caderno Espiral 120fls Capa Dura",
+    "Code": "10.56",
+    "Description": "Caderno Espiral 120fls Capa Dura",
+    "RegistrationDate": "2009-05-25 16:26:43.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "397",
+    "Name": "Mochila Modelo ",
+    "Code": "10.57",
+    "Description": "Mochila Modelo ",
+    "RegistrationDate": "2009-05-25 16:27:07.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "398",
+    "Name": "SERVIÇOS",
+    "Code": "1",
+    "Description": "SERVIÇOS",
+    "RegistrationDate": "2004-08-18 00:00:00.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "399",
+    "Name": "PRODUTOS",
+    "Code": "2",
+    "Description": "Produtos",
+    "RegistrationDate": "2005-06-01 00:00:00.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "400",
+    "Name": "Serviços Construção Civil",
+    "Code": "6",
+    "Description": "Serviços Construção Civil",
+    "RegistrationDate": "2005-11-04 00:00:00.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "401",
+    "Name": "Kit Escolar Básico",
+    "Code": "10.70",
+    "Description": "Kit Escolar Básico",
+    "RegistrationDate": "2009-05-25 16:27:34.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "402",
+    "Name": "Empilhadeira Yale Modelo ERP40TG",
+    "Code": "15.03",
+    "Description": "Empilhadeira Yale Modelo ERP40TG",
+    "RegistrationDate": "2009-05-25 17:13:55.000",
+    "Price": "8800"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "403",
+    "Name": "Trator JohnDeere Modelo JD6415 4X4",
+    "Code": "15.04",
+    "Description": "Trator JohnDeere Modelo JD6415 4X4",
+    "RegistrationDate": "2009-05-25 17:15:54.000",
+    "Price": "15900"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "404",
+    "Name": "Montagem Jipe",
+    "Code": "06.60",
+    "Description": "Montagem Jipe",
+    "RegistrationDate": "2009-05-26 14:01:05.000",
+    "Price": "750"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "405",
+    "Name": "Cadeira",
+    "Code": "10.58",
+    "Description": "Cadeira",
+    "RegistrationDate": "2009-05-27 09:21:24.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "406",
+    "Name": "Mesa",
+    "Code": "10.59",
+    "Description": "Cadeira",
+    "RegistrationDate": "2009-05-27 10:04:06.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "407",
+    "Name": "Vidro de Mesa",
+    "Code": "10.60",
+    "Description": "Cadeira",
+    "RegistrationDate": "2009-05-27 10:16:21.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "408",
+    "Name": "Produto por Cliente / Fornecedor",
+    "Code": "17",
+    "Description": "Produto por Cliente / Forncedor",
+    "RegistrationDate": "2009-05-29 16:15:47.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "409",
+    "Name": "Acetona Vidranill 50º",
+    "Code": "17.01",
+    "Description": "Acetona Vidranill 50º",
+    "RegistrationDate": "2009-05-29 16:17:11.000",
+    "Price": "2"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "410",
+    "Name": "Algodão Rolo 50m",
+    "Code": "17.02",
+    "Description": "Algodão Rolo 50m",
+    "RegistrationDate": "2009-05-29 16:18:00.000",
+    "Price": "5"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "411",
+    "Name": "EPI - Equipamentos Proteção Individual",
+    "Code": "18",
+    "Description": "EPI - Equipamentos Proteção Individual",
+    "RegistrationDate": "2009-06-02 09:37:52.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "412",
+    "Name": "Luvas",
+    "Code": "18.01",
+    "Description": "Luvas",
+    "RegistrationDate": "2009-06-02 09:40:38.000",
+    "Price": "5"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "413",
+    "Name": "Capacete",
+    "Code": "18.02",
+    "Description": "Capacete",
+    "RegistrationDate": "2009-06-02 09:42:27.000",
+    "Price": "15"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "414",
+    "Name": "Avental Plástico",
+    "Code": "18.03",
+    "Description": "Avental Plastico",
+    "RegistrationDate": "2009-06-02 09:44:17.000",
+    "Price": "10"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "415",
+    "Name": "Bijouteria",
+    "Code": "19",
+    "Description": "Bijuteria",
+    "RegistrationDate": "2009-12-30 10:16:08.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "416",
+    "Name": "Anel de Diamante",
+    "Code": "19.01",
+    "Description": "Anel de Diamante",
+    "RegistrationDate": "2009-12-30 10:16:36.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "417",
+    "Name": "Base de Anel ",
+    "Code": "19.02",
+    "Description": "Base de Anel ",
+    "RegistrationDate": "2009-12-30 10:17:39.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "418",
+    "Name": "Cola Araldite Caixa de 200 gr",
+    "Code": "19.03",
+    "Description": "Cola Araldite Caixa de 200 gr",
+    "RegistrationDate": "2009-12-30 10:18:16.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "419",
+    "Name": "Parafuso",
+    "Code": "09.01",
+    "Description": "Parafuso",
+    "RegistrationDate": "1997-06-30 00:00:00.000",
+    "Price": "0.2"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "420",
+    "Name": "Porca Sextavada",
+    "Code": "09.02",
+    "Description": "Porca",
+    "RegistrationDate": "1997-06-30 00:00:00.000",
+    "Price": "0.08"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "421",
+    "Name": "Argolas de Ferro da Trempe",
+    "Code": "09.03",
+    "Description": "Argolas de ferro da trempe",
+    "RegistrationDate": "1997-06-30 00:00:00.000",
+    "Price": "1"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "422",
+    "Name": "Base da Trempe",
+    "Code": "09.04",
+    "Description": "Base da trempe",
+    "RegistrationDate": "1997-06-30 00:00:00.000",
+    "Price": "5"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "423",
+    "Name": "Lateral Esquerta",
+    "Code": "09.10",
+    "Description": "Lateral Esquerta",
+    "RegistrationDate": "1997-06-30 00:00:00.000",
+    "Price": "2.5"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "424",
+    "Name": "Motor do forno",
+    "Code": "09.11",
+    "Description": "Motor do forno",
+    "RegistrationDate": "1997-06-30 00:00:00.000",
+    "Price": "15"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "425",
+    "Name": "Produtos Acabados",
+    "Code": "8",
+    "Description": "Produtos Acabados",
+    "RegistrationDate": "1997-06-30 00:00:00.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "426",
+    "Name": "Fogão de 6 bocas Luxo",
+    "Code": "08.01",
+    "Description": "Fogão de 6 bocas Luxo",
+    "RegistrationDate": "1997-06-30 00:00:00.000",
+    "Price": "355"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "427",
+    "Name": "Fonte 110 Volts",
+    "Code": "09.17",
+    "Description": "Fonte 110 Volts",
+    "RegistrationDate": "1997-10-07 00:00:00.000",
+    "Price": "32"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "428",
+    "Name": "Led vermelho",
+    "Code": "09.18",
+    "Description": "Led vermelho",
+    "RegistrationDate": "1997-10-07 00:00:00.000",
+    "Price": "3"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "429",
+    "Name": "Motor para winchester",
+    "Code": "09.19",
+    "Description": "Motor para winchester",
+    "RegistrationDate": "1997-10-07 00:00:00.000",
+    "Price": "25"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "430",
+    "Name": "Disco rígido 5 GB",
+    "Code": "09.20",
+    "Description": "Disco rígido 2 GB",
+    "RegistrationDate": "1997-10-07 00:00:00.000",
+    "Price": "140"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "431",
+    "Name": "Kit Isopor TAM 1",
+    "Code": "09.60",
+    "Description": "Kit Isopor TAM 1",
+    "RegistrationDate": "1998-04-23 00:00:00.000",
+    "Price": "5"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "432",
+    "Name": "Kit Isopor TAM 2",
+    "Code": "09.61",
+    "Description": "Kit Isopor TAM 2",
+    "RegistrationDate": "1998-04-23 00:00:00.000",
+    "Price": "5"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "433",
+    "Name": "Kit Isopor TAM 3",
+    "Code": "09.62",
+    "Description": "Kit Isopor TAM 3",
+    "RegistrationDate": "1998-04-23 00:00:00.000",
+    "Price": "5"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "434",
+    "Name": "Arco para Cabeceira",
+    "Code": "07.09",
+    "Description": "Cabeceira",
+    "RegistrationDate": "1998-12-14 00:00:00.000",
+    "Price": "56"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "435",
+    "Name": "Arco para Pé",
+    "Code": "07.10",
+    "Description": "Cabeceira curvada",
+    "RegistrationDate": "1998-12-14 00:00:00.000",
+    "Price": "70"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "436",
+    "Name": "Tubo para cabeceira",
+    "Code": "07.11",
+    "Description": "Tubo para cabeceira",
+    "RegistrationDate": "1998-12-14 00:00:00.000",
+    "Price": "45"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "437",
+    "Name": "Lateral direita da cama",
+    "Code": "07.12",
+    "Description": "Lateral direita da cama",
+    "RegistrationDate": "1998-12-14 00:00:00.000",
+    "Price": "20"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "438",
+    "Name": "Lateral direita",
+    "Code": "07.13",
+    "Description": "Lateral direita",
+    "RegistrationDate": "1998-12-14 00:00:00.000",
+    "Price": "20"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "439",
+    "Name": "Tubo para lateral direita",
+    "Code": "07.14",
+    "Description": "Tubo para lateral direita da cama",
+    "RegistrationDate": "1998-12-14 00:00:00.000",
+    "Price": "15"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "440",
+    "Name": "Lateral esquerda da cama",
+    "Code": "07.15",
+    "Description": "Lateral esquerda da cama",
+    "RegistrationDate": "1998-12-14 00:00:00.000",
+    "Price": "20"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "441",
+    "Name": "Memória RAM - 64 MB",
+    "Code": "07.26",
+    "Description": "Memória RAM - 64 MB",
+    "RegistrationDate": "1999-11-16 00:00:00.000",
+    "Price": "98"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "442",
+    "Name": "Placa Mãe Pentium",
+    "Code": "07.27",
+    "Description": "Placa Mãe Pentium",
+    "RegistrationDate": "1999-11-16 00:00:00.000",
+    "Price": "80"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "443",
+    "Name": "Mouse",
+    "Code": "07.28",
+    "Description": "Mouse",
+    "RegistrationDate": "1999-11-16 00:00:00.000",
+    "Price": "20"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "444",
+    "Name": "Camas",
+    "Code": "07.37",
+    "Description": "Camas",
+    "RegistrationDate": "1999-11-25 00:00:00.000",
+    "Price": "0.01"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "445",
+    "Name": "Pedra de Diamante ",
+    "Code": "19.04",
+    "Description": "Pedra de Diamante ",
+    "RegistrationDate": "2009-12-30 10:18:47.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "446",
+    "Name": "Iogurte",
+    "Code": "20",
+    "Description": "Iogurte",
+    "RegistrationDate": "2009-12-30 10:31:37.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "447",
+    "Name": "Iogurte de Frutas 210 ml ",
+    "Code": "20.01",
+    "Description": "Iogurte de Frutas 210 ml ",
+    "RegistrationDate": "2009-12-30 10:32:31.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "448",
+    "Name": "Leite Integral",
+    "Code": "20.02",
+    "Description": "Leite em Pó Desnatado ",
+    "RegistrationDate": "2009-12-30 10:34:24.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "449",
+    "Name": "Polpa de Frutas 30 Gr",
+    "Code": "20.03",
+    "Description": "Polpa de Frutas 30 Gr",
+    "RegistrationDate": "2009-12-30 10:39:44.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "450",
+    "Name": "Garrafa de Iogurte 210 ml ",
+    "Code": "20.04",
+    "Description": "Garrafa de Iogurte 210 ml ",
+    "RegistrationDate": "2009-12-30 10:41:39.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "451",
+    "Name": "Lactobacilo 1 (STREPTOCOCCUS SALIVARIUS TERMHOPHILUS)",
+    "Code": "20.05",
+    "Description": "Lactobacilo 1 (STREPTOCOCCUS SALIVARIUS TERMHOPHILUS)",
+    "RegistrationDate": "2009-12-30 10:42:31.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "452",
+    "Name": "Lactobacilo 2 (THERMOBACTERIUM BULGARIUM)",
+    "Code": "20.06",
+    "Description": "Lactobacilo 2 (THERMOBACTERIUM BULGARIUM)",
+    "RegistrationDate": "2009-12-30 10:43:38.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "453",
+    "Name": "Rótulo do Iogurte",
+    "Code": "20.07",
+    "Description": "Rotulo do Iogurte",
+    "RegistrationDate": "2009-12-30 10:45:40.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "454",
+    "Name": "Tampa para Vedar Iogurte",
+    "Code": "20.08",
+    "Description": "Tampa de Vedar Iogurte",
+    "RegistrationDate": "2009-12-30 10:46:00.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "455",
+    "Name": "Calça",
+    "Code": "21",
+    "Description": "Calça",
+    "RegistrationDate": "2010-03-29 15:08:42.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "456",
+    "Name": "Tecido Jeans",
+    "Code": "21.02",
+    "Description": "Tecido Jeans",
+    "RegistrationDate": "2010-03-29 15:09:43.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "457",
+    "Name": "Linha de Costura para Calça Jeans",
+    "Code": "21.03",
+    "Description": "Linha de Costura para Calça Jeans",
+    "RegistrationDate": "2010-03-29 15:10:22.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "458",
+    "Name": "Botão para Calça Jeans",
+    "Code": "21.04",
+    "Description": "Botão para Calça Jeans",
+    "RegistrationDate": "2010-03-29 15:10:48.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "459",
+    "Name": "Calça Jeans",
+    "Code": "21.01",
+    "Description": "Calça Jeans",
+    "RegistrationDate": "2010-03-29 15:13:27.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "460",
+    "Name": "Calça Jeans. Pequena. Jeans",
+    "Code": "21.01.0101",
+    "Description": "Calça Jeans",
+    "RegistrationDate": "2010-03-29 15:13:27.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "461",
+    "Name": "Calça Jeans. Média. Jeans",
+    "Code": "21.01.0201",
+    "Description": "Calça Jeans",
+    "RegistrationDate": "2010-03-29 15:13:27.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "462",
+    "Name": "Calça Jeans. Grande. Jeans",
+    "Code": "21.01.0301",
+    "Description": "Calça Jeans",
+    "RegistrationDate": "2010-03-29 15:13:27.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "463",
+    "Name": "Fabricação de PNEU ",
+    "Code": "22",
+    "Description": "PNEU ",
+    "RegistrationDate": "2010-03-29 18:05:42.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "464",
+    "Name": "Pneu ",
+    "Code": "22.01",
+    "Description": "Pneu ",
+    "RegistrationDate": "2010-03-29 18:06:23.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "465",
+    "Name": "Água",
+    "Code": "22.02",
+    "Description": "Água",
+    "RegistrationDate": "2010-03-29 18:06:59.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "466",
+    "Name": "Petróleo",
+    "Code": "22.03",
+    "Description": "Petroleo",
+    "RegistrationDate": "2010-03-29 18:07:28.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "467",
+    "Name": "Fio de Aço",
+    "Code": "22.04",
+    "Description": "Fio de Aço",
+    "RegistrationDate": "2010-03-29 18:09:16.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "468",
+    "Name": "Emborrachado",
+    "Code": "22.05",
+    "Description": "Emborrachado",
+    "RegistrationDate": "2010-03-29 18:09:50.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "469",
+    "Name": "Massa de Pneu",
+    "Code": "22.06",
+    "Description": "Massa de Pneu",
+    "RegistrationDate": "2010-03-29 18:11:03.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "470",
+    "Name": "Rodagem ",
+    "Code": "22.07",
+    "Description": "Rodagem ",
+    "RegistrationDate": "2010-03-29 18:11:31.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "471",
+    "Name": "Frisos",
+    "Code": "22.08",
+    "Description": "Frisos",
+    "RegistrationDate": "2010-03-29 18:13:19.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "472",
+    "Name": "Lona ",
+    "Code": "22.09",
+    "Description": "Lona ",
+    "RegistrationDate": "2010-03-29 18:14:41.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "473",
+    "Name": "Produtos com ST",
+    "Code": "11",
+    "Description": "Produtos com ST",
+    "RegistrationDate": "2010-04-05 11:56:20.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "474",
+    "Name": "Ressarcimento ST - Coluna 13",
+    "Code": "11.01",
+    "Description": "Ressarcimento ST - Coluna 13",
+    "RegistrationDate": "2010-04-05 11:58:33.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "475",
+    "Name": "Ressarcimento ST - Coluna 11",
+    "Code": "11.02",
+    "Description": "Ressarcimento ST - Coluna 11",
+    "RegistrationDate": "2010-04-05 12:02:02.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "476",
+    "Name": "Ressarcimento ST- Coluna 10",
+    "Code": "11.03",
+    "Description": "Ressarcimento ST- Coluna 10",
+    "RegistrationDate": "2010-04-05 12:02:32.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "477",
+    "Name": "Ressarcimento ST - Isenção - Coluna 12",
+    "Code": "11.04",
+    "Description": "Ressarcimento ST - Isenção - Coluna 12",
+    "RegistrationDate": "2010-04-05 12:03:23.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "478",
+    "Name": "Ressarcimento ST - Coluna 14",
+    "Code": "11.05",
+    "Description": "Ressarcimento ST - Coluna 14",
+    "RegistrationDate": "2010-04-05 12:04:08.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "479",
+    "Name": "Cama Beliche Multipla",
+    "Code": "07.52",
+    "Description": "Cama Beliche Multipla",
+    "RegistrationDate": "2010-10-13 15:41:06.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "480",
+    "Name": "Computador XPTO",
+    "Code": "23",
+    "Description": "Computador XPTO",
+    "RegistrationDate": "2010-10-05 00:00:00.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "481",
+    "Name": "PC Desktop XPTO",
+    "Code": "23.00",
+    "Description": "PC Desktop XPTO",
+    "RegistrationDate": "2010-10-05 00:00:00.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "482",
+    "Name": "CPU Core 2 Duo XPTO",
+    "Code": "23.01",
+    "Description": "CPU Core 2 Duo XPTO",
+    "RegistrationDate": "2010-10-05 00:00:00.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "483",
+    "Name": "Memória 1GB",
+    "Code": "23.02",
+    "Description": "Memória 1GB",
+    "RegistrationDate": "2010-10-05 00:00:00.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "484",
+    "Name": "Placa de Rede 10/100 +",
+    "Code": "23.03",
+    "Description": "Placa de Rede 10/100 +",
+    "RegistrationDate": "2010-10-05 00:00:00.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "485",
+    "Name": "Placa Mãe XPTO",
+    "Code": "23.04",
+    "Description": "Placa Mãe XPTO",
+    "RegistrationDate": "2010-10-05 00:00:00.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "486",
+    "Name": "HD 1TB",
+    "Code": "23.05",
+    "Description": "HD 1TB",
+    "RegistrationDate": "2010-10-05 00:00:00.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "487",
+    "Name": "Placa Vídeo 3D",
+    "Code": "23.06",
+    "Description": "Placa Vídeo 3D",
+    "RegistrationDate": "2010-10-05 00:00:00.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "488",
+    "Name": "Placa Som Studio Plus",
+    "Code": "23.07",
+    "Description": "Placa Som Studio Plus",
+    "RegistrationDate": "2010-10-05 00:00:00.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "489",
+    "Name": "Teclado USB 101 Teclas ABNT2",
+    "Code": "23.08",
+    "Description": "Teclado USB 101 Teclas ABNT2",
+    "RegistrationDate": "2010-10-05 00:00:00.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "490",
+    "Name": "Mouse Óptico USB",
+    "Code": "23.09",
+    "Description": "Mouse Óptico USB",
+    "RegistrationDate": "2010-10-05 00:00:00.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "491",
+    "Name": "Monitor LCD 17",
+    "Code": "23.10",
+    "Description": "Monitor LCD 17",
+    "RegistrationDate": "2010-10-05 00:00:00.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "492",
+    "Name": "WebCam XPTO USB",
+    "Code": "23.11",
+    "Description": "WebCam XPTO USB",
+    "RegistrationDate": "2010-10-05 00:00:00.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "493",
+    "Name": "Tampas",
+    "Code": "12",
+    "Description": "Tampas de Acrílico ou de Plásticos",
+    "RegistrationDate": "2010-12-01 18:55:44.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "494",
+    "Name": "Tampa de Plástico 2/3 Branca",
+    "Code": "12.01",
+    "Description": "Tampa de Plástico 2/3 Branca",
+    "RegistrationDate": "2010-12-01 18:57:48.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "495",
+    "Name": "Serviço de cobrança de objetos de mantuenção alocadas em projetos",
+    "Code": "23.15",
+    "Description": "Serviço de cobrança de objetos de mantuenção alocadas em projetos",
+    "RegistrationDate": "2011-04-01 15:33:10.000",
+    "Price": "10"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "496",
+    "Name": "Adiantamento de Contratos",
+    "Code": "23.16",
+    "Description": "Adiantamento de Contratos",
+    "RegistrationDate": "2011-04-07 11:42:03.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "497",
+    "Name": "Comissão das Vendas/Aluguéis",
+    "Code": "23.17",
+    "Description": "Comissão das Vendas/Aluguéis",
+    "RegistrationDate": "2011-04-13 11:06:18.000",
+    "Price": "0"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "498",
+    "Name": "Leque FORD",
+    "Code": "23.18",
+    "Description": "Leque FORD",
+    "RegistrationDate": "2011-04-13 11:13:01.000",
+    "Price": "60"
+  },
+  {
+    "CompanyId": "1",
+    "Id": "499",
+    "Name": "Interruptor porta FIESTA",
+    "Code": "23.19",
+    "Description": "Interruptor porta FIESTA",
+    "RegistrationDate": "2011-04-13 11:13:59.000",
+    "Price": "25"
+  }
+]

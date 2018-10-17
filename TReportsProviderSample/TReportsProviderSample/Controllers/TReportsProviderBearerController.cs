@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
-using TReportsProviderSample.Classes;
+using TReportsProviderSample.Dto;
 
 namespace TReportsProviderSample.Controllers
 {

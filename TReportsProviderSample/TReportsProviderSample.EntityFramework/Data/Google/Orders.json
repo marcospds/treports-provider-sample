@@ -1,0 +1,224 @@
+[
+	{
+		"Id": "10001",
+		"CompanyId": "2",
+		"CustomerId": "10001",
+		"Date": "01-01-18"
+	},
+	{
+		"Id": "10002",
+		"CompanyId": "2",
+		"CustomerId": "10002",
+		"Date": "01-11-18"
+	},
+	{
+		"Id": "10003",
+		"CompanyId": "2",
+		"CustomerId": "10003",
+		"Date": "01-21-18"
+	},
+	{
+		"Id": "10004",
+		"CompanyId": "2",
+		"CustomerId": "10004",
+		"Date": "01-31-18"
+	},
+	{
+		"Id": "10005",
+		"CompanyId": "2",
+		"CustomerId": "10005",
+		"Date": "02-10-18"
+	},
+	{
+		"Id": "10006",
+		"CompanyId": "2",
+		"CustomerId": "10006",
+		"Date": "02-20-18"
+	},
+	{
+		"Id": "10007",
+		"CompanyId": "2",
+		"CustomerId": "10007",
+		"Date": "03-02-18"
+	},
+	{
+		"Id": "10008",
+		"CompanyId": "2",
+		"CustomerId": "10008",
+		"Date": "03-12-18"
+	},
+	{
+		"Id": "10009",
+		"CompanyId": "2",
+		"CustomerId": "10001",
+		"Date": "03-22-18"
+	},
+	{
+		"Id": "10010",
+		"CompanyId": "2",
+		"CustomerId": "10002",
+		"Date": "04-01-18"
+	},
+	{
+		"Id": "10011",
+		"CompanyId": "2",
+		"CustomerId": "10003",
+		"Date": "04-11-18"
+	},
+	{
+		"Id": "10012",
+		"CompanyId": "2",
+		"CustomerId": "10004",
+		"Date": "04-21-18"
+	},
+	{
+		"Id": "10013",
+		"CompanyId": "2",
+		"CustomerId": "10005",
+		"Date": "05-01-18"
+	},
+	{
+		"Id": "10014",
+		"CompanyId": "2",
+		"CustomerId": "10006",
+		"Date": "05-11-18"
+	},
+	{
+		"Id": "10015",
+		"CompanyId": "2",
+		"CustomerId": "10007",
+		"Date": "05-21-18"
+	},
+	{
+		"Id": "10016",
+		"CompanyId": "2",
+		"CustomerId": "10008",
+		"Date": "05-31-18"
+	},
+	{
+		"Id": "10017",
+		"CompanyId": "2",
+		"CustomerId": "10001",
+		"Date": "06-10-18"
+	},
+	{
+		"Id": "10018",
+		"CompanyId": "2",
+		"CustomerId": "10002",
+		"Date": "06-20-18"
+	},
+	{
+		"Id": "10019",
+		"CompanyId": "2",
+		"CustomerId": "10003",
+		"Date": "06-30-18"
+	},
+	{
+		"Id": "10020",
+		"CompanyId": "2",
+		"CustomerId": "10004",
+		"Date": "07-10-18"
+	},
+	{
+		"Id": "10021",
+		"CompanyId": "2",
+		"CustomerId": "10005",
+		"Date": "07-20-18"
+	},
+	{
+		"Id": "10022",
+		"CompanyId": "2",
+		"CustomerId": "10006",
+		"Date": "07-30-18"
+	},
+	{
+		"Id": "10023",
+		"CompanyId": "2",
+		"CustomerId": "10007",
+		"Date": "08-09-18"
+	},
+	{
+		"Id": "10024",
+		"CompanyId": "2",
+		"CustomerId": "10008",
+		"Date": "08-19-18"
+	},
+	{
+		"Id": "10025",
+		"CompanyId": "2",
+		"CustomerId": "10001",
+		"Date": "08-29-18"
+	},
+	{
+		"Id": "10026",
+		"CompanyId": "2",
+		"CustomerId": "10002",
+		"Date": "09-08-18"
+	},
+	{
+		"Id": "10027",
+		"CompanyId": "2",
+		"CustomerId": "10003",
+		"Date": "09-18-18"
+	},
+	{
+		"Id": "10028",
+		"CompanyId": "2",
+		"CustomerId": "10004",
+		"Date": "09-28-18"
+	},
+	{
+		"Id": "10029",
+		"CompanyId": "2",
+		"CustomerId": "10005",
+		"Date": "10-08-18"
+	},
+	{
+		"Id": "10030",
+		"CompanyId": "2",
+		"CustomerId": "10006",
+		"Date": "10-18-18"
+	},
+	{
+		"Id": "10031",
+		"CompanyId": "2",
+		"CustomerId": "10007",
+		"Date": "10-28-18"
+	},
+	{
+		"Id": "10032",
+		"CompanyId": "2",
+		"CustomerId": "10008",
+		"Date": "11-07-18"
+	},
+	{
+		"Id": "10033",
+		"CompanyId": "2",
+		"CustomerId": "10001",
+		"Date": "11-17-18"
+	},
+	{
+		"Id": "10034",
+		"CompanyId": "2",
+		"CustomerId": "10002",
+		"Date": "11-27-18"
+	},
+	{
+		"Id": "10035",
+		"CompanyId": "2",
+		"CustomerId": "10003",
+		"Date": "12-07-18"
+	},
+	{
+		"Id": "10036",
+		"CompanyId": "2",
+		"CustomerId": "10004",
+		"Date": "12-17-18"
+	},
+  {
+    "Id": "10037",
+    "CompanyId": "2",
+    "CustomerId": "10005",
+    "Date": "12-27-18"
+  }
+]

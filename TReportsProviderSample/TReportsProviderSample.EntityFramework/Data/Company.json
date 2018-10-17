@@ -1,0 +1,20 @@
+[
+  {
+    "Address": "Av. Raja Gabáglia, 2664 - Estoril, Belo Horizonte - MG, 30494-170",
+    "FoundationDate": "2006-03-08T00:00:00",
+    "CountryId": 1,
+    "Country": null,
+    "Departments": null,
+    "Id": 1,
+    "Name": "TOTVS S.A."
+  },
+  {
+    "Address": "Mountain View, Califórnia",
+    "FoundationDate": "1998-09-04T00:00:00",
+    "CountryId": 2,
+    "Country": null,
+    "Departments": null,
+    "Id": 2,
+    "Name": "Google LLC"
+  }
+]

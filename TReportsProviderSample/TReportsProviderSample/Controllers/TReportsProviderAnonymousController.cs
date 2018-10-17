@@ -5,7 +5,7 @@ using System.Data;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
-using TReportsProviderSample.Classes;
+using TReportsProviderSample.Dto;
 
 namespace TReportsProviderSample.Controllers
 {

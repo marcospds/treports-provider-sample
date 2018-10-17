@@ -1,0 +1,58 @@
+[
+	{
+		"CompanyId": "2",
+		"Id": "10001",
+		"Name": "Walmart",
+		"Code": "C0001",
+		"Phone": ""
+	},
+	{
+		"CompanyId": "2",
+		"Id": "10002",
+		"Name": "Target",
+		"Code": "C0002",
+		"Phone": ""
+	},
+	{
+		"CompanyId": "2",
+		"Id": "10003",
+		"Name": "Publix",
+		"Code": "C0003",
+		"Phone": ""
+	},
+	{
+		"CompanyId": "2",
+		"Id": "10004",
+		"Name": "Winn Dixie",
+		"Code": "C0004",
+		"Phone": ""
+	},
+	{
+		"CompanyId": "2",
+		"Id": "10005",
+		"Name": "Albertson's",
+		"Code": "C0005",
+		"Phone": ""
+	},
+	{
+		"CompanyId": "2",
+		"Id": "10006",
+		"Name": "Sedano's",
+		"Code": "C0006",
+		"Phone": ""
+	},
+	{
+		"CompanyId": "2",
+		"Id": "10007",
+		"Name": "Whole Foods",
+		"Code": "C0007",
+		"Phone": ""
+	},
+	{
+		"CompanyId": "2",
+		"Id": "10008",
+		"Name": "Trader Joe's",
+		"Code": "C0008",
+		"Phone": ""
+	}
+]

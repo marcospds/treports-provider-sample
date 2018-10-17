@@ -1,7 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Data;
-using TReportsProviderSample.Classes;
-using TReportsProviderSample.Classes.Commom;
+using TReportsProviderSample.Dto;
 
 namespace TReportsProviderSample.Controllers
 {
