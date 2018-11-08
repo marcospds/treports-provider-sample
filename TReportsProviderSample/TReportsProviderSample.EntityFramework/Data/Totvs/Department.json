@@ -1,132 +1,87 @@
 [
-	{
-		"Id": "1",
-		"CompanyId": "1",
-		"Name": "ACD - Depto de Administração"
-	},
-	{
-		"Id": "2",
-		"CompanyId": "1",
-		"Name": "ACD - Depto de Direito"
-	},
-	{
-		"Id": "3",
-		"CompanyId": "1",
-		"Name": "ACD - Depto de Sistemas de Informação"
-	},
-	{
-		"Id": "4",
-		"CompanyId": "1",
-		"Name": "COM - Depto Comercial"
-	},
-	{
-		"Id": "5",
-		"CompanyId": "1",
-		"Name": "COM - Depto Comercial"
-	},
-	{
-		"Id": "6",
-		"CompanyId": "1",
-		"Name": "Coordenação"
-	},
-	{
-		"Id": "7",
-		"CompanyId": "1",
-		"Name": "DAP - Depto Administrativo"
-	},
-	{
-		"Id": "8",
-		"CompanyId": "1",
-		"Name": "DAP - Depto Administrativo"
-	},
-	{
-		"Id": "9",
-		"CompanyId": "1",
-		"Name": "DCO - Depto Contabilidade"
-	},
-	{
-		"Id": "10",
-		"CompanyId": "1",
-		"Name": "DCO - Depto Contabilidade"
-	},
-	{
-		"Id": "11",
-		"CompanyId": "1",
-		"Name": "DIR - Diretoria"
-	},
-	{
-		"Id": "12",
-		"CompanyId": "1",
-		"Name": "DOB - Departamento de obras"
-	},
-	{
-		"Id": "13",
-		"CompanyId": "1",
-		"Name": "DST - Depto Suporte Técnico"
-	},
-	{
-		"Id": "14",
-		"CompanyId": "1",
-		"Name": "DST - Depto Suporte Técnico"
-	},
-	{
-		"Id": "15",
-		"CompanyId": "1",
-		"Name": "Filial Paraíba"
-	},
-	{
-		"Id": "16",
-		"CompanyId": "1",
-		"Name": "MNT - Elétrica"
-	},
-	{
-		"Id": "17",
-		"CompanyId": "1",
-		"Name": "MNT - Eletrônica"
-	},
-	{
-		"Id": "18",
-		"CompanyId": "1",
-		"Name": "MNT - Ferramentaria"
-	},
   {
-    "Id": "19",
+    "Id": "1",
+    "CompanyId": "1",
+    "Name": "ACD - Depto de Administração"
+  },
+  {
+    "Id": "2",
+    "CompanyId": "1",
+    "Name": "ACD - Depto de Direito"
+  },
+  {
+    "Id": "3",
+    "CompanyId": "1",
+    "Name": "ACD - Depto de Sistemas de Informação"
+  },
+  {
+    "Id": "4",
+    "CompanyId": "1",
+    "Name": "COM - Depto Comercial"
+  },
+  {
+    "Id": "5",
+    "CompanyId": "1",
+    "Name": "Coordenação"
+  },
+  {
+    "Id": "6",
+    "CompanyId": "1",
+    "Name": "DAP - Depto Administrativo"
+  },
+  {
+    "Id": "7",
+    "CompanyId": "1",
+    "Name": "DCO - Depto Contabilidade"
+  },
+  {
+    "Id": "8",
+    "CompanyId": "1",
+    "Name": "DIR - Diretoria"
+  },
+  {
+    "Id": "9",
+    "CompanyId": "1",
+    "Name": "DST - Depto Suporte Técnico"
+  },
+  {
+    "Id": "10",
+    "CompanyId": "1",
+    "Name": "MNT - Elétrica"
+  },
+  {
+    "Id": "11",
+    "CompanyId": "1",
+    "Name": "MNT - Eletrônica"
+  },
+  {
+    "Id": "12",
+    "CompanyId": "1",
+    "Name": "MNT - Ferramentaria"
+  },
+  {
+    "Id": "13",
     "CompanyId": "1",
     "Name": "MNT - Hidráulica"
   },
-	{
-		"Id": "20",
-		"CompanyId": "1",
-		"Name": "MNT - Lanternagem / Pintura"
-	},
-	{
-		"Id": "21",
-		"CompanyId": "1",
-		"Name": "MNT - Mecânica"
-	},
-	{
-		"Id": "22",
-		"CompanyId": "1",
-		"Name": "PDE - Depto Pesquisa e Desenvolvimento"
-	},
-	{
-		"Id": "23",
-		"CompanyId": "1",
-		"Name": "PDE - Depto Pesquisa e Desenvolvimento"
-	},
-	{
-		"Id": "24",
-		"CompanyId": "1",
-		"Name": "RM SISTEMAS"
-	},
-	{
-		"Id": "25",
-		"CompanyId": "1",
-		"Name": "RM Sistemas - FRJ"
-	},
-	{
-		"Id": "26",
-		"CompanyId": "1",
-		"Name": "RM Sistemas - Matriz"
-	}
+  {
+    "Id": "14",
+    "CompanyId": "1",
+    "Name": "MNT - Lanternagem / Pintura"
+  },
+  {
+    "Id": "15",
+    "CompanyId": "1",
+    "Name": "MNT - Mecânica"
+  },
+  {
+    "Id": "16",
+    "CompanyId": "1",
+    "Name": "PDE - Depto Pesquisa e Desenvolvimento"
+  },
+  {
+    "Id": "17",
+    "CompanyId": "1",
+    "Name": "RM Sistemas - Matriz"
+  }
 ]

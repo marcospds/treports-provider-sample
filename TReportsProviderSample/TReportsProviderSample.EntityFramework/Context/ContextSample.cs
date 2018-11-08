@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
+using System.Text;
 
 namespace TReportsProviderSampleEntityFramework
 {
@@ -35,25 +36,25 @@ namespace TReportsProviderSampleEntityFramework
         relationship.DeleteBehavior = DeleteBehavior.Restrict;
       }
 
-      var CountryList = JsonConvert.DeserializeObject<List<Country>>(File.ReadAllText(@"Data\Country.json"));
-      var CompanyList = JsonConvert.DeserializeObject<List<Company>>(File.ReadAllText(@"Data\Company.json"));
+      var CountryList = JsonConvert.DeserializeObject<List<Country>>(File.ReadAllText(@"Data\Country.json", Encoding.UTF7));
+      var CompanyList = JsonConvert.DeserializeObject<List<Company>>(File.ReadAllText(@"Data\Company.json", Encoding.UTF7));
 
       modelBuilder.Entity<Country>().HasData(CountryList.ToArray());
       modelBuilder.Entity<Company>().HasData(CompanyList.ToArray());
 
       // Totvs
-      var DepartmentTotvsList = JsonConvert.DeserializeObject<List<Department>>(File.ReadAllText(@"Data\Totvs\Department.json"));
-      var EmployeeTotvsList = JsonConvert.DeserializeObject<List<Employee>>(File.ReadAllText(@"Data\Totvs\Employee.json"));
-      var DependentTotvsList = JsonConvert.DeserializeObject<List<Dependent>>(File.ReadAllText(@"Data\Totvs\Dependent.json"));
+      var DepartmentTotvsList = JsonConvert.DeserializeObject<List<Department>>(File.ReadAllText(@"Data\Totvs\Department.json", Encoding.UTF7));
+      var EmployeeTotvsList = JsonConvert.DeserializeObject<List<Employee>>(File.ReadAllText(@"Data\Totvs\Employee.json", Encoding.UTF7));
+      var DependentTotvsList = JsonConvert.DeserializeObject<List<Dependent>>(File.ReadAllText(@"Data\Totvs\Dependent.json", Encoding.UTF7));
 
       modelBuilder.Entity<Department>().HasData(DepartmentTotvsList.ToArray());
       modelBuilder.Entity<Employee>().HasData(EmployeeTotvsList.ToArray());
       modelBuilder.Entity<Dependent>().HasData(DependentTotvsList.ToArray());
 
-      var CustomerTotvsList = JsonConvert.DeserializeObject<List<Customer>>(File.ReadAllText(@"Data\Totvs\Customer.json"));
-      var ProductTotvsList = JsonConvert.DeserializeObject<List<Product>>(File.ReadAllText(@"Data\Totvs\Product.json"));
-      var OrdersTotvsList = JsonConvert.DeserializeObject<List<Orders>>(File.ReadAllText(@"Data\Totvs\Orders.json"));
-      var OrdersProductsTotvsList = JsonConvert.DeserializeObject<List<OrdersProducts>>(File.ReadAllText(@"Data\Totvs\OrdersProducts.json"));
+      var CustomerTotvsList = JsonConvert.DeserializeObject<List<Customer>>(File.ReadAllText(@"Data\Totvs\Customer.json", Encoding.UTF7));
+      var ProductTotvsList = JsonConvert.DeserializeObject<List<Product>>(File.ReadAllText(@"Data\Totvs\Product.json", Encoding.UTF7));
+      var OrdersTotvsList = JsonConvert.DeserializeObject<List<Orders>>(File.ReadAllText(@"Data\Totvs\Orders.json", Encoding.UTF7));
+      var OrdersProductsTotvsList = JsonConvert.DeserializeObject<List<OrdersProducts>>(File.ReadAllText(@"Data\Totvs\OrdersProducts.json", Encoding.UTF7));
 
       modelBuilder.Entity<Customer>().HasData(CustomerTotvsList.ToArray());
       modelBuilder.Entity<Product>().HasData(ProductTotvsList.ToArray());
@@ -61,9 +62,9 @@ namespace TReportsProviderSampleEntityFramework
       modelBuilder.Entity<OrdersProducts>().HasData(OrdersProductsTotvsList.ToArray());
 
       // Google
-      var DepartmentGoogleList = JsonConvert.DeserializeObject<List<Department>>(File.ReadAllText(@"Data\Google\Department.json"));
-      var EmployeeGoogleList = JsonConvert.DeserializeObject<List<Employee>>(File.ReadAllText(@"Data\Google\Employee.json"));
-      var DependentGoogleList = JsonConvert.DeserializeObject<List<Dependent>>(File.ReadAllText(@"Data\Google\Dependent.json"));
+      var DepartmentGoogleList = JsonConvert.DeserializeObject<List<Department>>(File.ReadAllText(@"Data\Google\Department.json", Encoding.UTF7));
+      var EmployeeGoogleList = JsonConvert.DeserializeObject<List<Employee>>(File.ReadAllText(@"Data\Google\Employee.json", Encoding.UTF7));
+      var DependentGoogleList = JsonConvert.DeserializeObject<List<Dependent>>(File.ReadAllText(@"Data\Google\Dependent.json", Encoding.UTF7));
 
       modelBuilder.Entity<Department>().HasData(DepartmentGoogleList.ToArray());
       modelBuilder.Entity<Employee>().HasData(EmployeeGoogleList.ToArray());
