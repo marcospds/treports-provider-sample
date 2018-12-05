@@ -45,10 +45,12 @@ namespace TReportsProviderSampleEntityFramework
       // Totvs
       var DepartmentTotvsList = JsonConvert.DeserializeObject<List<Department>>(File.ReadAllText(@"Data\Totvs\Department.json", Encoding.UTF7));
       var EmployeeTotvsList = JsonConvert.DeserializeObject<List<Employee>>(File.ReadAllText(@"Data\Totvs\Employee.json", Encoding.UTF7));
+      var EmployeeSalaryHistoryTotvsList = JsonConvert.DeserializeObject<List<EmployeeSalaryHistory>>(File.ReadAllText(@"Data\Totvs\EmployeeSalaryHistory.json", Encoding.UTF7));
       var DependentTotvsList = JsonConvert.DeserializeObject<List<Dependent>>(File.ReadAllText(@"Data\Totvs\Dependent.json", Encoding.UTF7));
 
       modelBuilder.Entity<Department>().HasData(DepartmentTotvsList.ToArray());
       modelBuilder.Entity<Employee>().HasData(EmployeeTotvsList.ToArray());
+      modelBuilder.Entity<EmployeeSalaryHistory>().HasData(EmployeeSalaryHistoryTotvsList.ToArray());
       modelBuilder.Entity<Dependent>().HasData(DependentTotvsList.ToArray());
 
       var CustomerTotvsList = JsonConvert.DeserializeObject<List<Customer>>(File.ReadAllText(@"Data\Totvs\Customer.json", Encoding.UTF7));
@@ -64,10 +66,12 @@ namespace TReportsProviderSampleEntityFramework
       // Google
       var DepartmentGoogleList = JsonConvert.DeserializeObject<List<Department>>(File.ReadAllText(@"Data\Google\Department.json", Encoding.UTF7));
       var EmployeeGoogleList = JsonConvert.DeserializeObject<List<Employee>>(File.ReadAllText(@"Data\Google\Employee.json", Encoding.UTF7));
+      var EmployeeSalaryHistoryGoogleList = JsonConvert.DeserializeObject<List<EmployeeSalaryHistory>>(File.ReadAllText(@"Data\Google\EmployeeSalaryHistory.json", Encoding.UTF7));
       var DependentGoogleList = JsonConvert.DeserializeObject<List<Dependent>>(File.ReadAllText(@"Data\Google\Dependent.json", Encoding.UTF7));
 
       modelBuilder.Entity<Department>().HasData(DepartmentGoogleList.ToArray());
       modelBuilder.Entity<Employee>().HasData(EmployeeGoogleList.ToArray());
+      modelBuilder.Entity<EmployeeSalaryHistory>().HasData(EmployeeSalaryHistoryGoogleList.ToArray());
       modelBuilder.Entity<Dependent>().HasData(DependentGoogleList.ToArray());
 
       var CustomerGoogleList = JsonConvert.DeserializeObject<List<Customer>>(File.ReadAllText(@"Data\Google\Customer.json"));

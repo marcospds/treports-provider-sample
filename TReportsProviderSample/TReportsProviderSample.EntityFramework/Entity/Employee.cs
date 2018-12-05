@@ -28,6 +28,7 @@ namespace TReportsProviderSampleEntityFramework
 
     public Department Department { get; set; }
     public ICollection<Dependent> Dependents { get; set; }
+    public ICollection<EmployeeSalaryHistory> EmployeeSalaryHistories { get; set; }
 
   }
 }
