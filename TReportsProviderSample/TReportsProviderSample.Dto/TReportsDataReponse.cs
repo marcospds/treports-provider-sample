@@ -9,5 +9,7 @@ namespace TReportsProviderSample.Dto
   {
     [JsonProperty("data")]
     public string Data { get; set; }
+    [JsonProperty("dataContenType")]
+    public string DataContentType { get; set; }
   }
 }

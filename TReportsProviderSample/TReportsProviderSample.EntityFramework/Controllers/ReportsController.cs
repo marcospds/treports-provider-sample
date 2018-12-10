@@ -11,6 +11,7 @@ using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
 using TReportsProviderSample.Dto;
+using System.Net;
 
 namespace TReportsProviderSampleEntityFramework.Controllers
 {
@@ -325,6 +326,9 @@ namespace TReportsProviderSampleEntityFramework.Controllers
     [ProducesResponseType(typeof(TReportsDataReponse), 200)]
     public IActionResult GetData([FromBody] TReportsDataRequest request)
     {
+      // var image = System.IO.File.OpenRead("C:\\test\random_image.jpeg");
+      //return File(image, "image/jpeg");
+
       Log.Information("***Executando método 'GetData'***");
       Log.Information("-----Leitura dos parâmetros  -----" + System.Environment.NewLine);
       Log.Information(JsonConvert.SerializeObject(request));
@@ -333,11 +337,8 @@ namespace TReportsProviderSampleEntityFramework.Controllers
 
       try
       {
-        TReportsDataReponse response = new TReportsDataReponse
-        {
-          Data = GetDataSql(request.SentenceMember.SqlText, out IEnumerable<Column> columns)
-        };
-
+        TReportsDataReponse response = new TReportsDataReponse();
+        response.Data = GetDataSql(request.SentenceMember.SqlText, out IEnumerable<Column> columns);
         return Ok(response);
       }
       catch (Exception ex)

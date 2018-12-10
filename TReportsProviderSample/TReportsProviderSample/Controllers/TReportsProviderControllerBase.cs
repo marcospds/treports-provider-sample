@@ -303,7 +303,10 @@ namespace TReportsProviderSample.Controllers
             table.WriteXml(ms);
             ms.Position = 0;
             using (StreamReader reader = new StreamReader(ms))
+            {
               response.Data = reader.ReadToEnd();
+              response.DataContentType = "application/xml";
+            }
           }
         }
         else
