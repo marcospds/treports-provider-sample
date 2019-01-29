@@ -79,7 +79,7 @@ namespace TReportsProviderSampleEntityFramework.Controllers
 
       try
       {
-        GetDataSql(request.SqlText, out IEnumerable<Column> columns);
+        GetDataSql(GetSentenceSql(request.SqlText, request.SqlParameters), out IEnumerable<Column> columns);
         return Ok(new TReportsTestSuccessResponse());
       }
       catch (Exception ex)
@@ -187,7 +187,7 @@ namespace TReportsProviderSampleEntityFramework.Controllers
 
     private TReportsSchemaSqlResponse GetSchemaSql(TReportsSchemaSqlRequest request)
     {
-      GetDataSql(request.SqlText, out IEnumerable<Column> columns);
+      GetDataSql(GetSentenceSql(request.SqlText, request.SqlParameters), out IEnumerable<Column> columns);
 
       return new TReportsSchemaSqlResponse
       {
@@ -326,9 +326,6 @@ namespace TReportsProviderSampleEntityFramework.Controllers
     [ProducesResponseType(typeof(TReportsDataReponse), 200)]
     public IActionResult GetData([FromBody] TReportsDataRequest request)
     {
-      // var image = System.IO.File.OpenRead("C:\\test\random_image.jpeg");
-      //return File(image, "image/jpeg");
-
       Log.Information("***Executando método 'GetData'***");
       Log.Information("-----Leitura dos parâmetros  -----" + System.Environment.NewLine);
       Log.Information(JsonConvert.SerializeObject(request));
@@ -338,7 +335,7 @@ namespace TReportsProviderSampleEntityFramework.Controllers
       try
       {
         TReportsDataReponse response = new TReportsDataReponse();
-        response.Data = GetDataSql(request.SentenceMember.SqlText, out IEnumerable<Column> columns);
+        response.Data = GetDataSql(GetSentenceSql(request.SentenceMember.SqlText, request.SentenceMember.SqlParameters), out IEnumerable<Column> columns);
         return Ok(response);
       }
       catch (Exception ex)
@@ -419,6 +416,20 @@ namespace TReportsProviderSampleEntityFramework.Controllers
         case "SYSTEM.BYTE[]": return "Bytes";
         default: return "SYSTEM.STRING";
       };
+    }
+
+    /// <summary>
+    /// Replace all parameters on Sentence
+    /// </summary>
+    /// <param name="sentenceMember"></param>
+    /// <returns></returns>
+    private string GetSentenceSql(string sql, SqlParameter[] sqlParameters)
+    {
+      if (sqlParameters != null)
+        foreach (SqlParameter param in sqlParameters)
+          sql = sql.Replace($":{param.ParamName}", $"'{param.ParamValue}'");
+
+      return sql;
     }
   }
 }
