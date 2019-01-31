@@ -311,17 +311,14 @@ namespace TReportsProviderSampleEntityFramework.Controllers
 
       var z = entityType.GetDeclaredReferencingForeignKeys();
 
-
-      System.Diagnostics.Debugger.Break();
-
       foreach (var navigation in z)
       {
         bool hasChildPath = navigation
                                     .DeclaringEntityType
                                     .GetDeclaredReferencingForeignKeys()
-                                    .Any(x => GetEntityName(x.DeclaringEntityType) == request.TargetTableName);
+                                    .Any(x => GetEntityName(x.DeclaringEntityType)?.ToUpper() == request.TargetTableName?.ToUpper());
 
-        if (GetEntityName(navigation.DeclaringEntityType) == request.TargetTableName || hasChildPath)
+        if (GetEntityName(navigation.DeclaringEntityType)?.ToUpper() == request.TargetTableName?.ToUpper() || hasChildPath)
         {
           var path = new Path()
           {
@@ -357,7 +354,7 @@ namespace TReportsProviderSampleEntityFramework.Controllers
           {
             var fk = navigation.DeclaringEntityType
                                 .GetDeclaredReferencingForeignKeys()
-                                .Where(x => GetEntityName(x.DeclaringEntityType) == request.TargetTableName);
+                                .Where(x => GetEntityName(x.DeclaringEntityType)?.ToUpper() == request.TargetTableName?.ToUpper());
 
 
             foreach (var item in fk)
@@ -524,7 +521,7 @@ namespace TReportsProviderSampleEntityFramework.Controllers
 
     private IEntityType GetEntityType(string entityName)
     {
-      return Context.Model.GetEntityTypes().First(x => x.ClrType.Name == entityName);
+      return Context.Model.GetEntityTypes().First(x => x.ClrType.Name?.ToUpper() == entityName?.ToUpper());
     }
 
     private string MapColumn(string column)
