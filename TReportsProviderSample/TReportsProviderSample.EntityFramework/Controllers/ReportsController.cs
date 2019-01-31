@@ -274,6 +274,131 @@ namespace TReportsProviderSampleEntityFramework.Controllers
         Relations = relations.ToArray()
       };
     }
+    
+    /// <summary>
+    /// Recupera os caminhos entre duas tabelas
+    /// </summary>
+    /// <param name="request"></param>
+    /// <returns></returns>
+    [HttpPost]
+    [Route("paths")]
+    public IActionResult GetPaths([FromBody] TReportsPathRequest request)
+    {
+      Log.Information("***Executando método 'GetPaths'***");
+      Log.Information("-----Leitura dos parâmetros  -----" + System.Environment.NewLine);
+      Log.Information(JsonConvert.SerializeObject(request));
+      Log.Information(System.Environment.NewLine);
+      Log.Information("-----Fim da leitura dos parâmetros -----" + System.Environment.NewLine);
+      
+      try
+      {
+        TReportsPathResponse response = new TReportsPathResponse();
+        response = GetPathsDto(request);
+        return Ok(response);
+      }
+      catch (Exception ex)
+      {
+        Log.Error(ex.Message);
+        Response.StatusCode = 500;
+        return Accepted(new TReportsCustomError() { code = "500", detailedMessage = ex.StackTrace, message = ex.Message });
+      }
+    }
+
+    private TReportsPathResponse GetPathsDto(TReportsPathRequest request)
+    {
+      var paths = new List<Path>();
+      IEntityType entityType = GetEntityType(request.TableName);
+
+      var z = entityType.GetDeclaredNavigations();
+
+      foreach (INavigation navigation in z)
+      {
+        bool hasChildPath = navigation.ForeignKey
+                                        .DeclaringEntityType
+                                        .GetDeclaredReferencingForeignKeys()
+                                        .Any(x => GetEntityName(x.DeclaringEntityType) == request.TargetTableName);
+
+        if (GetEntityName(navigation.ForeignKey.DeclaringEntityType) == request.TargetTableName || hasChildPath)
+        {
+          var path = new Path()
+          {
+            ParentTableName = GetEntityName(navigation.ForeignKey.PrincipalEntityType),
+            ChildTableName = GetEntityName(navigation.ForeignKey.DeclaringEntityType),
+            ChildPaths =new List<Path>()
+          };
+
+          List<ChildColumnElement> parentColumns = new List<ChildColumnElement>();
+          foreach (IProperty parentKeyColumns in navigation.ForeignKey.PrincipalKey.Properties)
+          {
+            parentColumns.Add(new ChildColumnElement
+            {
+              ColumnName = parentKeyColumns.Name
+            });
+          }
+
+          path.ParentColumns = parentColumns;
+
+          List<ChildColumnElement> childColumns = new List<ChildColumnElement>();
+          foreach (IProperty childKeyColumns in navigation.ForeignKey.Properties)
+          {
+            childColumns.Add(new ChildColumnElement
+            {
+              ColumnName = childKeyColumns.Name
+            });
+          }
+
+          path.ChildColumns = childColumns;
+          path.PathName = $"{path.ParentTableName}_{path.ChildTableName}";
+
+          if (hasChildPath)
+          {
+            var fk = navigation.ForeignKey
+                                  .DeclaringEntityType
+                                  .GetDeclaredReferencingForeignKeys()
+                                  .Where(x => GetEntityName(x.DeclaringEntityType) == request.TargetTableName);
+
+
+            foreach (var item in fk)
+            {
+              var childPath = new Path()
+              {
+                ParentTableName = GetEntityName(navigation.ForeignKey.DeclaringEntityType),
+                ChildTableName = GetEntityName(item.DeclaringEntityType),
+                ParentColumns = new List<ChildColumnElement>(),
+                ChildColumns = new List<ChildColumnElement>()
+              };
+
+              foreach (IProperty parentKeyColumns in item.PrincipalKey.Properties)
+              {
+                childPath.ParentColumns.Add(new ChildColumnElement
+                {
+                  ColumnName = parentKeyColumns.Name
+                });
+              }
+
+              foreach (IProperty childKeyColumns in item.Properties)
+              {
+                childPath.ChildColumns.Add(new ChildColumnElement
+                {
+                  ColumnName = childKeyColumns.Name
+                });
+              }
+                            
+              childPath.PathName = $"{childPath.ParentTableName}_{childPath.ChildTableName}";
+                            
+              path.ChildPaths.Add(childPath);
+            }
+
+          }
+
+          paths.Add(path);
+
+          Console.WriteLine(navigation.ToDebugString());
+        }
+      }
+
+      return new TReportsPathResponse { Paths = paths };
+    }
 
     /// <summary>
     /// Retorna as tabelas do Provedor de Dados de acordo com o nome enviado
