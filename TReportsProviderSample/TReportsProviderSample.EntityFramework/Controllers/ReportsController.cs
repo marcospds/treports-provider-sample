@@ -309,26 +309,31 @@ namespace TReportsProviderSampleEntityFramework.Controllers
       var paths = new List<Path>();
       IEntityType entityType = GetEntityType(request.TableName);
 
-      var z = entityType.GetDeclaredReferencingForeignKeys();
+      var z = entityType.GetNavigations()
+                        .Where(x => GetEntityName(x.ForeignKey.PrincipalEntityType) == request.TargetTableName 
+                               || !x.ClrType.IsClass);
 
       foreach (var navigation in z)
       {
         bool hasChildPath = navigation
+                                    .ForeignKey
                                     .DeclaringEntityType
                                     .GetDeclaredReferencingForeignKeys()
                                     .Any(x => GetEntityName(x.DeclaringEntityType)?.ToUpper() == request.TargetTableName?.ToUpper());
 
-        if (GetEntityName(navigation.DeclaringEntityType)?.ToUpper() == request.TargetTableName?.ToUpper() || hasChildPath)
+        if (GetEntityName(navigation.ForeignKey.DeclaringEntityType)?.ToUpper() == request.TargetTableName?.ToUpper() ||
+          GetEntityName(navigation.ForeignKey.PrincipalEntityType)?.ToUpper() == request.TargetTableName?.ToUpper() ||
+          hasChildPath)
         {
           var path = new Path()
           {
-            ParentTableName = GetEntityName(navigation.PrincipalEntityType),
-            ChildTableName = GetEntityName(navigation.DeclaringEntityType),
+            ParentTableName = GetEntityName(navigation.ForeignKey.PrincipalEntityType),
+            ChildTableName = GetEntityName(navigation.ForeignKey.DeclaringEntityType),
             ChildPaths =new List<Path>()
           };
 
           List<ChildColumnElement> parentColumns = new List<ChildColumnElement>();
-          foreach (IProperty parentKeyColumns in navigation.PrincipalKey.Properties)
+          foreach (IProperty parentKeyColumns in navigation.ForeignKey.PrincipalKey.Properties)
           {
             parentColumns.Add(new ChildColumnElement
             {
@@ -339,7 +344,7 @@ namespace TReportsProviderSampleEntityFramework.Controllers
           path.ParentColumns = parentColumns;
 
           List<ChildColumnElement> childColumns = new List<ChildColumnElement>();
-          foreach (IProperty childKeyColumns in navigation.Properties)
+          foreach (IProperty childKeyColumns in navigation.ForeignKey.Properties)
           {
             childColumns.Add(new ChildColumnElement
             {
@@ -352,7 +357,8 @@ namespace TReportsProviderSampleEntityFramework.Controllers
 
           if (hasChildPath)
           {
-            var fk = navigation.DeclaringEntityType
+            var fk = navigation.ForeignKey
+                                .DeclaringEntityType
                                 .GetDeclaredReferencingForeignKeys()
                                 .Where(x => GetEntityName(x.DeclaringEntityType)?.ToUpper() == request.TargetTableName?.ToUpper());
 
@@ -361,7 +367,7 @@ namespace TReportsProviderSampleEntityFramework.Controllers
             {
               var childPath = new Path()
               {
-                ParentTableName = GetEntityName(navigation.DeclaringEntityType),
+                ParentTableName = GetEntityName(navigation.ForeignKey.DeclaringEntityType),
                 ChildTableName = GetEntityName(item.DeclaringEntityType),
                 ParentColumns = new List<ChildColumnElement>(),
                 ChildColumns = new List<ChildColumnElement>()
