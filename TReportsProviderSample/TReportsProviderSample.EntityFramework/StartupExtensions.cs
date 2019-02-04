@@ -12,7 +12,6 @@ namespace TReportsProviderSampleEntityFramework
       using (var serviceScope = app.ApplicationServices.CreateScope())
       {
         var context = serviceScope.ServiceProvider.GetService<ContextSample>();
-        context.Database.EnsureDeleted();
         context.Database.Migrate();
       }
       return app;
