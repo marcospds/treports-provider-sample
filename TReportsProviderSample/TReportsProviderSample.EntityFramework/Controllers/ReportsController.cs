@@ -292,8 +292,8 @@ namespace TReportsProviderSampleEntityFramework.Controllers
       
       try
       {
-        TReportsPathResponse response = new TReportsPathResponse();
-        response = GetPathsDto(request);
+        TReportsPathResponse response = new TReportsPathResponse();        
+        response = string.IsNullOrEmpty(request.TargetTableName) ? GetPathsDtoWithoutTarget(request.TableName) : GetPathsDto(request);
         return Ok(response);
       }
       catch (Exception ex)
@@ -302,6 +302,54 @@ namespace TReportsProviderSampleEntityFramework.Controllers
         Response.StatusCode = 500;
         return Accepted(new TReportsCustomError() { code = "500", detailedMessage = ex.StackTrace, message = ex.Message });
       }
+    }
+
+    private TReportsPathResponse GetPathsDtoWithoutTarget(string tableName)
+    {
+      var paths = new List<Path>();
+      IEntityType entityType = GetEntityType(tableName);
+
+      var z = entityType.GetDeclaredNavigations();
+      foreach (INavigation navigation in z)
+      {
+        var path = new Path()
+        {
+          ParentTableName = GetEntityName(navigation.ForeignKey.PrincipalEntityType),
+          ChildTableName = GetEntityName(navigation.ForeignKey.DeclaringEntityType),
+        };
+
+        List<ChildColumnElement> parentColumns = new List<ChildColumnElement>();
+        foreach (IProperty parentKeyColumns in navigation.ForeignKey.PrincipalKey.Properties)
+        {
+          parentColumns.Add(new ChildColumnElement
+          {
+            ColumnName = parentKeyColumns.Name
+          });
+        }
+        path.ParentColumns = parentColumns;
+
+        List<ChildColumnElement> childColumns = new List<ChildColumnElement>();
+        foreach (IProperty childKeyColumns in navigation.ForeignKey.Properties)
+        {
+          childColumns.Add(new ChildColumnElement
+          {
+            ColumnName = childKeyColumns.Name
+          });
+        }
+        path.ChildColumns = childColumns;
+
+        path.PathName = $"{path.ParentTableName}_{path.ChildTableName}";
+        paths.Add(path);
+
+
+        Console.WriteLine(navigation.ToDebugString());
+      }
+
+
+      return new TReportsPathResponse
+      {
+        Paths = paths
+      };
     }
 
     private TReportsPathResponse GetPathsDto(TReportsPathRequest request)
