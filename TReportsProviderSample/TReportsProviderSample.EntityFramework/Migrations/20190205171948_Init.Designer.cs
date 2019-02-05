@@ -10,8 +10,8 @@ using TReportsProviderSampleEntityFramework;
 namespace TReportsProviderSample.EntityFramework.Migrations
 {
     [DbContext(typeof(ContextSample))]
-    [Migration("20181205171156_EmployeeSalaryHistory")]
-    partial class EmployeeSalaryHistory
+    [Migration("20190205171948_Init")]
+    partial class Init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
